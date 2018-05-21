@@ -1,0 +1,4589 @@
+Loading data ..................
+Loading data file cifar-10-batches-py/data_batch_1
+Loading data file cifar-10-batches-py/data_batch_2
+Loading data file cifar-10-batches-py/data_batch_3
+Loading data file cifar-10-batches-py/data_batch_4
+Loading data file cifar-10-batches-py/data_batch_5
+Loading data file cifar-10-batches-py/test_batch
+NewBlock: 0x17fee90 0x17663b0
+NewBlock: 0x17fccd0 0x18136a0
+('conv1', (32L, 32L, 32L))
+('pool1', (32L, 16L, 16L))
+('relu1', (32L, 16L, 16L))
+('lrn1', (32L, 16L, 16L))
+NewBlock: 0x17fc7b0 0x1817350
+NewBlock: 0x179de60 0x17cf930
+('conv2', (32L, 16L, 16L))
+('relu2', (32L, 16L, 16L))
+('pool2', (32L, 8L, 8L))
+('lrn2', (32L, 8L, 8L))
+NewBlock: 0x17cf450 0x1853120
+NewBlock: 0x179ddb0 0x16dbf80
+('conv3', (64L, 8L, 8L))
+('relu3', (64L, 8L, 8L))
+('pool3', (64L, 4L, 4L))
+('flat', (1024L,))
+NewBlock: 0x180b0e0 0x18f2510
+NewBlock: 0x18023b0 0x1800ee0
+('dense', (10L,))
+NewBlock: 0x1801520 0x1795e80
+mutable_data() 0x1801520 0x1795e80
+FreeBlock: 0x1801520 0x1795e80
+NewBlock: 0x180bf80 0x157b790
+mutable_data() 0x180bf80 0x157b790
+FreeBlock: 0x180bf80 0x157b790
+NewBlock: 0x1801520 0x1885130
+mutable_data() 0x1801520 0x1885130
+FreeBlock: 0x1801520 0x1885130
+NewBlock: 0x18023e0 0x1683150
+mutable_data() 0x18023e0 0x1683150
+FreeBlock: 0x18023e0 0x1683150
+NewBlock: 0x1801520 0x18a1b80
+mutable_data() 0x1801520 0x18a1b80
+FreeBlock: 0x1801520 0x18a1b80
+NewBlock: 0x18014f0 0x179c990
+mutable_data() 0x18014f0 0x179c990
+FreeBlock: 0x18014f0 0x179c990
+NewBlock: 0x1808820 0x18fc520
+mutable_data() 0x1808820 0x18fc520
+FreeBlock: 0x1808820 0x18fc520
+NewBlock: 0x1800280 0x18023e0
+mutable_data() 0x1800280 0x18023e0
+FreeBlock: 0x1800280 0x18023e0
+mutable_data() 0x17fee90 0x17663b0
+data() 0x17fee90 0x17663b0
+conv1/weight gaussian 8.09309276519e-05
+mutable_data() 0x17fccd0 0x18136a0
+data() 0x17fccd0 0x18136a0
+conv1/bias constant 0.0
+mutable_data() 0x17fc7b0 0x1817350
+data() 0x17fc7b0 0x1817350
+conv2/weight gaussian 0.00797731243074
+mutable_data() 0x179de60 0x17cf930
+data() 0x179de60 0x17cf930
+conv2/bias constant 0.0
+mutable_data() 0x17cf450 0x1853120
+data() 0x17cf450 0x1853120
+conv3/weight gaussian 0.00795888341963
+mutable_data() 0x179ddb0 0x16dbf80
+data() 0x179ddb0 0x16dbf80
+conv3/bias constant 0.0
+mutable_data() 0x180b0e0 0x18f2510
+data() 0x180b0e0 0x18f2510
+dense/weight gaussian 0.00798682775348
+mutable_data() 0x18023b0 0x1800ee0
+data() 0x18023b0 0x1800ee0
+dense/bias constant 0.0
+Start intialization............
+Using GPU
+malloc done
+NewBlock: 0xb850160 0x1020e000000
+data() 0x17fee90 0x17663b0
+mutable_data() 0xb850160 0x1020e000000
+mutable_data() 0x17fee90 0x17663b0
+FreeBlock: 0x17fee90 0x17663b0
+malloc done
+NewBlock: 0x17fee90 0x1020e002600
+data() 0x17fccd0 0x18136a0
+mutable_data() 0x17fee90 0x1020e002600
+mutable_data() 0x17fccd0 0x18136a0
+FreeBlock: 0x17fccd0 0x18136a0
+malloc done
+NewBlock: 0x17fccd0 0x1020e002800
+data() 0x17fc7b0 0x1817350
+mutable_data() 0x17fccd0 0x1020e002800
+mutable_data() 0x17fc7b0 0x1817350
+FreeBlock: 0x17fc7b0 0x1817350
+malloc done
+NewBlock: 0x17fc7b0 0x1020e01b800
+data() 0x179de60 0x17cf930
+mutable_data() 0x17fc7b0 0x1020e01b800
+mutable_data() 0x179de60 0x17cf930
+FreeBlock: 0x179de60 0x17cf930
+malloc done
+NewBlock: 0xba3c010 0x1020e01ba00
+data() 0x17cf450 0x1853120
+mutable_data() 0xba3c010 0x1020e01ba00
+mutable_data() 0x17cf450 0x1853120
+FreeBlock: 0x17cf450 0x1853120
+malloc done
+NewBlock: 0x17cf450 0x1020e04da00
+data() 0x179ddb0 0x16dbf80
+mutable_data() 0x17cf450 0x1020e04da00
+mutable_data() 0x179ddb0 0x16dbf80
+FreeBlock: 0x179ddb0 0x16dbf80
+malloc done
+NewBlock: 0x7f82bf309840 0x1020e04dc00
+data() 0x180b0e0 0x18f2510
+mutable_data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x180b0e0 0x18f2510
+FreeBlock: 0x180b0e0 0x18f2510
+malloc done
+NewBlock: 0xb9217c0 0x1020e057c00
+data() 0x18023b0 0x1800ee0
+mutable_data() 0xb9217c0 0x1020e057c00
+mutable_data() 0x18023b0 0x1800ee0
+FreeBlock: 0x18023b0 0x1800ee0
+malloc done
+NewBlock: 0x1767670 0x1020e057e00
+malloc done
+NewBlock: 0x1766fb0 0x1020e183e00
+Epoch 0
+06:35:33.424559
+1526884533425
+start of iteration 0: 
+mutable_data() 0x1767670 0x1020e057e00
+mutable_data() 0x1766fb0 0x1020e183e00
+malloc done
+NewBlock: 0x1768160 0x1020e184000
+malloc done
+NewBlock: 0x18850b0 0x10214bd4200
+mutable_data() 0x18850b0 0x10214bd4200
+mutable_data() 0x1768160 0x1020e184000
+data() 0xb850160 0x1020e000000
+data() 0x1767670 0x1020e057e00
+mutable_data() 0x18850b0 0x10214bd4200
+data() 0x17fee90 0x1020e002600
+malloc done
+NewBlock: 0x1768270 0x10215854200
+mutable_data() 0x1768270 0x10215854200
+FreeBlock: 0x1768270 0x10215854200
+free done
+data() 0x18850b0 0x10214bd4200
+-->conv1: 0.041949
+malloc done
+NewBlock: 0x1767ba0 0x10215854200
+mutable_data() 0x1767ba0 0x10215854200
+data() 0x18850b0 0x10214bd4200
+malloc done
+NewBlock: 0x17688a0 0x10215b74200
+mutable_data() 0x17688a0 0x10215b74200
+FreeBlock: 0x17688a0 0x10215b74200
+free done
+data() 0x1767ba0 0x10215854200
+conv1-->pool1: 0.045582
+malloc done
+NewBlock: 0x1768340 0x10215b74200
+mutable_data() 0x1768340 0x10215b74200
+data() 0x1767ba0 0x10215854200
+malloc done
+NewBlock: 0x17686b0 0x10215e94200
+mutable_data() 0x17686b0 0x10215e94200
+FreeBlock: 0x17686b0 0x10215e94200
+free done
+data() 0x1768340 0x10215b74200
+pool1-->relu1: 0.034851
+malloc done
+NewBlock: 0x17686b0 0x10215e94200
+mutable_data() 0x17686b0 0x10215e94200
+data() 0x1768340 0x10215b74200
+malloc done
+NewBlock: 0x18f36d0 0x102161b4200
+mutable_data() 0x18f36d0 0x102161b4200
+FreeBlock: 0x18f36d0 0x102161b4200
+free done
+data() 0x17686b0 0x10215e94200
+relu1-->lrn1: 0.034851
+malloc done
+NewBlock: 0x1767a20 0x102161b4200
+malloc done
+NewBlock: 0x18f3a70 0x102184dd400
+mutable_data() 0x18f3a70 0x102184dd400
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x17fccd0 0x1020e002800
+data() 0x17686b0 0x10215e94200
+mutable_data() 0x18f3a70 0x102184dd400
+data() 0x17fc7b0 0x1020e01b800
+malloc done
+NewBlock: 0x17666c0 0x102187fd400
+mutable_data() 0x17666c0 0x102187fd400
+FreeBlock: 0x17666c0 0x102187fd400
+free done
+data() 0x18f3a70 0x102184dd400
+lrn1-->conv2: 0.010444
+malloc done
+NewBlock: 0x18f3aa0 0x102187fd400
+mutable_data() 0x18f3aa0 0x102187fd400
+data() 0x18f3a70 0x102184dd400
+malloc done
+NewBlock: 0x18f3470 0x10218b1d400
+mutable_data() 0x18f3470 0x10218b1d400
+FreeBlock: 0x18f3470 0x10218b1d400
+free done
+data() 0x18f3aa0 0x102187fd400
+conv2-->relu2: 0.005868
+malloc done
+NewBlock: 0x18f3470 0x10218b1d400
+mutable_data() 0x18f3470 0x10218b1d400
+data() 0x18f3aa0 0x102187fd400
+malloc done
+NewBlock: 0x18f2d00 0x10218be5400
+mutable_data() 0x18f2d00 0x10218be5400
+FreeBlock: 0x18f2d00 0x10218be5400
+free done
+data() 0x18f3470 0x10218b1d400
+relu2-->pool2: 0.005915
+malloc done
+NewBlock: 0x18f2d00 0x10218be5400
+mutable_data() 0x18f2d00 0x10218be5400
+data() 0x18f3470 0x10218b1d400
+malloc done
+NewBlock: 0x18f4e60 0x10218cad400
+mutable_data() 0x18f4e60 0x10218cad400
+FreeBlock: 0x18f4e60 0x10218cad400
+free done
+data() 0x18f2d00 0x10218be5400
+pool2-->lrn2: 0.005915
+malloc done
+NewBlock: 0x18f2e80 0x10218cad400
+malloc done
+NewBlock: 0x18f5170 0x10218cae200
+mutable_data() 0x18f5170 0x10218cae200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0xba3c010 0x1020e01ba00
+data() 0x18f2d00 0x10218be5400
+mutable_data() 0x18f5170 0x10218cae200
+data() 0x17cf450 0x1020e04da00
+malloc done
+NewBlock: 0x18f55e0 0x10218e3e200
+mutable_data() 0x18f55e0 0x10218e3e200
+FreeBlock: 0x18f55e0 0x10218e3e200
+free done
+data() 0x18f5170 0x10218cae200
+lrn2-->conv3: 0.001761
+malloc done
+NewBlock: 0x18f57b0 0x10218e3e200
+mutable_data() 0x18f57b0 0x10218e3e200
+data() 0x18f5170 0x10218cae200
+malloc done
+NewBlock: 0x18f5b90 0x10218fce200
+mutable_data() 0x18f5b90 0x10218fce200
+FreeBlock: 0x18f5b90 0x10218fce200
+free done
+data() 0x18f57b0 0x10218e3e200
+conv3-->relu3: 0.000945
+malloc done
+NewBlock: 0x18f5b90 0x10218fce200
+mutable_data() 0x18f5b90 0x10218fce200
+data() 0x18f57b0 0x10218e3e200
+malloc done
+NewBlock: 0x18f3d90 0x10219032200
+mutable_data() 0x18f3d90 0x10219032200
+FreeBlock: 0x18f3d90 0x10219032200
+free done
+data() 0x18f5b90 0x10218fce200
+relu3-->pool3: 0.000946
+malloc done
+NewBlock: 0x18f3e20 0x10219032200
+mutable_data() 0x18f3e20 0x10219032200
+FreeBlock: 0x18f3e20 0x10219032200
+free done
+data() 0x18f5b90 0x10218fce200
+pool3-->flat: 0.000946
+malloc done
+NewBlock: 0x18f3210 0x10219032200
+data() 0x18f5b90 0x10218fce200
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x18f3210 0x10219032200
+malloc done
+NewBlock: 0x1768710 0x10219033200
+mutable_data() 0x1768710 0x10219033200
+data() 0x1768710 0x10219033200
+data() 0xb9217c0 0x1020e057c00
+mutable_data() 0x18f3210 0x10219032200
+mutable_data() 0x1768710 0x10219033200
+FreeBlock: 0x1768710 0x10219033200
+free done
+malloc done
+NewBlock: 0x18f4110 0x10219033200
+mutable_data() 0x18f4110 0x10219033200
+FreeBlock: 0x18f4110 0x10219033200
+free done
+data() 0x18f3210 0x10219032200
+flat-->dense: 0.000383
+malloc done
+NewBlock: 0x18f4110 0x10219033200
+data() 0x18f3210 0x10219032200
+mutable_data() 0x18f4110 0x10219033200
+malloc done
+NewBlock: 0x18f5d30 0x10219034200
+data() 0x18f4110 0x10219033200
+mutable_data() 0x18f5d30 0x10219034200
+malloc done
+NewBlock: 0x18f5e30 0x10219034400
+mutable_data() 0x18f5e30 0x10219034400
+data() 0x18f5d30 0x10219034200
+data() 0x18f5e30 0x10219034400
+mutable_data() 0x18f4110 0x10219033200
+mutable_data() 0x18f5e30 0x10219034400
+FreeBlock: 0x18f5e30 0x10219034400
+free done
+data() 0x18f4110 0x10219033200
+mutable_data() 0x18f4110 0x10219033200
+malloc done
+NewBlock: 0x18f5e30 0x10219034400
+mutable_data() 0x18f5e30 0x10219034400
+data() 0x18f4110 0x10219033200
+data() 0x18f5e30 0x10219034400
+mutable_data() 0x18f5d30 0x10219034200
+mutable_data() 0x18f5e30 0x10219034400
+FreeBlock: 0x18f5e30 0x10219034400
+free done
+malloc done
+NewBlock: 0x18f5e30 0x10219034400
+data() 0x18f5d30 0x10219034200
+mutable_data() 0x18f5e30 0x10219034400
+data() 0x18f4110 0x10219033200
+data() 0x18f5e30 0x10219034400
+mutable_data() 0x18f4110 0x10219033200
+mutable_data() 0x18f5e30 0x10219034400
+FreeBlock: 0x18f5e30 0x10219034400
+free done
+mutable_data() 0x18f5d30 0x10219034200
+FreeBlock: 0x18f5d30 0x10219034200
+free done
+malloc done
+NewBlock: 0x18f5d30 0x10219034200
+data() 0x18f4110 0x10219033200
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x18f5d30 0x10219034200
+malloc done
+NewBlock: 0x18f80c0 0x10219034400
+mutable_data() 0x18f80c0 0x10219034400
+FreeBlock: 0x18f80c0 0x10219034400
+free done
+data() 0x18f4110 0x10219033200
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x18f4110 0x10219033200
+malloc done
+NewBlock: 0x18f4ce0 0x10219034400
+mutable_data() 0x18f4ce0 0x10219034400
+FreeBlock: 0x18f4ce0 0x10219034400
+free done
+data() 0x18f4110 0x10219033200
+mutable_data() 0x18f4110 0x10219033200
+NewBlock: 0x18f80c0 0x18f84a0
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x18f80c0 0x18f84a0
+data() 0x18f80c0 0x18f84a0
+NewBlock: 0x18f80f0 0x18f8ab0
+data() 0x18f3210 0x10219032200
+mutable_data() 0x18f80f0 0x18f8ab0
+data() 0x18f80f0 0x18f8ab0
+NewBlock: 0x18f9c90 0x18f8810
+mutable_data() 0x18f9c90 0x18f8810
+mutable_data() 0x18f80f0 0x18f8ab0
+FreeBlock: 0x18f80f0 0x18f8ab0
+mutable_data() 0x18f80c0 0x18f84a0
+FreeBlock: 0x18f80c0 0x18f84a0
+NewBlock: 0x18f9cc0 0x18f84a0
+mutable_data() 0x18f9cc0 0x18f84a0
+data() 0x18f9c90 0x18f8810
+data() 0x18f9cc0 0x18f84a0
+mutable_data() 0x18f9cc0 0x18f84a0
+FreeBlock: 0x18f9cc0 0x18f84a0
+mutable_data() 0x18f9c90 0x18f8810
+FreeBlock: 0x18f9c90 0x18f8810
+malloc done
+NewBlock: 0x18f93c0 0x10219034400
+malloc done
+NewBlock: 0x18f5950 0x1021903e400
+malloc done
+NewBlock: 0x18f31a0 0x102190a2400
+malloc done
+NewBlock: 0x18f46a0 0x102190a2600
+mutable_data() 0x18f46a0 0x102190a2600
+data() 0x18f4110 0x10219033200
+data() 0x18f46a0 0x102190a2600
+mutable_data() 0x18f31a0 0x102190a2400
+mutable_data() 0x18f46a0 0x102190a2600
+FreeBlock: 0x18f46a0 0x102190a2600
+free done
+malloc done
+NewBlock: 0x18f46a0 0x102190a2600
+data() 0x18f4110 0x10219033200
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x18f46a0 0x102190a2600
+mutable_data() 0x18f5950 0x1021903e400
+FreeBlock: 0x18f5950 0x1021903e400
+free done
+malloc done
+NewBlock: 0x18f5950 0x1021903e400
+data() 0x18f5b90 0x10218fce200
+data() 0x18f4110 0x10219033200
+mutable_data() 0x18f5950 0x1021903e400
+mutable_data() 0x18f93c0 0x10219034400
+FreeBlock: 0x18f93c0 0x10219034400
+free done
+malloc done
+NewBlock: 0x18f82d0 0x10219106600
+mutable_data() 0x18f82d0 0x10219106600
+FreeBlock: 0x18f82d0 0x10219106600
+free done
+malloc done
+NewBlock: 0x18f88a0 0x10219034400
+mutable_data() 0x18f88a0 0x10219034400
+FreeBlock: 0x18f88a0 0x10219034400
+free done
+malloc done
+NewBlock: 0x18f9c20 0x10219034400
+mutable_data() 0x18f9c20 0x10219034400
+FreeBlock: 0x18f9c20 0x10219034400
+free done
+data() 0x18f46a0 0x102190a2600
+-->dense: 0.000076
+malloc done
+NewBlock: 0x18f4390 0x10219034400
+mutable_data() 0x18f4390 0x10219034400
+FreeBlock: 0x18f4390 0x10219034400
+free done
+malloc done
+NewBlock: 0x18f9a20 0x10219034400
+mutable_data() 0x18f9a20 0x10219034400
+FreeBlock: 0x18f9a20 0x10219034400
+free done
+malloc done
+NewBlock: 0x18f9540 0x10219106600
+mutable_data() 0x18f9540 0x10219106600
+FreeBlock: 0x18f9540 0x10219106600
+free done
+data() 0x18f46a0 0x102190a2600
+dense-->flat: 0.000076
+malloc done
+NewBlock: 0x18f9f60 0x10219106600
+mutable_data() 0x18f9f60 0x10219106600
+data() 0x18f57b0 0x10218e3e200
+data() 0x18f46a0 0x102190a2600
+data() 0x18f5b90 0x10218fce200
+mutable_data() 0x18f57b0 0x10218e3e200
+FreeBlock: 0x18f57b0 0x10218e3e200
+free done
+mutable_data() 0x18f5b90 0x10218fce200
+FreeBlock: 0x18f5b90 0x10218fce200
+free done
+malloc done
+NewBlock: 0x18f31e0 0x10218e3e200
+mutable_data() 0x18f31e0 0x10218e3e200
+FreeBlock: 0x18f31e0 0x10218e3e200
+free done
+data() 0x18f9f60 0x10219106600
+flat-->pool3: 0.000013
+mutable_data() 0x18f46a0 0x102190a2600
+FreeBlock: 0x18f46a0 0x102190a2600
+free done
+malloc done
+NewBlock: 0x18f95a0 0x10218e3e200
+mutable_data() 0x18f95a0 0x10218e3e200
+data() 0x18f5170 0x10218cae200
+data() 0x18f9f60 0x10219106600
+data() 0x18f5170 0x10218cae200
+mutable_data() 0x18f5170 0x10218cae200
+FreeBlock: 0x18f5170 0x10218cae200
+free done
+gc, GC and vec_len before test: 299 -1 299
+size of vec_pieceMsg and vec_block are: 299 299
+rep size: 299
+maxLen and location are: 9 36
+test rep
+shift_counter is 0
+location changed to 36
+malloc done
+NewBlock: 0x18f6430 0x10218cae200
+mutable_data() 0x18f6430 0x10218cae200
+FreeBlock: 0x18f6430 0x10218cae200
+free done
+data() 0x18f95a0 0x10218e3e200
+pool3-->relu3: 0.000007
+mutable_data() 0x18f9f60 0x10219106600
+FreeBlock: 0x18f9f60 0x10219106600
+free done
+malloc done
+NewBlock: 0x18f3f60 0x10218cae200
+malloc done
+NewBlock: 0x18f46a0 0x10219048400
+malloc done
+NewBlock: 0x18f4ce0 0x10219034400
+mutable_data() 0x18f4ce0 0x10219034400
+data() 0x18f95a0 0x10218e3e200
+mutable_data() 0x18f46a0 0x10219048400
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x18f95a0 0x10218e3e200
+data() 0x18f2d00 0x10218be5400
+mutable_data() 0x18f3f60 0x10218cae200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x18f95a0 0x10218e3e200
+data() 0xba3c010 0x1020e01ba00
+malloc done
+NewBlock: 0x18f8ba0 0x10218d76200
+mutable_data() 0x18f8ba0 0x10218d76200
+FreeBlock: 0x18f8ba0 0x10218d76200
+free done
+malloc done
+NewBlock: 0x18f6e80 0x10218fce200
+mutable_data() 0x18f6e80 0x10218fce200
+FreeBlock: 0x18f6e80 0x10218fce200
+free done
+malloc done
+NewBlock: 0x18f9ec0 0x10219034600
+mutable_data() 0x18f9ec0 0x10219034600
+FreeBlock: 0x18f9ec0 0x10219034600
+free done
+data() 0x18f3f60 0x10218cae200
+relu3-->conv3: 0.000003
+malloc done
+NewBlock: 0x18f6dc0 0x10218fce200
+mutable_data() 0x18f6dc0 0x10218fce200
+FreeBlock: 0x18f6dc0 0x10218fce200
+free done
+malloc done
+NewBlock: 0x18f6f60 0x10219034600
+mutable_data() 0x18f6f60 0x10219034600
+FreeBlock: 0x18f6f60 0x10219034600
+free done
+mutable_data() 0x18f95a0 0x10218e3e200
+FreeBlock: 0x18f95a0 0x10218e3e200
+free done
+malloc done
+NewBlock: 0x18f55e0 0x10218d76200
+mutable_data() 0x18f55e0 0x10218d76200
+data() 0x18f3470 0x10218b1d400
+data() 0x18f3f60 0x10218cae200
+data() 0x18f2d00 0x10218be5400
+mutable_data() 0x18f2d00 0x10218be5400
+FreeBlock: 0x18f2d00 0x10218be5400
+free done
+malloc done
+NewBlock: 0x18f2e50 0x10218be5400
+mutable_data() 0x18f2e50 0x10218be5400
+FreeBlock: 0x18f2e50 0x10218be5400
+free done
+data() 0x18f55e0 0x10218d76200
+conv3-->lrn2: 0.000003
+mutable_data() 0x18f3f60 0x10218cae200
+FreeBlock: 0x18f3f60 0x10218cae200
+free done
+malloc done
+NewBlock: 0x18f8ba0 0x102190a2600
+mutable_data() 0x18f8ba0 0x102190a2600
+data() 0x18f3aa0 0x102187fd400
+data() 0x18f55e0 0x10218d76200
+data() 0x18f3470 0x10218b1d400
+mutable_data() 0x18f3aa0 0x102187fd400
+FreeBlock: 0x18f3aa0 0x102187fd400
+free done
+mutable_data() 0x18f3470 0x10218b1d400
+FreeBlock: 0x18f3470 0x10218b1d400
+free done
+malloc done
+NewBlock: 0x18f3ad0 0x102187fd400
+mutable_data() 0x18f3ad0 0x102187fd400
+FreeBlock: 0x18f3ad0 0x102187fd400
+free done
+data() 0x18f8ba0 0x102190a2600
+lrn2-->pool2: 0.000001
+mutable_data() 0x18f55e0 0x10218d76200
+FreeBlock: 0x18f55e0 0x10218d76200
+free done
+malloc done
+NewBlock: 0x18f2df0 0x10218cae200
+mutable_data() 0x18f2df0 0x10218cae200
+data() 0x18f3a70 0x102184dd400
+data() 0x18f8ba0 0x102190a2600
+data() 0x18f3a70 0x102184dd400
+mutable_data() 0x18f3a70 0x102184dd400
+FreeBlock: 0x18f3a70 0x102184dd400
+free done
+malloc done
+NewBlock: 0x18f3a70 0x102184dd400
+mutable_data() 0x18f3a70 0x102184dd400
+FreeBlock: 0x18f3a70 0x102184dd400
+free done
+data() 0x18f2df0 0x10218cae200
+pool2-->relu2: 0.000000
+mutable_data() 0x18f8ba0 0x102190a2600
+FreeBlock: 0x18f8ba0 0x102190a2600
+free done
+malloc done
+NewBlock: 0x18f2eb0 0x102184dd400
+malloc done
+NewBlock: 0x18f7f30 0x1021907a400
+malloc done
+NewBlock: 0x18f7f90 0x10219034600
+mutable_data() 0x18f7f90 0x10219034600
+data() 0x18f2df0 0x10218cae200
+mutable_data() 0x18f7f30 0x1021907a400
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x18f2df0 0x10218cae200
+data() 0x17686b0 0x10215e94200
+mutable_data() 0x18f2eb0 0x102184dd400
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x18f2df0 0x10218cae200
+data() 0x17fccd0 0x1020e002800
+malloc done
+NewBlock: 0x18f7280 0x102187fd400
+mutable_data() 0x18f7280 0x102187fd400
+FreeBlock: 0x18f7280 0x102187fd400
+free done
+malloc done
+NewBlock: 0x18f2c40 0x10218fce200
+mutable_data() 0x18f2c40 0x10218fce200
+FreeBlock: 0x18f2c40 0x10218fce200
+free done
+malloc done
+NewBlock: 0x18fa2b0 0x10219034800
+mutable_data() 0x18fa2b0 0x10219034800
+FreeBlock: 0x18fa2b0 0x10219034800
+free done
+data() 0x18f2eb0 0x102184dd400
+relu2-->conv2: 0.000000
+malloc done
+NewBlock: 0x18fa3c0 0x10218fce200
+mutable_data() 0x18fa3c0 0x10218fce200
+FreeBlock: 0x18fa3c0 0x10218fce200
+free done
+malloc done
+NewBlock: 0x18f74b0 0x10219034800
+mutable_data() 0x18f74b0 0x10219034800
+FreeBlock: 0x18f74b0 0x10219034800
+free done
+mutable_data() 0x18f2df0 0x10218cae200
+FreeBlock: 0x18f2df0 0x10218cae200
+free done
+malloc done
+NewBlock: 0x17666c0 0x10218cae200
+mutable_data() 0x17666c0 0x10218cae200
+data() 0x1768340 0x10215b74200
+data() 0x18f2eb0 0x102184dd400
+data() 0x17686b0 0x10215e94200
+mutable_data() 0x1768340 0x10215b74200
+FreeBlock: 0x1768340 0x10215b74200
+free done
+mutable_data() 0x17686b0 0x10215e94200
+FreeBlock: 0x17686b0 0x10215e94200
+free done
+malloc done
+NewBlock: 0x17686b0 0x102187fd400
+mutable_data() 0x17686b0 0x102187fd400
+FreeBlock: 0x17686b0 0x102187fd400
+free done
+data() 0x17666c0 0x10218cae200
+conv2-->lrn1: 0.000000
+mutable_data() 0x18f2eb0 0x102184dd400
+FreeBlock: 0x18f2eb0 0x102184dd400
+free done
+malloc done
+NewBlock: 0x1767c50 0x10215b74200
+mutable_data() 0x1767c50 0x10215b74200
+data() 0x1767ba0 0x10215854200
+data() 0x17666c0 0x10218cae200
+data() 0x1767ba0 0x10215854200
+malloc done
+NewBlock: 0x18f7280 0x10215e94200
+mutable_data() 0x18f7280 0x10215e94200
+FreeBlock: 0x18f7280 0x10215e94200
+free done
+data() 0x1767c50 0x10215b74200
+lrn1-->relu1: 0.000000
+mutable_data() 0x17666c0 0x10218cae200
+FreeBlock: 0x17666c0 0x10218cae200
+free done
+malloc done
+NewBlock: 0x1767990 0x102190a2600
+mutable_data() 0x1767990 0x102190a2600
+data() 0x18850b0 0x10214bd4200
+data() 0x1767c50 0x10215b74200
+data() 0x1767ba0 0x10215854200
+mutable_data() 0x18850b0 0x10214bd4200
+FreeBlock: 0x18850b0 0x10214bd4200
+free done
+mutable_data() 0x1767ba0 0x10215854200
+FreeBlock: 0x1767ba0 0x10215854200
+free done
+malloc done
+NewBlock: 0x17666c0 0x10214bd4200
+mutable_data() 0x17666c0 0x10214bd4200
+FreeBlock: 0x17666c0 0x10214bd4200
+free done
+data() 0x1767990 0x102190a2600
+relu1-->pool1: 0.000000
+mutable_data() 0x1767c50 0x10215b74200
+FreeBlock: 0x1767c50 0x10215b74200
+free done
+malloc done
+NewBlock: 0x17688a0 0x10218cae200
+malloc done
+NewBlock: 0x1767ba0 0x10219034800
+malloc done
+NewBlock: 0x18fa990 0x10219036e00
+mutable_data() 0x18fa990 0x10219036e00
+data() 0x1767990 0x102190a2600
+mutable_data() 0x1767ba0 0x10219034800
+mutable_data() 0x1768160 0x1020e184000
+data() 0x1767990 0x102190a2600
+data() 0x1767670 0x1020e057e00
+mutable_data() 0x17688a0 0x10218cae200
+mutable_data() 0x1768160 0x1020e184000
+data() 0x1767990 0x102190a2600
+data() 0xb850160 0x1020e000000
+malloc done
+NewBlock: 0x18fabf0 0x10218dda200
+mutable_data() 0x18fabf0 0x10218dda200
+FreeBlock: 0x18fabf0 0x10218dda200
+free done
+malloc done
+NewBlock: 0x18f8ba0 0x10219037000
+mutable_data() 0x18f8ba0 0x10219037000
+FreeBlock: 0x18f8ba0 0x10219037000
+free done
+malloc done
+NewBlock: 0x18fac50 0x10219037000
+mutable_data() 0x18fac50 0x10219037000
+FreeBlock: 0x18fac50 0x10219037000
+free done
+data() 0x17688a0 0x10218cae200
+pool1-->conv1: 0.000000
+malloc done
+NewBlock: 0x18fb650 0x10219037000
+mutable_data() 0x18fb650 0x10219037000
+FreeBlock: 0x18fb650 0x10219037000
+free done
+malloc done
+NewBlock: 0x18f9d80 0x10219037000
+mutable_data() 0x18f9d80 0x10219037000
+FreeBlock: 0x18f9d80 0x10219037000
+free done
+mutable_data() 0x1767990 0x102190a2600
+FreeBlock: 0x1767990 0x102190a2600
+free done
+mutable_data() 0x17688a0 0x10218cae200
+FreeBlock: 0x17688a0 0x10218cae200
+free done
+data() 0x18f5d30 0x10219034200
+mutable_data() 0x18f3210 0x10219032200
+FreeBlock: 0x18f3210 0x10219032200
+free done
+mutable_data() 0x18f5d30 0x10219034200
+FreeBlock: 0x18f5d30 0x10219034200
+free done
+mutable_data() 0x18f4110 0x10219033200
+FreeBlock: 0x18f4110 0x10219033200
+free done
+malloc done
+NewBlock: 0x18f5670 0x10219037000
+mutable_data() 0x18f5670 0x10219037000
+FreeBlock: 0x18f5670 0x10219037000
+free done
+malloc done
+NewBlock: 0x18f9d80 0x10219037000
+mutable_data() 0x18f9d80 0x10219037000
+FreeBlock: 0x18f9d80 0x10219037000
+free done
+malloc done
+NewBlock: 0x18f5670 0x10218cae200
+mutable_data() 0x18f5670 0x10218cae200
+FreeBlock: 0x18f5670 0x10218cae200
+free done
+malloc done
+NewBlock: 0x18faee0 0x10219037000
+mutable_data() 0x18faee0 0x10219037000
+FreeBlock: 0x18faee0 0x10219037000
+free done
+malloc done
+NewBlock: 0x18faee0 0x10218cae200
+mutable_data() 0x18faee0 0x10218cae200
+FreeBlock: 0x18faee0 0x10218cae200
+free done
+malloc done
+NewBlock: 0x18f77f0 0x10219037000
+mutable_data() 0x18f77f0 0x10219037000
+FreeBlock: 0x18f77f0 0x10219037000
+free done
+malloc done
+NewBlock: 0x18f4110 0x10219093400
+mutable_data() 0x18f4110 0x10219093400
+FreeBlock: 0x18f4110 0x10219093400
+free done
+malloc done
+NewBlock: 0x18fb370 0x10219037000
+mutable_data() 0x18fb370 0x10219037000
+FreeBlock: 0x18fb370 0x10219037000
+free done
+data() 0xb850160 0x1020e000000
+mutable_data() 0x1767ba0 0x10219034800
+malloc done
+NewBlock: 0x18fb4c0 0x10219037000
+mutable_data() 0x18fb4c0 0x10219037000
+data() 0x18fb4c0 0x10219037000
+mutable_data() 0x18fb4c0 0x10219037000
+data() 0x1767ba0 0x10219034800
+mutable_data() 0x18fb4c0 0x10219037000
+data() 0xb850160 0x1020e000000
+data() 0x18fb4c0 0x10219037000
+mutable_data() 0xb850160 0x1020e000000
+malloc done
+NewBlock: 0x18fade0 0x10219039600
+mutable_data() 0x18fade0 0x10219039600
+data() 0x18fade0 0x10219039600
+mutable_data() 0x18fade0 0x10219039600
+data() 0x18fa990 0x10219036e00
+mutable_data() 0x18fade0 0x10219039600
+data() 0x17fee90 0x1020e002600
+data() 0x18fade0 0x10219039600
+mutable_data() 0x17fee90 0x1020e002600
+data() 0x17fccd0 0x1020e002800
+mutable_data() 0x18f7f30 0x1021907a400
+malloc done
+NewBlock: 0x18fc090 0x10218cae200
+mutable_data() 0x18fc090 0x10218cae200
+data() 0x18fc090 0x10218cae200
+mutable_data() 0x18fc090 0x10218cae200
+data() 0x18f7f30 0x1021907a400
+mutable_data() 0x18fc090 0x10218cae200
+data() 0x17fccd0 0x1020e002800
+data() 0x18fc090 0x10218cae200
+mutable_data() 0x17fccd0 0x1020e002800
+malloc done
+NewBlock: 0x18179c0 0x10219039800
+mutable_data() 0x18179c0 0x10219039800
+data() 0x18179c0 0x10219039800
+mutable_data() 0x18179c0 0x10219039800
+data() 0x18f7f90 0x10219034600
+mutable_data() 0x18179c0 0x10219039800
+data() 0x17fc7b0 0x1020e01b800
+data() 0x18179c0 0x10219039800
+mutable_data() 0x17fc7b0 0x1020e01b800
+data() 0xba3c010 0x1020e01ba00
+mutable_data() 0x18f46a0 0x10219048400
+malloc done
+NewBlock: 0x1817e00 0x10218cc7200
+mutable_data() 0x1817e00 0x10218cc7200
+data() 0x1817e00 0x10218cc7200
+mutable_data() 0x1817e00 0x10218cc7200
+data() 0x18f46a0 0x10219048400
+mutable_data() 0x1817e00 0x10218cc7200
+data() 0xba3c010 0x1020e01ba00
+data() 0x1817e00 0x10218cc7200
+mutable_data() 0xba3c010 0x1020e01ba00
+malloc done
+NewBlock: 0x18fc1b0 0x10219039a00
+mutable_data() 0x18fc1b0 0x10219039a00
+data() 0x18fc1b0 0x10219039a00
+mutable_data() 0x18fc1b0 0x10219039a00
+data() 0x18f4ce0 0x10219034400
+mutable_data() 0x18fc1b0 0x10219039a00
+data() 0x17cf450 0x1020e04da00
+data() 0x18fc1b0 0x10219039a00
+mutable_data() 0x17cf450 0x1020e04da00
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x18f5950 0x1021903e400
+malloc done
+NewBlock: 0x1817770 0x10219093400
+mutable_data() 0x1817770 0x10219093400
+data() 0x1817770 0x10219093400
+mutable_data() 0x1817770 0x10219093400
+data() 0x18f5950 0x1021903e400
+mutable_data() 0x1817770 0x10219093400
+data() 0x7f82bf309840 0x1020e04dc00
+data() 0x1817770 0x10219093400
+mutable_data() 0x7f82bf309840 0x1020e04dc00
+malloc done
+NewBlock: 0x1818010 0x10219039c00
+mutable_data() 0x1818010 0x10219039c00
+data() 0x1818010 0x10219039c00
+mutable_data() 0x1818010 0x10219039c00
+data() 0x18f31a0 0x102190a2400
+mutable_data() 0x1818010 0x10219039c00
+data() 0xb9217c0 0x1020e057c00
+data() 0x1818010 0x10219039c00
+mutable_data() 0xb9217c0 0x1020e057c00
+start of iteration 1:  0.0% training loss = 2.302619, accuracy = 0.140000
+mutable_data() 0x1767670 0x1020e057e00
+mutable_data() 0x1766fb0 0x1020e183e00
+malloc done
+NewBlock: 0x18fabb0 0x10214bd4200
+mutable_data() 0x18fabb0 0x10214bd4200
+mutable_data() 0x1768160 0x1020e184000
+data() 0xb850160 0x1020e000000
+data() 0x1767670 0x1020e057e00
+mutable_data() 0x18fabb0 0x10214bd4200
+data() 0x17fee90 0x1020e002600
+malloc done
+NewBlock: 0x1818bc0 0x102190a2600
+mutable_data() 0x1818bc0 0x102190a2600
+FreeBlock: 0x1818bc0 0x102190a2600
+free done
+data() 0x18fabb0 0x10214bd4200
+-->conv1: 0.042123
+malloc done
+NewBlock: 0x1818730 0x10218cf9200
+mutable_data() 0x1818730 0x10218cf9200
+data() 0x18fabb0 0x10214bd4200
+malloc done
+NewBlock: 0x1818fb0 0x102184dd400
+mutable_data() 0x1818fb0 0x102184dd400
+FreeBlock: 0x1818fb0 0x102184dd400
+free done
+data() 0x1818730 0x10218cf9200
+conv1-->pool1: 0.046292
+malloc done
+NewBlock: 0x1818760 0x102184dd400
+mutable_data() 0x1818760 0x102184dd400
+data() 0x1818730 0x10218cf9200
+malloc done
+NewBlock: 0x1819270 0x102187fd400
+mutable_data() 0x1819270 0x102187fd400
+FreeBlock: 0x1819270 0x102187fd400
+free done
+data() 0x1818760 0x102184dd400
+pool1-->relu1: 0.036023
+malloc done
+NewBlock: 0x1819100 0x102187fd400
+mutable_data() 0x1819100 0x102187fd400
+data() 0x1818760 0x102184dd400
+malloc done
+NewBlock: 0x18182a0 0x10215854200
+mutable_data() 0x18182a0 0x10215854200
+FreeBlock: 0x18182a0 0x10215854200
+free done
+data() 0x1819100 0x102187fd400
+relu1-->lrn1: 0.036023
+malloc done
+NewBlock: 0x1818300 0x10215854200
+mutable_data() 0x1818300 0x10215854200
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x17fccd0 0x1020e002800
+data() 0x1819100 0x102187fd400
+mutable_data() 0x1818300 0x10215854200
+data() 0x17fc7b0 0x1020e01b800
+malloc done
+NewBlock: 0x1818cf0 0x10215b74200
+mutable_data() 0x1818cf0 0x10215b74200
+FreeBlock: 0x1818cf0 0x10215b74200
+free done
+data() 0x1818300 0x10215854200
+lrn1-->conv2: 0.010716
+malloc done
+NewBlock: 0x1818330 0x10215b74200
+mutable_data() 0x1818330 0x10215b74200
+data() 0x1818300 0x10215854200
+malloc done
+NewBlock: 0x1818e10 0x10215e94200
+mutable_data() 0x1818e10 0x10215e94200
+FreeBlock: 0x1818e10 0x10215e94200
+free done
+data() 0x1818330 0x10215b74200
+conv2-->relu2: 0.005659
+malloc done
+NewBlock: 0x1818e10 0x10218b1d400
+mutable_data() 0x1818e10 0x10218b1d400
+data() 0x1818330 0x10215b74200
+malloc done
+NewBlock: 0x1819d60 0x10218be5400
+mutable_data() 0x1819d60 0x10218be5400
+FreeBlock: 0x1819d60 0x10218be5400
+free done
+data() 0x1818e10 0x10218b1d400
+relu2-->pool2: 0.005720
+malloc done
+NewBlock: 0x1819d00 0x10218be5400
+mutable_data() 0x1819d00 0x10218be5400
+data() 0x1818e10 0x10218b1d400
+malloc done
+NewBlock: 0x1819af0 0x10215e94200
+mutable_data() 0x1819af0 0x10215e94200
+FreeBlock: 0x1819af0 0x10215e94200
+free done
+data() 0x1819d00 0x10218be5400
+pool2-->lrn2: 0.005720
+malloc done
+NewBlock: 0x1819b50 0x10215e94200
+mutable_data() 0x1819b50 0x10215e94200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0xba3c010 0x1020e01ba00
+data() 0x1819d00 0x10218be5400
+mutable_data() 0x1819b50 0x10215e94200
+data() 0x17cf450 0x1020e04da00
+malloc done
+NewBlock: 0x181a440 0x10216024200
+mutable_data() 0x181a440 0x10216024200
+FreeBlock: 0x181a440 0x10216024200
+free done
+data() 0x1819b50 0x10215e94200
+lrn2-->conv3: 0.001732
+malloc done
+NewBlock: 0x1819360 0x10216024200
+mutable_data() 0x1819360 0x10216024200
+data() 0x1819b50 0x10215e94200
+malloc done
+NewBlock: 0x181a980 0x102190a2600
+mutable_data() 0x181a980 0x102190a2600
+FreeBlock: 0x181a980 0x102190a2600
+free done
+data() 0x1819360 0x10216024200
+conv3-->relu3: 0.000919
+malloc done
+NewBlock: 0x181a980 0x102190a2600
+mutable_data() 0x181a980 0x102190a2600
+data() 0x1819360 0x10216024200
+malloc done
+NewBlock: 0x181ac40 0x10219106600
+mutable_data() 0x181ac40 0x10219106600
+FreeBlock: 0x181ac40 0x10219106600
+free done
+data() 0x181a980 0x102190a2600
+relu3-->pool3: 0.000920
+malloc done
+NewBlock: 0x181aca0 0x10219106600
+mutable_data() 0x181aca0 0x10219106600
+FreeBlock: 0x181aca0 0x10219106600
+free done
+data() 0x181a980 0x102190a2600
+pool3-->flat: 0.000920
+malloc done
+NewBlock: 0x181aa10 0x10219039e00
+data() 0x181a980 0x102190a2600
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x181aa10 0x10219039e00
+malloc done
+NewBlock: 0x1819b80 0x1021903ae00
+mutable_data() 0x1819b80 0x1021903ae00
+data() 0x1819b80 0x1021903ae00
+data() 0xb9217c0 0x1020e057c00
+mutable_data() 0x181aa10 0x10219039e00
+mutable_data() 0x1819b80 0x1021903ae00
+FreeBlock: 0x1819b80 0x1021903ae00
+free done
+malloc done
+NewBlock: 0x181ae60 0x1021903ae00
+mutable_data() 0x181ae60 0x1021903ae00
+FreeBlock: 0x181ae60 0x1021903ae00
+free done
+data() 0x181aa10 0x10219039e00
+flat-->dense: 0.000330
+malloc done
+NewBlock: 0x181ae60 0x1021903ae00
+data() 0x181aa10 0x10219039e00
+mutable_data() 0x181ae60 0x1021903ae00
+malloc done
+NewBlock: 0x181a700 0x1021903be00
+data() 0x181ae60 0x1021903ae00
+mutable_data() 0x181a700 0x1021903be00
+malloc done
+NewBlock: 0x181a790 0x1021903c000
+mutable_data() 0x181a790 0x1021903c000
+data() 0x181a700 0x1021903be00
+data() 0x181a790 0x1021903c000
+mutable_data() 0x181ae60 0x1021903ae00
+mutable_data() 0x181a790 0x1021903c000
+FreeBlock: 0x181a790 0x1021903c000
+free done
+data() 0x181ae60 0x1021903ae00
+mutable_data() 0x181ae60 0x1021903ae00
+malloc done
+NewBlock: 0x181a790 0x1021903c000
+mutable_data() 0x181a790 0x1021903c000
+data() 0x181ae60 0x1021903ae00
+data() 0x181a790 0x1021903c000
+mutable_data() 0x181a700 0x1021903be00
+mutable_data() 0x181a790 0x1021903c000
+FreeBlock: 0x181a790 0x1021903c000
+free done
+malloc done
+NewBlock: 0x181a790 0x1021903c000
+data() 0x181a700 0x1021903be00
+mutable_data() 0x181a790 0x1021903c000
+data() 0x181ae60 0x1021903ae00
+data() 0x181a790 0x1021903c000
+mutable_data() 0x181ae60 0x1021903ae00
+mutable_data() 0x181a790 0x1021903c000
+FreeBlock: 0x181a790 0x1021903c000
+free done
+mutable_data() 0x181a700 0x1021903be00
+FreeBlock: 0x181a700 0x1021903be00
+free done
+malloc done
+NewBlock: 0x181a700 0x1021903be00
+data() 0x181ae60 0x1021903ae00
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x181a700 0x1021903be00
+malloc done
+NewBlock: 0x1823580 0x1021903c000
+mutable_data() 0x1823580 0x1021903c000
+FreeBlock: 0x1823580 0x1021903c000
+free done
+data() 0x181ae60 0x1021903ae00
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x181ae60 0x1021903ae00
+malloc done
+NewBlock: 0x1823f30 0x1021903c000
+mutable_data() 0x1823f30 0x1021903c000
+FreeBlock: 0x1823f30 0x1021903c000
+free done
+data() 0x181ae60 0x1021903ae00
+mutable_data() 0x181ae60 0x1021903ae00
+NewBlock: 0x1823580 0x1824120
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x1823580 0x1824120
+data() 0x1823580 0x1824120
+NewBlock: 0x1818e70 0x18243e0
+data() 0x181aa10 0x10219039e00
+mutable_data() 0x1818e70 0x18243e0
+data() 0x1818e70 0x18243e0
+NewBlock: 0x18255a0 0x181a180
+mutable_data() 0x18255a0 0x181a180
+mutable_data() 0x1818e70 0x18243e0
+FreeBlock: 0x1818e70 0x18243e0
+mutable_data() 0x1823580 0x1824120
+FreeBlock: 0x1823580 0x1824120
+NewBlock: 0x18255d0 0x1824120
+mutable_data() 0x18255d0 0x1824120
+data() 0x18255a0 0x181a180
+data() 0x18255d0 0x1824120
+mutable_data() 0x18255d0 0x1824120
+FreeBlock: 0x18255d0 0x1824120
+mutable_data() 0x18255a0 0x181a180
+FreeBlock: 0x18255a0 0x181a180
+malloc done
+NewBlock: 0x18255a0 0x10219019200
+malloc done
+NewBlock: 0x1818e70 0x10219106600
+malloc done
+NewBlock: 0x1823f30 0x1021903c000
+malloc done
+NewBlock: 0x1823c10 0x1021903c200
+mutable_data() 0x1823c10 0x1021903c200
+data() 0x181ae60 0x1021903ae00
+data() 0x1823c10 0x1021903c200
+mutable_data() 0x1823f30 0x1021903c000
+mutable_data() 0x1823c10 0x1021903c200
+FreeBlock: 0x1823c10 0x1021903c200
+free done
+malloc done
+NewBlock: 0x1823c10 0x1021916a600
+data() 0x181ae60 0x1021903ae00
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x1823c10 0x1021916a600
+mutable_data() 0x1818e70 0x10219106600
+FreeBlock: 0x1818e70 0x10219106600
+free done
+malloc done
+NewBlock: 0x1818e70 0x10219023200
+data() 0x181a980 0x102190a2600
+data() 0x181ae60 0x1021903ae00
+mutable_data() 0x1818e70 0x10219023200
+mutable_data() 0x18255a0 0x10219019200
+FreeBlock: 0x18255a0 0x10219019200
+free done
+malloc done
+NewBlock: 0x18255a0 0x10219106600
+mutable_data() 0x18255a0 0x10219106600
+FreeBlock: 0x18255a0 0x10219106600
+free done
+malloc done
+NewBlock: 0x1824d70 0x10219019200
+mutable_data() 0x1824d70 0x10219019200
+FreeBlock: 0x1824d70 0x10219019200
+free done
+malloc done
+NewBlock: 0x1824510 0x1021903c200
+mutable_data() 0x1824510 0x1021903c200
+FreeBlock: 0x1824510 0x1021903c200
+free done
+data() 0x1823c10 0x1021916a600
+-->dense: 0.000076
+malloc done
+NewBlock: 0x1824bd0 0x10219019200
+mutable_data() 0x1824bd0 0x10219019200
+FreeBlock: 0x1824bd0 0x10219019200
+free done
+malloc done
+NewBlock: 0x1824d10 0x1021903c200
+mutable_data() 0x1824d10 0x1021903c200
+FreeBlock: 0x1824d10 0x1021903c200
+free done
+malloc done
+NewBlock: 0x181a1b0 0x10219106600
+mutable_data() 0x181a1b0 0x10219106600
+FreeBlock: 0x181a1b0 0x10219106600
+free done
+data() 0x1823c10 0x1021916a600
+dense-->flat: 0.000076
+malloc done
+NewBlock: 0x1825030 0x102191ce600
+mutable_data() 0x1825030 0x102191ce600
+data() 0x1819360 0x10216024200
+data() 0x1823c10 0x1021916a600
+data() 0x181a980 0x102190a2600
+mutable_data() 0x1819360 0x10216024200
+FreeBlock: 0x1819360 0x10216024200
+free done
+mutable_data() 0x181a980 0x102190a2600
+FreeBlock: 0x181a980 0x102190a2600
+free done
+malloc done
+NewBlock: 0x181a980 0x10216024200
+mutable_data() 0x181a980 0x10216024200
+FreeBlock: 0x181a980 0x10216024200
+free done
+data() 0x1825030 0x102191ce600
+flat-->pool3: 0.000014
+mutable_data() 0x1823c10 0x1021916a600
+FreeBlock: 0x1823c10 0x1021916a600
+free done
+malloc done
+NewBlock: 0x181a000 0x10216024200
+mutable_data() 0x181a000 0x10216024200
+data() 0x1819b50 0x10215e94200
+data() 0x1825030 0x102191ce600
+data() 0x1819b50 0x10215e94200
+mutable_data() 0x1819b50 0x10215e94200
+FreeBlock: 0x1819b50 0x10215e94200
+free done
+malloc done
+NewBlock: 0x1823c10 0x10215e94200
+mutable_data() 0x1823c10 0x10215e94200
+FreeBlock: 0x1823c10 0x10215e94200
+free done
+data() 0x181a000 0x10216024200
+pool3-->relu3: 0.000007
+mutable_data() 0x1825030 0x102191ce600
+FreeBlock: 0x1825030 0x102191ce600
+free done
+malloc done
+NewBlock: 0x181a9e0 0x10215e94200
+malloc done
+NewBlock: 0x18255d0 0x10215f5c200
+malloc done
+NewBlock: 0x1825110 0x1021903c200
+mutable_data() 0x1825110 0x1021903c200
+data() 0x181a000 0x10216024200
+mutable_data() 0x18255d0 0x10215f5c200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x181a000 0x10216024200
+data() 0x1819d00 0x10218be5400
+mutable_data() 0x181a9e0 0x10215e94200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x181a000 0x10216024200
+data() 0xba3c010 0x1020e01ba00
+malloc done
+NewBlock: 0x1825a40 0x102190a2600
+mutable_data() 0x1825a40 0x102190a2600
+FreeBlock: 0x1825a40 0x102190a2600
+free done
+malloc done
+NewBlock: 0x18195e0 0x10215f8e200
+mutable_data() 0x18195e0 0x10215f8e200
+FreeBlock: 0x18195e0 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x1825aa0 0x1021903c400
+mutable_data() 0x1825aa0 0x1021903c400
+FreeBlock: 0x1825aa0 0x1021903c400
+free done
+data() 0x181a9e0 0x10215e94200
+relu3-->conv3: 0.000003
+malloc done
+NewBlock: 0x1825f70 0x10215f8e200
+mutable_data() 0x1825f70 0x10215f8e200
+FreeBlock: 0x1825f70 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x1825700 0x1021903c400
+mutable_data() 0x1825700 0x1021903c400
+FreeBlock: 0x1825700 0x1021903c400
+free done
+mutable_data() 0x181a000 0x10216024200
+FreeBlock: 0x181a000 0x10216024200
+free done
+malloc done
+NewBlock: 0x1819af0 0x10215f8e200
+mutable_data() 0x1819af0 0x10215f8e200
+data() 0x1818e10 0x10218b1d400
+data() 0x181a9e0 0x10215e94200
+data() 0x1819d00 0x10218be5400
+mutable_data() 0x1819d00 0x10218be5400
+FreeBlock: 0x1819d00 0x10218be5400
+free done
+malloc done
+NewBlock: 0x181a030 0x10218be5400
+mutable_data() 0x181a030 0x10218be5400
+FreeBlock: 0x181a030 0x10218be5400
+free done
+data() 0x1819af0 0x10215f8e200
+conv3-->lrn2: 0.000003
+mutable_data() 0x181a9e0 0x10215e94200
+FreeBlock: 0x181a9e0 0x10215e94200
+free done
+malloc done
+NewBlock: 0x1825a40 0x102190a2600
+mutable_data() 0x1825a40 0x102190a2600
+data() 0x1818330 0x10215b74200
+data() 0x1819af0 0x10215f8e200
+data() 0x1818e10 0x10218b1d400
+mutable_data() 0x1818330 0x10215b74200
+FreeBlock: 0x1818330 0x10215b74200
+free done
+mutable_data() 0x1818e10 0x10218b1d400
+FreeBlock: 0x1818e10 0x10218b1d400
+free done
+malloc done
+NewBlock: 0x1819d30 0x10215b74200
+mutable_data() 0x1819d30 0x10215b74200
+FreeBlock: 0x1819d30 0x10215b74200
+free done
+data() 0x1825a40 0x102190a2600
+lrn2-->pool2: 0.000001
+mutable_data() 0x1819af0 0x10215f8e200
+FreeBlock: 0x1819af0 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x1819d60 0x10215b74200
+mutable_data() 0x1819d60 0x10215b74200
+data() 0x1818300 0x10215854200
+data() 0x1825a40 0x102190a2600
+data() 0x1818300 0x10215854200
+mutable_data() 0x1818300 0x10215854200
+FreeBlock: 0x1818300 0x10215854200
+free done
+malloc done
+NewBlock: 0x1825790 0x10215854200
+mutable_data() 0x1825790 0x10215854200
+FreeBlock: 0x1825790 0x10215854200
+free done
+data() 0x1819d60 0x10215b74200
+pool2-->relu2: 0.000000
+mutable_data() 0x1825a40 0x102190a2600
+FreeBlock: 0x1825a40 0x102190a2600
+free done
+malloc done
+NewBlock: 0x18187c0 0x10215854200
+malloc done
+NewBlock: 0x1825d80 0x10215e94200
+malloc done
+NewBlock: 0x18267f0 0x1021903c400
+mutable_data() 0x18267f0 0x1021903c400
+data() 0x1819d60 0x10215b74200
+mutable_data() 0x1825d80 0x10215e94200
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x1819d60 0x10215b74200
+data() 0x1819100 0x102187fd400
+mutable_data() 0x18187c0 0x10215854200
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x1819d60 0x10215b74200
+data() 0x17fccd0 0x1020e002800
+malloc done
+NewBlock: 0x1826cf0 0x102190a2600
+mutable_data() 0x1826cf0 0x102190a2600
+FreeBlock: 0x1826cf0 0x102190a2600
+free done
+malloc done
+NewBlock: 0x1818d50 0x10215ead200
+mutable_data() 0x1818d50 0x10215ead200
+FreeBlock: 0x1818d50 0x10215ead200
+free done
+malloc done
+NewBlock: 0x1826df0 0x1021903c600
+mutable_data() 0x1826df0 0x1021903c600
+FreeBlock: 0x1826df0 0x1021903c600
+free done
+data() 0x18187c0 0x10215854200
+relu2-->conv2: 0.000000
+malloc done
+NewBlock: 0x18264b0 0x10215ead200
+mutable_data() 0x18264b0 0x10215ead200
+FreeBlock: 0x18264b0 0x10215ead200
+free done
+malloc done
+NewBlock: 0x1826510 0x1021903c600
+mutable_data() 0x1826510 0x1021903c600
+FreeBlock: 0x1826510 0x1021903c600
+free done
+mutable_data() 0x1819d60 0x10215b74200
+FreeBlock: 0x1819d60 0x10215b74200
+free done
+malloc done
+NewBlock: 0x18192d0 0x10215b74200
+mutable_data() 0x18192d0 0x10215b74200
+data() 0x1818760 0x102184dd400
+data() 0x18187c0 0x10215854200
+data() 0x1819100 0x102187fd400
+mutable_data() 0x1818760 0x102184dd400
+FreeBlock: 0x1818760 0x102184dd400
+free done
+mutable_data() 0x1819100 0x102187fd400
+FreeBlock: 0x1819100 0x102187fd400
+free done
+malloc done
+NewBlock: 0x1819100 0x102184dd400
+mutable_data() 0x1819100 0x102184dd400
+FreeBlock: 0x1819100 0x102184dd400
+free done
+data() 0x18192d0 0x10215b74200
+conv2-->lrn1: 0.000000
+mutable_data() 0x18187c0 0x10215854200
+FreeBlock: 0x18187c0 0x10215854200
+free done
+malloc done
+NewBlock: 0x1818fb0 0x10215854200
+mutable_data() 0x1818fb0 0x10215854200
+data() 0x1818730 0x10218cf9200
+data() 0x18192d0 0x10215b74200
+data() 0x1818730 0x10218cf9200
+malloc done
+NewBlock: 0x181baf0 0x102184dd400
+mutable_data() 0x181baf0 0x102184dd400
+FreeBlock: 0x181baf0 0x102184dd400
+free done
+data() 0x1818fb0 0x10215854200
+lrn1-->relu1: 0.000000
+mutable_data() 0x18192d0 0x10215b74200
+FreeBlock: 0x18192d0 0x10215b74200
+free done
+malloc done
+NewBlock: 0x1819d60 0x102190a2600
+mutable_data() 0x1819d60 0x102190a2600
+data() 0x18fabb0 0x10214bd4200
+data() 0x1818fb0 0x10215854200
+data() 0x1818730 0x10218cf9200
+mutable_data() 0x18fabb0 0x10214bd4200
+FreeBlock: 0x18fabb0 0x10214bd4200
+free done
+mutable_data() 0x1818730 0x10218cf9200
+FreeBlock: 0x1818730 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x1818730 0x10214bd4200
+mutable_data() 0x1818730 0x10214bd4200
+FreeBlock: 0x1818730 0x10214bd4200
+free done
+data() 0x1819d60 0x102190a2600
+relu1-->pool1: 0.000000
+mutable_data() 0x1818fb0 0x10215854200
+FreeBlock: 0x1818fb0 0x10215854200
+free done
+malloc done
+NewBlock: 0x18182a0 0x10215f8e200
+malloc done
+NewBlock: 0x181bd80 0x1021909d400
+malloc done
+NewBlock: 0x181bde0 0x1021903c600
+mutable_data() 0x181bde0 0x1021903c600
+data() 0x1819d60 0x102190a2600
+mutable_data() 0x181bd80 0x1021909d400
+mutable_data() 0x1768160 0x1020e184000
+data() 0x1819d60 0x102190a2600
+data() 0x1767670 0x1020e057e00
+mutable_data() 0x18182a0 0x10215f8e200
+mutable_data() 0x1768160 0x1020e184000
+data() 0x1819d60 0x102190a2600
+data() 0xb850160 0x1020e000000
+malloc done
+NewBlock: 0x181b4d0 0x10218cf9200
+mutable_data() 0x181b4d0 0x10218cf9200
+FreeBlock: 0x181b4d0 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x1819cd0 0x1021909fa00
+mutable_data() 0x1819cd0 0x1021909fa00
+FreeBlock: 0x1819cd0 0x1021909fa00
+free done
+malloc done
+NewBlock: 0x181c630 0x1021903c800
+mutable_data() 0x181c630 0x1021903c800
+FreeBlock: 0x181c630 0x1021903c800
+free done
+data() 0x18182a0 0x10215f8e200
+pool1-->conv1: 0.000000
+malloc done
+NewBlock: 0x181c740 0x1021909fa00
+mutable_data() 0x181c740 0x1021909fa00
+FreeBlock: 0x181c740 0x1021909fa00
+free done
+malloc done
+NewBlock: 0x18272c0 0x1021903c800
+mutable_data() 0x18272c0 0x1021903c800
+FreeBlock: 0x18272c0 0x1021903c800
+free done
+mutable_data() 0x1819d60 0x102190a2600
+FreeBlock: 0x1819d60 0x102190a2600
+free done
+mutable_data() 0x18182a0 0x10215f8e200
+FreeBlock: 0x18182a0 0x10215f8e200
+free done
+data() 0x181a700 0x1021903be00
+mutable_data() 0x181aa10 0x10219039e00
+FreeBlock: 0x181aa10 0x10219039e00
+free done
+mutable_data() 0x181a700 0x1021903be00
+FreeBlock: 0x181a700 0x1021903be00
+free done
+mutable_data() 0x181ae60 0x1021903ae00
+FreeBlock: 0x181ae60 0x1021903ae00
+free done
+mutable_data() 0x18f5950 0x1021903e400
+FreeBlock: 0x18f5950 0x1021903e400
+free done
+mutable_data() 0x18f4ce0 0x10219034400
+FreeBlock: 0x18f4ce0 0x10219034400
+free done
+mutable_data() 0x18f46a0 0x10219048400
+FreeBlock: 0x18f46a0 0x10219048400
+free done
+mutable_data() 0x18f7f90 0x10219034600
+FreeBlock: 0x18f7f90 0x10219034600
+free done
+mutable_data() 0x18f7f30 0x1021907a400
+FreeBlock: 0x18f7f30 0x1021907a400
+free done
+mutable_data() 0x18fa990 0x10219036e00
+FreeBlock: 0x18fa990 0x10219036e00
+free done
+mutable_data() 0x1767ba0 0x10219034800
+FreeBlock: 0x1767ba0 0x10219034800
+free done
+malloc done
+NewBlock: 0x18fa990 0x1021909fa00
+mutable_data() 0x18fa990 0x1021909fa00
+FreeBlock: 0x18fa990 0x1021909fa00
+free done
+malloc done
+NewBlock: 0x1827320 0x10219039e00
+mutable_data() 0x1827320 0x10219039e00
+FreeBlock: 0x1827320 0x10219039e00
+free done
+malloc done
+NewBlock: 0x18fa990 0x1021903c800
+mutable_data() 0x18fa990 0x1021903c800
+FreeBlock: 0x18fa990 0x1021903c800
+free done
+malloc done
+NewBlock: 0x1827410 0x10219039e00
+mutable_data() 0x1827410 0x10219039e00
+FreeBlock: 0x1827410 0x10219039e00
+free done
+malloc done
+NewBlock: 0x1827410 0x1021903c800
+mutable_data() 0x1827410 0x1021903c800
+FreeBlock: 0x1827410 0x1021903c800
+free done
+malloc done
+NewBlock: 0x181c8c0 0x10219039e00
+mutable_data() 0x181c8c0 0x10219039e00
+FreeBlock: 0x181c8c0 0x10219039e00
+free done
+malloc done
+NewBlock: 0x18f7f60 0x1021903c800
+mutable_data() 0x18f7f60 0x1021903c800
+FreeBlock: 0x18f7f60 0x1021903c800
+free done
+malloc done
+NewBlock: 0x181c970 0x10219039e00
+mutable_data() 0x181c970 0x10219039e00
+FreeBlock: 0x181c970 0x10219039e00
+free done
+mutable_data() 0x18f31a0 0x102190a2400
+FreeBlock: 0x18f31a0 0x102190a2400
+free done
+data() 0xb850160 0x1020e000000
+mutable_data() 0x181bd80 0x1021909d400
+data() 0x18fb4c0 0x10219037000
+mutable_data() 0x18fb4c0 0x10219037000
+data() 0x181bd80 0x1021909d400
+mutable_data() 0x18fb4c0 0x10219037000
+data() 0xb850160 0x1020e000000
+data() 0x18fb4c0 0x10219037000
+mutable_data() 0xb850160 0x1020e000000
+data() 0x18fade0 0x10219039600
+mutable_data() 0x18fade0 0x10219039600
+data() 0x181bde0 0x1021903c600
+mutable_data() 0x18fade0 0x10219039600
+data() 0x17fee90 0x1020e002600
+data() 0x18fade0 0x10219039600
+mutable_data() 0x17fee90 0x1020e002600
+data() 0x17fccd0 0x1020e002800
+mutable_data() 0x1825d80 0x10215e94200
+data() 0x18fc090 0x10218cae200
+mutable_data() 0x18fc090 0x10218cae200
+data() 0x1825d80 0x10215e94200
+mutable_data() 0x18fc090 0x10218cae200
+data() 0x17fccd0 0x1020e002800
+data() 0x18fc090 0x10218cae200
+mutable_data() 0x17fccd0 0x1020e002800
+data() 0x18179c0 0x10219039800
+mutable_data() 0x18179c0 0x10219039800
+data() 0x18267f0 0x1021903c400
+mutable_data() 0x18179c0 0x10219039800
+data() 0x17fc7b0 0x1020e01b800
+data() 0x18179c0 0x10219039800
+mutable_data() 0x17fc7b0 0x1020e01b800
+data() 0xba3c010 0x1020e01ba00
+mutable_data() 0x18255d0 0x10215f5c200
+data() 0x1817e00 0x10218cc7200
+mutable_data() 0x1817e00 0x10218cc7200
+data() 0x18255d0 0x10215f5c200
+mutable_data() 0x1817e00 0x10218cc7200
+data() 0xba3c010 0x1020e01ba00
+data() 0x1817e00 0x10218cc7200
+mutable_data() 0xba3c010 0x1020e01ba00
+data() 0x18fc1b0 0x10219039a00
+mutable_data() 0x18fc1b0 0x10219039a00
+data() 0x1825110 0x1021903c200
+mutable_data() 0x18fc1b0 0x10219039a00
+data() 0x17cf450 0x1020e04da00
+data() 0x18fc1b0 0x10219039a00
+mutable_data() 0x17cf450 0x1020e04da00
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x1818e70 0x10219023200
+data() 0x1817770 0x10219093400
+mutable_data() 0x1817770 0x10219093400
+data() 0x1818e70 0x10219023200
+mutable_data() 0x1817770 0x10219093400
+data() 0x7f82bf309840 0x1020e04dc00
+data() 0x1817770 0x10219093400
+mutable_data() 0x7f82bf309840 0x1020e04dc00
+data() 0x1818010 0x10219039c00
+mutable_data() 0x1818010 0x10219039c00
+data() 0x1823f30 0x1021903c000
+mutable_data() 0x1818010 0x10219039c00
+data() 0xb9217c0 0x1020e057c00
+data() 0x1818010 0x10219039c00
+mutable_data() 0xb9217c0 0x1020e057c00
+start of iteration 2:  0.2% training loss = 2.302525, accuracy = 0.150000
+mutable_data() 0x1767670 0x1020e057e00
+mutable_data() 0x1766fb0 0x1020e183e00
+malloc done
+NewBlock: 0x181b360 0x10214bd4200
+mutable_data() 0x181b360 0x10214bd4200
+mutable_data() 0x1768160 0x1020e184000
+data() 0xb850160 0x1020e000000
+data() 0x1767670 0x1020e057e00
+mutable_data() 0x181b360 0x10214bd4200
+data() 0x17fee90 0x1020e002600
+malloc done
+NewBlock: 0x181d600 0x1021909fa00
+mutable_data() 0x181d600 0x1021909fa00
+FreeBlock: 0x181d600 0x1021909fa00
+free done
+data() 0x181b360 0x10214bd4200
+-->conv1: 0.052040
+malloc done
+NewBlock: 0x181d630 0x10218cf9200
+mutable_data() 0x181d630 0x10218cf9200
+data() 0x181b360 0x10214bd4200
+malloc done
+NewBlock: 0x181d7b0 0x10215854200
+mutable_data() 0x181d7b0 0x10215854200
+FreeBlock: 0x181d7b0 0x10215854200
+free done
+data() 0x181d630 0x10218cf9200
+conv1-->pool1: 0.055429
+malloc done
+NewBlock: 0x181d660 0x10215854200
+mutable_data() 0x181d660 0x10215854200
+data() 0x181d630 0x10218cf9200
+malloc done
+NewBlock: 0x181dbb0 0x10215b74200
+mutable_data() 0x181dbb0 0x10215b74200
+FreeBlock: 0x181dbb0 0x10215b74200
+free done
+data() 0x181d660 0x10215854200
+pool1-->relu1: 0.040967
+malloc done
+NewBlock: 0x181da80 0x10215b74200
+mutable_data() 0x181da80 0x10215b74200
+data() 0x181d660 0x10215854200
+malloc done
+NewBlock: 0x181e330 0x102184dd400
+mutable_data() 0x181e330 0x102184dd400
+FreeBlock: 0x181e330 0x102184dd400
+free done
+data() 0x181da80 0x10215b74200
+relu1-->lrn1: 0.040967
+malloc done
+NewBlock: 0x181df80 0x102184dd400
+mutable_data() 0x181df80 0x102184dd400
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x17fccd0 0x1020e002800
+data() 0x181da80 0x10215b74200
+mutable_data() 0x181df80 0x102184dd400
+data() 0x17fc7b0 0x1020e01b800
+malloc done
+NewBlock: 0x181e7b0 0x102187fd400
+mutable_data() 0x181e7b0 0x102187fd400
+FreeBlock: 0x181e7b0 0x102187fd400
+free done
+data() 0x181df80 0x102184dd400
+lrn1-->conv2: 0.012296
+malloc done
+NewBlock: 0x181e8f0 0x102187fd400
+mutable_data() 0x181e8f0 0x102187fd400
+data() 0x181df80 0x102184dd400
+malloc done
+NewBlock: 0x181e530 0x1021909fa00
+mutable_data() 0x181e530 0x1021909fa00
+FreeBlock: 0x181e530 0x1021909fa00
+free done
+data() 0x181e8f0 0x102187fd400
+conv2-->relu2: 0.006235
+malloc done
+NewBlock: 0x181e530 0x10218b1d400
+mutable_data() 0x181e530 0x10218b1d400
+data() 0x181e8f0 0x102187fd400
+malloc done
+NewBlock: 0x181e950 0x10218be5400
+mutable_data() 0x181e950 0x10218be5400
+FreeBlock: 0x181e950 0x10218be5400
+free done
+data() 0x181e530 0x10218b1d400
+relu2-->pool2: 0.006303
+malloc done
+NewBlock: 0x181e920 0x10218be5400
+mutable_data() 0x181e920 0x10218be5400
+data() 0x181e530 0x10218b1d400
+malloc done
+NewBlock: 0x181ed20 0x10215f8e200
+mutable_data() 0x181ed20 0x10215f8e200
+FreeBlock: 0x181ed20 0x10215f8e200
+free done
+data() 0x181e920 0x10218be5400
+pool2-->lrn2: 0.006303
+malloc done
+NewBlock: 0x181ed80 0x10215f8e200
+mutable_data() 0x181ed80 0x10215f8e200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0xba3c010 0x1020e01ba00
+data() 0x181e920 0x10218be5400
+mutable_data() 0x181ed80 0x10215f8e200
+data() 0x17cf450 0x1020e04da00
+malloc done
+NewBlock: 0x181d2b0 0x1021909fa00
+mutable_data() 0x181d2b0 0x1021909fa00
+FreeBlock: 0x181d2b0 0x1021909fa00
+free done
+data() 0x181ed80 0x10215f8e200
+lrn2-->conv3: 0.002051
+malloc done
+NewBlock: 0x181f160 0x1021909fa00
+mutable_data() 0x181f160 0x1021909fa00
+data() 0x181ed80 0x10215f8e200
+malloc done
+NewBlock: 0x181f6d0 0x1021922fa00
+mutable_data() 0x181f6d0 0x1021922fa00
+FreeBlock: 0x181f6d0 0x1021922fa00
+free done
+data() 0x181f160 0x1021909fa00
+conv3-->relu3: 0.001070
+malloc done
+NewBlock: 0x181f6d0 0x1021611e200
+mutable_data() 0x181f6d0 0x1021611e200
+data() 0x181f160 0x1021909fa00
+malloc done
+NewBlock: 0x181fa00 0x10215ead200
+mutable_data() 0x181fa00 0x10215ead200
+FreeBlock: 0x181fa00 0x10215ead200
+free done
+data() 0x181f6d0 0x1021611e200
+relu3-->pool3: 0.001065
+malloc done
+NewBlock: 0x181fa60 0x10215ead200
+mutable_data() 0x181fa60 0x10215ead200
+FreeBlock: 0x181fa60 0x10215ead200
+free done
+data() 0x181f6d0 0x1021611e200
+pool3-->flat: 0.001065
+malloc done
+NewBlock: 0x181f760 0x10219039e00
+data() 0x181f6d0 0x1021611e200
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x181f760 0x10219039e00
+malloc done
+NewBlock: 0x181f1c0 0x1021903ae00
+mutable_data() 0x181f1c0 0x1021903ae00
+data() 0x181f1c0 0x1021903ae00
+data() 0xb9217c0 0x1020e057c00
+mutable_data() 0x181f760 0x10219039e00
+mutable_data() 0x181f1c0 0x1021903ae00
+FreeBlock: 0x181f1c0 0x1021903ae00
+free done
+malloc done
+NewBlock: 0x181fbe0 0x1021903ae00
+mutable_data() 0x181fbe0 0x1021903ae00
+FreeBlock: 0x181fbe0 0x1021903ae00
+free done
+data() 0x181f760 0x10219039e00
+flat-->dense: 0.000407
+malloc done
+NewBlock: 0x181fbe0 0x1021903ae00
+data() 0x181f760 0x10219039e00
+mutable_data() 0x181fbe0 0x1021903ae00
+malloc done
+NewBlock: 0x181fa60 0x1021903be00
+data() 0x181fbe0 0x1021903ae00
+mutable_data() 0x181fa60 0x1021903be00
+malloc done
+NewBlock: 0x181f510 0x1021902d200
+mutable_data() 0x181f510 0x1021902d200
+data() 0x181fa60 0x1021903be00
+data() 0x181f510 0x1021902d200
+mutable_data() 0x181fbe0 0x1021903ae00
+mutable_data() 0x181f510 0x1021902d200
+FreeBlock: 0x181f510 0x1021902d200
+free done
+data() 0x181fbe0 0x1021903ae00
+mutable_data() 0x181fbe0 0x1021903ae00
+malloc done
+NewBlock: 0x181f510 0x1021902d200
+mutable_data() 0x181f510 0x1021902d200
+data() 0x181fbe0 0x1021903ae00
+data() 0x181f510 0x1021902d200
+mutable_data() 0x181fa60 0x1021903be00
+mutable_data() 0x181f510 0x1021902d200
+FreeBlock: 0x181f510 0x1021902d200
+free done
+malloc done
+NewBlock: 0x181f510 0x1021902d200
+data() 0x181fa60 0x1021903be00
+mutable_data() 0x181f510 0x1021902d200
+data() 0x181fbe0 0x1021903ae00
+data() 0x181f510 0x1021902d200
+mutable_data() 0x181fbe0 0x1021903ae00
+mutable_data() 0x181f510 0x1021902d200
+FreeBlock: 0x181f510 0x1021902d200
+free done
+mutable_data() 0x181fa60 0x1021903be00
+FreeBlock: 0x181fa60 0x1021903be00
+free done
+malloc done
+NewBlock: 0x181f480 0x1021903be00
+data() 0x181fbe0 0x1021903ae00
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x181f480 0x1021903be00
+malloc done
+NewBlock: 0x1820330 0x1021902d200
+mutable_data() 0x1820330 0x1021902d200
+FreeBlock: 0x1820330 0x1021902d200
+free done
+data() 0x181fbe0 0x1021903ae00
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x181fbe0 0x1021903ae00
+malloc done
+NewBlock: 0x1820c60 0x1021902d200
+mutable_data() 0x1820c60 0x1021902d200
+FreeBlock: 0x1820c60 0x1021902d200
+free done
+data() 0x181fbe0 0x1021903ae00
+mutable_data() 0x181fbe0 0x1021903ae00
+NewBlock: 0x1820330 0x1820e50
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x1820330 0x1820e50
+data() 0x1820330 0x1820e50
+NewBlock: 0x181d430 0x1821110
+data() 0x181f760 0x10219039e00
+mutable_data() 0x181d430 0x1821110
+data() 0x181d430 0x1821110
+NewBlock: 0x18222d0 0x181eea0
+mutable_data() 0x18222d0 0x181eea0
+mutable_data() 0x181d430 0x1821110
+FreeBlock: 0x181d430 0x1821110
+mutable_data() 0x1820330 0x1820e50
+FreeBlock: 0x1820330 0x1820e50
+NewBlock: 0x1822300 0x1820e50
+mutable_data() 0x1822300 0x1820e50
+data() 0x18222d0 0x181eea0
+data() 0x1822300 0x1820e50
+mutable_data() 0x1822300 0x1820e50
+FreeBlock: 0x1822300 0x1820e50
+mutable_data() 0x18222d0 0x181eea0
+FreeBlock: 0x18222d0 0x181eea0
+malloc done
+NewBlock: 0x1820330 0x10219019200
+malloc done
+NewBlock: 0x1822300 0x10215ead200
+malloc done
+NewBlock: 0x1822330 0x1021902d200
+malloc done
+NewBlock: 0x1820940 0x1021902d400
+mutable_data() 0x1820940 0x1021902d400
+data() 0x181fbe0 0x1021903ae00
+data() 0x1820940 0x1021902d400
+mutable_data() 0x1822330 0x1021902d200
+mutable_data() 0x1820940 0x1021902d400
+FreeBlock: 0x1820940 0x1021902d400
+free done
+malloc done
+NewBlock: 0x1820940 0x1021922fa00
+data() 0x181fbe0 0x1021903ae00
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x1820940 0x1021922fa00
+mutable_data() 0x1822300 0x10215ead200
+FreeBlock: 0x1822300 0x10215ead200
+free done
+malloc done
+NewBlock: 0x1822300 0x10216182200
+data() 0x181f6d0 0x1021611e200
+data() 0x181fbe0 0x1021903ae00
+mutable_data() 0x1822300 0x10216182200
+mutable_data() 0x1820330 0x10219019200
+FreeBlock: 0x1820330 0x10219019200
+free done
+malloc done
+NewBlock: 0x18223d0 0x10215ead200
+mutable_data() 0x18223d0 0x10215ead200
+FreeBlock: 0x18223d0 0x10215ead200
+free done
+malloc done
+NewBlock: 0x18225e0 0x10219019200
+mutable_data() 0x18225e0 0x10219019200
+FreeBlock: 0x18225e0 0x10219019200
+free done
+malloc done
+NewBlock: 0x1822460 0x1021902d400
+mutable_data() 0x1822460 0x1021902d400
+FreeBlock: 0x1822460 0x1021902d400
+free done
+data() 0x1820940 0x1021922fa00
+-->dense: 0.000075
+malloc done
+NewBlock: 0x1822b20 0x10219019200
+mutable_data() 0x1822b20 0x10219019200
+FreeBlock: 0x1822b20 0x10219019200
+free done
+malloc done
+NewBlock: 0x1822c60 0x1021902d400
+mutable_data() 0x1822c60 0x1021902d400
+FreeBlock: 0x1822c60 0x1021902d400
+free done
+malloc done
+NewBlock: 0x181ef00 0x10215ead200
+mutable_data() 0x181ef00 0x10215ead200
+FreeBlock: 0x181ef00 0x10215ead200
+free done
+data() 0x1820940 0x1021922fa00
+dense-->flat: 0.000075
+malloc done
+NewBlock: 0x1822fc0 0x10219293a00
+mutable_data() 0x1822fc0 0x10219293a00
+data() 0x181f160 0x1021909fa00
+data() 0x1820940 0x1021922fa00
+data() 0x181f6d0 0x1021611e200
+mutable_data() 0x181f160 0x1021909fa00
+FreeBlock: 0x181f160 0x1021909fa00
+free done
+mutable_data() 0x181f6d0 0x1021611e200
+FreeBlock: 0x181f6d0 0x1021611e200
+free done
+malloc done
+NewBlock: 0x181f6d0 0x1021909fa00
+mutable_data() 0x181f6d0 0x1021909fa00
+FreeBlock: 0x181f6d0 0x1021909fa00
+free done
+data() 0x1822fc0 0x10219293a00
+flat-->pool3: 0.000013
+mutable_data() 0x1820940 0x1021922fa00
+FreeBlock: 0x1820940 0x1021922fa00
+free done
+malloc done
+NewBlock: 0x181e1c0 0x1021909fa00
+mutable_data() 0x181e1c0 0x1021909fa00
+data() 0x181ed80 0x10215f8e200
+data() 0x1822fc0 0x10219293a00
+data() 0x181ed80 0x10215f8e200
+mutable_data() 0x181ed80 0x10215f8e200
+FreeBlock: 0x181ed80 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x181ed80 0x10215f8e200
+mutable_data() 0x181ed80 0x10215f8e200
+FreeBlock: 0x181ed80 0x10215f8e200
+free done
+data() 0x181e1c0 0x1021909fa00
+pool3-->relu3: 0.000007
+mutable_data() 0x1822fc0 0x10219293a00
+FreeBlock: 0x1822fc0 0x10219293a00
+free done
+malloc done
+NewBlock: 0x181f730 0x10215f8e200
+malloc done
+NewBlock: 0x181ed20 0x1021903c800
+malloc done
+NewBlock: 0x18228e0 0x1021902d400
+mutable_data() 0x18228e0 0x1021902d400
+data() 0x181e1c0 0x1021909fa00
+mutable_data() 0x181ed20 0x1021903c800
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x181e1c0 0x1021909fa00
+data() 0x181e920 0x10218be5400
+mutable_data() 0x181f730 0x10215f8e200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x181e1c0 0x1021909fa00
+data() 0xba3c010 0x1020e01ba00
+malloc done
+NewBlock: 0x1821710 0x10216056200
+mutable_data() 0x1821710 0x10216056200
+FreeBlock: 0x1821710 0x10216056200
+free done
+malloc done
+NewBlock: 0x181f790 0x10215ead200
+mutable_data() 0x181f790 0x10215ead200
+FreeBlock: 0x181f790 0x10215ead200
+free done
+malloc done
+NewBlock: 0x1821770 0x1021902d600
+mutable_data() 0x1821770 0x1021902d600
+FreeBlock: 0x1821770 0x1021902d600
+free done
+data() 0x181f730 0x10215f8e200
+relu3-->conv3: 0.000003
+malloc done
+NewBlock: 0x1821c00 0x10215ead200
+mutable_data() 0x1821c00 0x10215ead200
+FreeBlock: 0x1821c00 0x10215ead200
+free done
+malloc done
+NewBlock: 0x1821400 0x1021902d600
+mutable_data() 0x1821400 0x1021902d600
+FreeBlock: 0x1821400 0x1021902d600
+free done
+mutable_data() 0x181e1c0 0x1021909fa00
+FreeBlock: 0x181e1c0 0x1021909fa00
+free done
+malloc done
+NewBlock: 0x181d2b0 0x10216056200
+mutable_data() 0x181d2b0 0x10216056200
+data() 0x181e530 0x10218b1d400
+data() 0x181f730 0x10215f8e200
+data() 0x181e920 0x10218be5400
+mutable_data() 0x181e920 0x10218be5400
+FreeBlock: 0x181e920 0x10218be5400
+free done
+malloc done
+NewBlock: 0x181ead0 0x10218be5400
+mutable_data() 0x181ead0 0x10218be5400
+FreeBlock: 0x181ead0 0x10218be5400
+free done
+data() 0x181d2b0 0x10216056200
+conv3-->lrn2: 0.000003
+mutable_data() 0x181f730 0x10215f8e200
+FreeBlock: 0x181f730 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x1821710 0x1021909fa00
+mutable_data() 0x1821710 0x1021909fa00
+data() 0x181e8f0 0x102187fd400
+data() 0x181d2b0 0x10216056200
+data() 0x181e530 0x10218b1d400
+mutable_data() 0x181e8f0 0x102187fd400
+FreeBlock: 0x181e8f0 0x102187fd400
+free done
+mutable_data() 0x181e530 0x10218b1d400
+FreeBlock: 0x181e530 0x10218b1d400
+free done
+malloc done
+NewBlock: 0x181da50 0x102187fd400
+mutable_data() 0x181da50 0x102187fd400
+FreeBlock: 0x181da50 0x102187fd400
+free done
+data() 0x1821710 0x1021909fa00
+lrn2-->pool2: 0.000001
+mutable_data() 0x181d2b0 0x10216056200
+FreeBlock: 0x181d2b0 0x10216056200
+free done
+malloc done
+NewBlock: 0x181e950 0x102187fd400
+mutable_data() 0x181e950 0x102187fd400
+data() 0x181df80 0x102184dd400
+data() 0x1821710 0x1021909fa00
+data() 0x181df80 0x102184dd400
+mutable_data() 0x181df80 0x102184dd400
+FreeBlock: 0x181df80 0x102184dd400
+free done
+malloc done
+NewBlock: 0x181e810 0x102184dd400
+mutable_data() 0x181e810 0x102184dd400
+FreeBlock: 0x181e810 0x102184dd400
+free done
+data() 0x181e950 0x102187fd400
+pool2-->relu2: 0.000000
+mutable_data() 0x1821710 0x1021909fa00
+FreeBlock: 0x1821710 0x1021909fa00
+free done
+malloc done
+NewBlock: 0x181d6c0 0x102184dd400
+malloc done
+NewBlock: 0x181e530 0x1021906e800
+malloc done
+NewBlock: 0x1821520 0x1021902d600
+mutable_data() 0x1821520 0x1021902d600
+data() 0x181e950 0x102187fd400
+mutable_data() 0x181e530 0x1021906e800
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x181e950 0x102187fd400
+data() 0x181da80 0x10215b74200
+mutable_data() 0x181d6c0 0x102184dd400
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x181e950 0x102187fd400
+data() 0x17fccd0 0x1020e002800
+malloc done
+NewBlock: 0x1827af0 0x1021909fa00
+mutable_data() 0x1827af0 0x1021909fa00
+FreeBlock: 0x1827af0 0x1021909fa00
+free done
+malloc done
+NewBlock: 0x181e450 0x1021618c200
+mutable_data() 0x181e450 0x1021618c200
+FreeBlock: 0x181e450 0x1021618c200
+free done
+malloc done
+NewBlock: 0x1828320 0x1021902d800
+mutable_data() 0x1828320 0x1021902d800
+FreeBlock: 0x1828320 0x1021902d800
+free done
+data() 0x181d6c0 0x102184dd400
+relu2-->conv2: 0.000000
+malloc done
+NewBlock: 0x1828430 0x1021618c200
+mutable_data() 0x1828430 0x1021618c200
+FreeBlock: 0x1828430 0x1021618c200
+free done
+malloc done
+NewBlock: 0x1821940 0x1021902d800
+mutable_data() 0x1821940 0x1021902d800
+FreeBlock: 0x1821940 0x1021902d800
+free done
+mutable_data() 0x181e950 0x102187fd400
+FreeBlock: 0x181e950 0x102187fd400
+free done
+malloc done
+NewBlock: 0x181e7b0 0x102187fd400
+mutable_data() 0x181e7b0 0x102187fd400
+data() 0x181d660 0x10215854200
+data() 0x181d6c0 0x102184dd400
+data() 0x181da80 0x10215b74200
+mutable_data() 0x181d660 0x10215854200
+FreeBlock: 0x181d660 0x10215854200
+free done
+mutable_data() 0x181da80 0x10215b74200
+FreeBlock: 0x181da80 0x10215b74200
+free done
+malloc done
+NewBlock: 0x181da80 0x10215854200
+mutable_data() 0x181da80 0x10215854200
+FreeBlock: 0x181da80 0x10215854200
+free done
+data() 0x181e7b0 0x102187fd400
+conv2-->lrn1: 0.000000
+mutable_data() 0x181d6c0 0x102184dd400
+FreeBlock: 0x181d6c0 0x102184dd400
+free done
+malloc done
+NewBlock: 0x181d7b0 0x102184dd400
+mutable_data() 0x181d7b0 0x102184dd400
+data() 0x181d630 0x10218cf9200
+data() 0x181e7b0 0x102187fd400
+data() 0x181d630 0x10218cf9200
+malloc done
+NewBlock: 0x1828760 0x10215854200
+mutable_data() 0x1828760 0x10215854200
+FreeBlock: 0x1828760 0x10215854200
+free done
+data() 0x181d7b0 0x102184dd400
+lrn1-->relu1: 0.000000
+mutable_data() 0x181e7b0 0x102187fd400
+FreeBlock: 0x181e7b0 0x102187fd400
+free done
+malloc done
+NewBlock: 0x181dbb0 0x1021909fa00
+mutable_data() 0x181dbb0 0x1021909fa00
+data() 0x181b360 0x10214bd4200
+data() 0x181d7b0 0x102184dd400
+data() 0x181d630 0x10218cf9200
+mutable_data() 0x181b360 0x10214bd4200
+FreeBlock: 0x181b360 0x10214bd4200
+free done
+mutable_data() 0x181d630 0x10218cf9200
+FreeBlock: 0x181d630 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x181d690 0x10214bd4200
+mutable_data() 0x181d690 0x10214bd4200
+FreeBlock: 0x181d690 0x10214bd4200
+free done
+data() 0x181dbb0 0x1021909fa00
+relu1-->pool1: 0.000000
+mutable_data() 0x181d7b0 0x102184dd400
+FreeBlock: 0x181d7b0 0x102184dd400
+free done
+malloc done
+NewBlock: 0x181d5d0 0x10215f8e200
+malloc done
+NewBlock: 0x1828110 0x1021902d800
+malloc done
+NewBlock: 0x1828e90 0x1021902fe00
+mutable_data() 0x1828e90 0x1021902fe00
+data() 0x181dbb0 0x1021909fa00
+mutable_data() 0x1828110 0x1021902d800
+mutable_data() 0x1768160 0x1020e184000
+data() 0x181dbb0 0x1021909fa00
+data() 0x1767670 0x1020e057e00
+mutable_data() 0x181d5d0 0x10215f8e200
+mutable_data() 0x1768160 0x1020e184000
+data() 0x181dbb0 0x1021909fa00
+data() 0xb850160 0x1020e000000
+malloc done
+NewBlock: 0x1829160 0x10218cf9200
+mutable_data() 0x1829160 0x10218cf9200
+FreeBlock: 0x1829160 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x181e590 0x10219030000
+mutable_data() 0x181e590 0x10219030000
+FreeBlock: 0x181e590 0x10219030000
+free done
+malloc done
+NewBlock: 0x18291c0 0x10219030000
+mutable_data() 0x18291c0 0x10219030000
+FreeBlock: 0x18291c0 0x10219030000
+free done
+data() 0x181d5d0 0x10215f8e200
+pool1-->conv1: 0.000000
+malloc done
+NewBlock: 0x1829770 0x10219030000
+mutable_data() 0x1829770 0x10219030000
+FreeBlock: 0x1829770 0x10219030000
+free done
+malloc done
+NewBlock: 0x18298d0 0x10219030000
+mutable_data() 0x18298d0 0x10219030000
+FreeBlock: 0x18298d0 0x10219030000
+free done
+mutable_data() 0x181dbb0 0x1021909fa00
+FreeBlock: 0x181dbb0 0x1021909fa00
+free done
+mutable_data() 0x181d5d0 0x10215f8e200
+FreeBlock: 0x181d5d0 0x10215f8e200
+free done
+data() 0x181f480 0x1021903be00
+mutable_data() 0x181f760 0x10219039e00
+FreeBlock: 0x181f760 0x10219039e00
+free done
+mutable_data() 0x181f480 0x1021903be00
+FreeBlock: 0x181f480 0x1021903be00
+free done
+mutable_data() 0x181fbe0 0x1021903ae00
+FreeBlock: 0x181fbe0 0x1021903ae00
+free done
+mutable_data() 0x1818e70 0x10219023200
+FreeBlock: 0x1818e70 0x10219023200
+free done
+mutable_data() 0x1825110 0x1021903c200
+FreeBlock: 0x1825110 0x1021903c200
+free done
+mutable_data() 0x18255d0 0x10215f5c200
+FreeBlock: 0x18255d0 0x10215f5c200
+free done
+mutable_data() 0x18267f0 0x1021903c400
+FreeBlock: 0x18267f0 0x1021903c400
+free done
+mutable_data() 0x1825d80 0x10215e94200
+FreeBlock: 0x1825d80 0x10215e94200
+free done
+mutable_data() 0x181bde0 0x1021903c600
+FreeBlock: 0x181bde0 0x1021903c600
+free done
+mutable_data() 0x181bd80 0x1021909d400
+FreeBlock: 0x181bd80 0x1021909d400
+free done
+malloc done
+NewBlock: 0x18267f0 0x10219030000
+mutable_data() 0x18267f0 0x10219030000
+FreeBlock: 0x18267f0 0x10219030000
+free done
+malloc done
+NewBlock: 0x18298d0 0x1021903c200
+mutable_data() 0x18298d0 0x1021903c200
+FreeBlock: 0x18298d0 0x1021903c200
+free done
+malloc done
+NewBlock: 0x18267f0 0x1021618c200
+mutable_data() 0x18267f0 0x1021618c200
+FreeBlock: 0x18267f0 0x1021618c200
+free done
+malloc done
+NewBlock: 0x18299c0 0x1021903c200
+mutable_data() 0x18299c0 0x1021903c200
+FreeBlock: 0x18299c0 0x1021903c200
+free done
+malloc done
+NewBlock: 0x18299c0 0x10218cf9200
+mutable_data() 0x18299c0 0x10218cf9200
+FreeBlock: 0x18299c0 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x1829a80 0x1021903c200
+mutable_data() 0x1829a80 0x1021903c200
+FreeBlock: 0x1829a80 0x1021903c200
+free done
+malloc done
+NewBlock: 0x1826780 0x10219087800
+mutable_data() 0x1826780 0x10219087800
+FreeBlock: 0x1826780 0x10219087800
+free done
+malloc done
+NewBlock: 0x1829c50 0x1021903c200
+mutable_data() 0x1829c50 0x1021903c200
+FreeBlock: 0x1829c50 0x1021903c200
+free done
+mutable_data() 0x1823f30 0x1021903c000
+FreeBlock: 0x1823f30 0x1021903c000
+free done
+data() 0xb850160 0x1020e000000
+mutable_data() 0x1828110 0x1021902d800
+data() 0x18fb4c0 0x10219037000
+mutable_data() 0x18fb4c0 0x10219037000
+data() 0x1828110 0x1021902d800
+mutable_data() 0x18fb4c0 0x10219037000
+data() 0xb850160 0x1020e000000
+data() 0x18fb4c0 0x10219037000
+mutable_data() 0xb850160 0x1020e000000
+data() 0x18fade0 0x10219039600
+mutable_data() 0x18fade0 0x10219039600
+data() 0x1828e90 0x1021902fe00
+mutable_data() 0x18fade0 0x10219039600
+data() 0x17fee90 0x1020e002600
+data() 0x18fade0 0x10219039600
+mutable_data() 0x17fee90 0x1020e002600
+data() 0x17fccd0 0x1020e002800
+mutable_data() 0x181e530 0x1021906e800
+data() 0x18fc090 0x10218cae200
+mutable_data() 0x18fc090 0x10218cae200
+data() 0x181e530 0x1021906e800
+mutable_data() 0x18fc090 0x10218cae200
+data() 0x17fccd0 0x1020e002800
+data() 0x18fc090 0x10218cae200
+mutable_data() 0x17fccd0 0x1020e002800
+data() 0x18179c0 0x10219039800
+mutable_data() 0x18179c0 0x10219039800
+data() 0x1821520 0x1021902d600
+mutable_data() 0x18179c0 0x10219039800
+data() 0x17fc7b0 0x1020e01b800
+data() 0x18179c0 0x10219039800
+mutable_data() 0x17fc7b0 0x1020e01b800
+data() 0xba3c010 0x1020e01ba00
+mutable_data() 0x181ed20 0x1021903c800
+data() 0x1817e00 0x10218cc7200
+mutable_data() 0x1817e00 0x10218cc7200
+data() 0x181ed20 0x1021903c800
+mutable_data() 0x1817e00 0x10218cc7200
+data() 0xba3c010 0x1020e01ba00
+data() 0x1817e00 0x10218cc7200
+mutable_data() 0xba3c010 0x1020e01ba00
+data() 0x18fc1b0 0x10219039a00
+mutable_data() 0x18fc1b0 0x10219039a00
+data() 0x18228e0 0x1021902d400
+mutable_data() 0x18fc1b0 0x10219039a00
+data() 0x17cf450 0x1020e04da00
+data() 0x18fc1b0 0x10219039a00
+mutable_data() 0x17cf450 0x1020e04da00
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x1822300 0x10216182200
+data() 0x1817770 0x10219093400
+mutable_data() 0x1817770 0x10219093400
+data() 0x1822300 0x10216182200
+mutable_data() 0x1817770 0x10219093400
+data() 0x7f82bf309840 0x1020e04dc00
+data() 0x1817770 0x10219093400
+mutable_data() 0x7f82bf309840 0x1020e04dc00
+data() 0x1818010 0x10219039c00
+mutable_data() 0x1818010 0x10219039c00
+data() 0x1822330 0x1021902d200
+mutable_data() 0x1818010 0x10219039c00
+data() 0xb9217c0 0x1020e057c00
+data() 0x1818010 0x10219039c00
+mutable_data() 0xb9217c0 0x1020e057c00
+start of iteration 3:  0.4% training loss = 2.302588, accuracy = 0.080000
+mutable_data() 0x1767670 0x1020e057e00
+mutable_data() 0x1766fb0 0x1020e183e00
+malloc done
+NewBlock: 0x181b360 0x10214bd4200
+mutable_data() 0x181b360 0x10214bd4200
+mutable_data() 0x1768160 0x1020e184000
+data() 0xb850160 0x1020e000000
+data() 0x1767670 0x1020e057e00
+mutable_data() 0x181b360 0x10214bd4200
+data() 0x17fee90 0x1020e002600
+malloc done
+NewBlock: 0x182a9a0 0x1021909d400
+mutable_data() 0x182a9a0 0x1021909d400
+FreeBlock: 0x182a9a0 0x1021909d400
+free done
+data() 0x181b360 0x10214bd4200
+-->conv1: 0.073260
+malloc done
+NewBlock: 0x182a550 0x10218cf9200
+mutable_data() 0x182a550 0x10218cf9200
+data() 0x181b360 0x10214bd4200
+malloc done
+NewBlock: 0x182ad40 0x102184dd400
+mutable_data() 0x182ad40 0x102184dd400
+FreeBlock: 0x182ad40 0x102184dd400
+free done
+data() 0x182a550 0x10218cf9200
+conv1-->pool1: 0.077450
+malloc done
+NewBlock: 0x182a580 0x102184dd400
+mutable_data() 0x182a580 0x102184dd400
+data() 0x182a550 0x10218cf9200
+malloc done
+NewBlock: 0x182afa0 0x102187fd400
+mutable_data() 0x182afa0 0x102187fd400
+FreeBlock: 0x182afa0 0x102187fd400
+free done
+data() 0x182a580 0x102184dd400
+pool1-->relu1: 0.056244
+malloc done
+NewBlock: 0x182af70 0x102187fd400
+mutable_data() 0x182af70 0x102187fd400
+data() 0x182a580 0x102184dd400
+malloc done
+NewBlock: 0x182a2d0 0x10215854200
+mutable_data() 0x182a2d0 0x10215854200
+FreeBlock: 0x182a2d0 0x10215854200
+free done
+data() 0x182af70 0x102187fd400
+relu1-->lrn1: 0.056244
+malloc done
+NewBlock: 0x182a330 0x10215854200
+mutable_data() 0x182a330 0x10215854200
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x17fccd0 0x1020e002800
+data() 0x182af70 0x102187fd400
+mutable_data() 0x182a330 0x10215854200
+data() 0x17fc7b0 0x1020e01b800
+malloc done
+NewBlock: 0x182aa40 0x10215b74200
+mutable_data() 0x182aa40 0x10215b74200
+FreeBlock: 0x182aa40 0x10215b74200
+free done
+data() 0x182a330 0x10215854200
+lrn1-->conv2: 0.017368
+malloc done
+NewBlock: 0x182a360 0x10215b74200
+mutable_data() 0x182a360 0x10215b74200
+data() 0x182a330 0x10215854200
+malloc done
+NewBlock: 0x182b9c0 0x1021909d400
+mutable_data() 0x182b9c0 0x1021909d400
+FreeBlock: 0x182b9c0 0x1021909d400
+free done
+data() 0x182a360 0x10215b74200
+conv2-->relu2: 0.008449
+malloc done
+NewBlock: 0x182b9c0 0x10218b1d400
+mutable_data() 0x182b9c0 0x10218b1d400
+data() 0x182a360 0x10215b74200
+malloc done
+NewBlock: 0x182bab0 0x10218be5400
+mutable_data() 0x182bab0 0x10218be5400
+FreeBlock: 0x182bab0 0x10218be5400
+free done
+data() 0x182b9c0 0x10218b1d400
+relu2-->pool2: 0.008546
+malloc done
+NewBlock: 0x182ba50 0x10218be5400
+mutable_data() 0x182ba50 0x10218be5400
+data() 0x182b9c0 0x10218b1d400
+malloc done
+NewBlock: 0x182b840 0x10215e94200
+mutable_data() 0x182b840 0x10215e94200
+FreeBlock: 0x182b840 0x10215e94200
+free done
+data() 0x182ba50 0x10218be5400
+pool2-->lrn2: 0.008546
+malloc done
+NewBlock: 0x182b8a0 0x10215e94200
+mutable_data() 0x182b8a0 0x10215e94200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0xba3c010 0x1020e01ba00
+data() 0x182ba50 0x10218be5400
+mutable_data() 0x182b8a0 0x10215e94200
+data() 0x17cf450 0x1020e04da00
+malloc done
+NewBlock: 0x182c370 0x1021909d400
+mutable_data() 0x182c370 0x1021909d400
+FreeBlock: 0x182c370 0x1021909d400
+free done
+data() 0x182b8a0 0x10215e94200
+lrn2-->conv3: 0.002900
+malloc done
+NewBlock: 0x182b8d0 0x1021909d400
+mutable_data() 0x182b8d0 0x1021909d400
+data() 0x182b8a0 0x10215e94200
+malloc done
+NewBlock: 0x182c6d0 0x1021922d400
+mutable_data() 0x182c6d0 0x1021922d400
+FreeBlock: 0x182c6d0 0x1021922d400
+free done
+data() 0x182b8d0 0x1021909d400
+conv3-->relu3: 0.001512
+malloc done
+NewBlock: 0x182c6d0 0x10216024200
+mutable_data() 0x182c6d0 0x10216024200
+data() 0x182b8d0 0x1021909d400
+malloc done
+NewBlock: 0x182c9c0 0x10216088200
+mutable_data() 0x182c9c0 0x10216088200
+FreeBlock: 0x182c9c0 0x10216088200
+free done
+data() 0x182c6d0 0x10216024200
+relu3-->pool3: 0.001516
+malloc done
+NewBlock: 0x182ca20 0x10216088200
+mutable_data() 0x182ca20 0x10216088200
+FreeBlock: 0x182ca20 0x10216088200
+free done
+data() 0x182c6d0 0x10216024200
+pool3-->flat: 0.001516
+malloc done
+NewBlock: 0x182c760 0x10219039e00
+data() 0x182c6d0 0x10216024200
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x182c760 0x10219039e00
+malloc done
+NewBlock: 0x182c190 0x1021903ae00
+mutable_data() 0x182c190 0x1021903ae00
+data() 0x182c190 0x1021903ae00
+data() 0xb9217c0 0x1020e057c00
+mutable_data() 0x182c760 0x10219039e00
+mutable_data() 0x182c190 0x1021903ae00
+FreeBlock: 0x182c190 0x1021903ae00
+free done
+malloc done
+NewBlock: 0x182cbe0 0x1021903ae00
+mutable_data() 0x182cbe0 0x1021903ae00
+FreeBlock: 0x182cbe0 0x1021903ae00
+free done
+data() 0x182c760 0x10219039e00
+flat-->dense: 0.000573
+malloc done
+NewBlock: 0x182cbe0 0x1021903ae00
+data() 0x182c760 0x10219039e00
+mutable_data() 0x182cbe0 0x1021903ae00
+malloc done
+NewBlock: 0x182c450 0x1021903be00
+data() 0x182cbe0 0x1021903ae00
+mutable_data() 0x182c450 0x1021903be00
+malloc done
+NewBlock: 0x182c4e0 0x1021903c000
+mutable_data() 0x182c4e0 0x1021903c000
+data() 0x182c450 0x1021903be00
+data() 0x182c4e0 0x1021903c000
+mutable_data() 0x182cbe0 0x1021903ae00
+mutable_data() 0x182c4e0 0x1021903c000
+FreeBlock: 0x182c4e0 0x1021903c000
+free done
+data() 0x182cbe0 0x1021903ae00
+mutable_data() 0x182cbe0 0x1021903ae00
+malloc done
+NewBlock: 0x182c4e0 0x1021903c000
+mutable_data() 0x182c4e0 0x1021903c000
+data() 0x182cbe0 0x1021903ae00
+data() 0x182c4e0 0x1021903c000
+mutable_data() 0x182c450 0x1021903be00
+mutable_data() 0x182c4e0 0x1021903c000
+FreeBlock: 0x182c4e0 0x1021903c000
+free done
+malloc done
+NewBlock: 0x182c4e0 0x1021903c000
+data() 0x182c450 0x1021903be00
+mutable_data() 0x182c4e0 0x1021903c000
+data() 0x182cbe0 0x1021903ae00
+data() 0x182c4e0 0x1021903c000
+mutable_data() 0x182cbe0 0x1021903ae00
+mutable_data() 0x182c4e0 0x1021903c000
+FreeBlock: 0x182c4e0 0x1021903c000
+free done
+mutable_data() 0x182c450 0x1021903be00
+FreeBlock: 0x182c450 0x1021903be00
+free done
+malloc done
+NewBlock: 0x182c450 0x1021903be00
+data() 0x182cbe0 0x1021903ae00
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x182c450 0x1021903be00
+malloc done
+NewBlock: 0x182d2f0 0x1021903c000
+mutable_data() 0x182d2f0 0x1021903c000
+FreeBlock: 0x182d2f0 0x1021903c000
+free done
+data() 0x182cbe0 0x1021903ae00
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x182cbe0 0x1021903ae00
+malloc done
+NewBlock: 0x182d350 0x10219030000
+mutable_data() 0x182d350 0x10219030000
+FreeBlock: 0x182d350 0x10219030000
+free done
+data() 0x182cbe0 0x1021903ae00
+mutable_data() 0x182cbe0 0x1021903ae00
+NewBlock: 0x182d2f0 0x182dc30
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x182d2f0 0x182dc30
+data() 0x182d2f0 0x182dc30
+NewBlock: 0x182d350 0x182e120
+data() 0x182c760 0x10219039e00
+mutable_data() 0x182d350 0x182e120
+data() 0x182d350 0x182e120
+NewBlock: 0x182f2e0 0x182bed0
+mutable_data() 0x182f2e0 0x182bed0
+mutable_data() 0x182d350 0x182e120
+FreeBlock: 0x182d350 0x182e120
+mutable_data() 0x182d2f0 0x182dc30
+FreeBlock: 0x182d2f0 0x182dc30
+NewBlock: 0x182f310 0x182dc30
+mutable_data() 0x182f310 0x182dc30
+data() 0x182f2e0 0x182bed0
+data() 0x182f310 0x182dc30
+mutable_data() 0x182f310 0x182dc30
+FreeBlock: 0x182f310 0x182dc30
+mutable_data() 0x182f2e0 0x182bed0
+FreeBlock: 0x182f2e0 0x182bed0
+malloc done
+NewBlock: 0x182f2e0 0x10219087800
+malloc done
+NewBlock: 0x182d350 0x10216088200
+malloc done
+NewBlock: 0x182dfe0 0x1021903c000
+malloc done
+NewBlock: 0x182e070 0x1021903c200
+mutable_data() 0x182e070 0x1021903c200
+data() 0x182cbe0 0x1021903ae00
+data() 0x182e070 0x1021903c200
+mutable_data() 0x182dfe0 0x1021903c000
+mutable_data() 0x182e070 0x1021903c200
+FreeBlock: 0x182e070 0x1021903c200
+free done
+malloc done
+NewBlock: 0x182e070 0x102160ec200
+data() 0x182cbe0 0x1021903ae00
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x182e070 0x102160ec200
+mutable_data() 0x182d350 0x10216088200
+FreeBlock: 0x182d350 0x10216088200
+free done
+malloc done
+NewBlock: 0x182d350 0x10219019200
+data() 0x182c6d0 0x10216024200
+data() 0x182cbe0 0x1021903ae00
+mutable_data() 0x182d350 0x10219019200
+mutable_data() 0x182f2e0 0x10219087800
+FreeBlock: 0x182f2e0 0x10219087800
+free done
+malloc done
+NewBlock: 0x182f2e0 0x10216088200
+mutable_data() 0x182f2e0 0x10216088200
+FreeBlock: 0x182f2e0 0x10216088200
+free done
+malloc done
+NewBlock: 0x182fce0 0x10219023200
+mutable_data() 0x182fce0 0x10219023200
+FreeBlock: 0x182fce0 0x10219023200
+free done
+malloc done
+NewBlock: 0x182f500 0x1021903c200
+mutable_data() 0x182f500 0x1021903c200
+FreeBlock: 0x182f500 0x1021903c200
+free done
+data() 0x182e070 0x102160ec200
+-->dense: 0.000075
+malloc done
+NewBlock: 0x182fbf0 0x10219023200
+mutable_data() 0x182fbf0 0x10219023200
+FreeBlock: 0x182fbf0 0x10219023200
+free done
+malloc done
+NewBlock: 0x182fdf0 0x1021903c200
+mutable_data() 0x182fdf0 0x1021903c200
+FreeBlock: 0x182fdf0 0x1021903c200
+gc, GC and vec_len before test: 2099 -1 2099
+size of vec_pieceMsg and vec_block are: 2099 2099
+rep size: 2099
+maxLen and location are: 9 36
+test rep
+shift_counter is 0
+location changed to 36
+free done
+malloc done
+NewBlock: 0x182f3a0 0x10216088200
+mutable_data() 0x182f3a0 0x10216088200
+FreeBlock: 0x182f3a0 0x10216088200
+free done
+data() 0x182e070 0x102160ec200
+dense-->flat: 0.000075
+malloc done
+NewBlock: 0x182ffa0 0x1021922d400
+mutable_data() 0x182ffa0 0x1021922d400
+data() 0x182b8d0 0x1021909d400
+data() 0x182e070 0x102160ec200
+data() 0x182c6d0 0x10216024200
+mutable_data() 0x182b8d0 0x1021909d400
+FreeBlock: 0x182b8d0 0x1021909d400
+free done
+mutable_data() 0x182c6d0 0x10216024200
+FreeBlock: 0x182c6d0 0x10216024200
+free done
+malloc done
+NewBlock: 0x182c6d0 0x1021909d400
+mutable_data() 0x182c6d0 0x1021909d400
+FreeBlock: 0x182c6d0 0x1021909d400
+free done
+data() 0x182ffa0 0x1021922d400
+flat-->pool3: 0.000013
+mutable_data() 0x182e070 0x102160ec200
+FreeBlock: 0x182e070 0x102160ec200
+free done
+malloc done
+NewBlock: 0x182c370 0x1021909d400
+mutable_data() 0x182c370 0x1021909d400
+data() 0x182b8a0 0x10215e94200
+data() 0x182ffa0 0x1021922d400
+data() 0x182b8a0 0x10215e94200
+mutable_data() 0x182b8a0 0x10215e94200
+FreeBlock: 0x182b8a0 0x10215e94200
+free done
+malloc done
+NewBlock: 0x182b8a0 0x10215e94200
+mutable_data() 0x182b8a0 0x10215e94200
+FreeBlock: 0x182b8a0 0x10215e94200
+free done
+data() 0x182c370 0x1021909d400
+pool3-->relu3: 0.000007
+mutable_data() 0x182ffa0 0x1021922d400
+FreeBlock: 0x182ffa0 0x1021922d400
+free done
+malloc done
+NewBlock: 0x182c730 0x10215e94200
+malloc done
+NewBlock: 0x182e2d0 0x10215f5c200
+malloc done
+NewBlock: 0x182feb0 0x1021903c200
+mutable_data() 0x182feb0 0x1021903c200
+data() 0x182c370 0x1021909d400
+mutable_data() 0x182e2d0 0x10215f5c200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x182c370 0x1021909d400
+data() 0x182ba50 0x10218be5400
+mutable_data() 0x182c730 0x10215e94200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x182c370 0x1021909d400
+data() 0xba3c010 0x1020e01ba00
+malloc done
+NewBlock: 0x1830150 0x10215f8e200
+mutable_data() 0x1830150 0x10215f8e200
+FreeBlock: 0x1830150 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x182b330 0x10215f8e200
+mutable_data() 0x182b330 0x10215f8e200
+FreeBlock: 0x182b330 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x182f950 0x1021903c400
+mutable_data() 0x182f950 0x1021903c400
+FreeBlock: 0x182f950 0x1021903c400
+free done
+data() 0x182c730 0x10215e94200
+relu3-->conv3: 0.000003
+malloc done
+NewBlock: 0x182ebf0 0x10215f8e200
+mutable_data() 0x182ebf0 0x10215f8e200
+FreeBlock: 0x182ebf0 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x182ed80 0x1021903c400
+mutable_data() 0x182ed80 0x1021903c400
+FreeBlock: 0x182ed80 0x1021903c400
+free done
+mutable_data() 0x182c370 0x1021909d400
+FreeBlock: 0x182c370 0x1021909d400
+free done
+malloc done
+NewBlock: 0x182b090 0x10215f8e200
+mutable_data() 0x182b090 0x10215f8e200
+data() 0x182b9c0 0x10218b1d400
+data() 0x182c730 0x10215e94200
+data() 0x182ba50 0x10218be5400
+mutable_data() 0x182ba50 0x10218be5400
+FreeBlock: 0x182ba50 0x10218be5400
+free done
+malloc done
+NewBlock: 0x182bd80 0x10218be5400
+mutable_data() 0x182bd80 0x10218be5400
+FreeBlock: 0x182bd80 0x10218be5400
+free done
+data() 0x182b090 0x10215f8e200
+conv3-->lrn2: 0.000003
+mutable_data() 0x182c730 0x10215e94200
+FreeBlock: 0x182c730 0x10215e94200
+free done
+malloc done
+NewBlock: 0x1830150 0x1021909d400
+mutable_data() 0x1830150 0x1021909d400
+data() 0x182a360 0x10215b74200
+data() 0x182b090 0x10215f8e200
+data() 0x182b9c0 0x10218b1d400
+mutable_data() 0x182a360 0x10215b74200
+FreeBlock: 0x182a360 0x10215b74200
+free done
+mutable_data() 0x182b9c0 0x10218b1d400
+FreeBlock: 0x182b9c0 0x10218b1d400
+free done
+malloc done
+NewBlock: 0x182ba80 0x10215b74200
+mutable_data() 0x182ba80 0x10215b74200
+FreeBlock: 0x182ba80 0x10215b74200
+free done
+data() 0x1830150 0x1021909d400
+lrn2-->pool2: 0.000001
+mutable_data() 0x182b090 0x10215f8e200
+FreeBlock: 0x182b090 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x182bab0 0x10215b74200
+mutable_data() 0x182bab0 0x10215b74200
+data() 0x182a330 0x10215854200
+data() 0x1830150 0x1021909d400
+data() 0x182a330 0x10215854200
+mutable_data() 0x182a330 0x10215854200
+FreeBlock: 0x182a330 0x10215854200
+free done
+malloc done
+NewBlock: 0x182ee60 0x10215854200
+mutable_data() 0x182ee60 0x10215854200
+FreeBlock: 0x182ee60 0x10215854200
+free done
+data() 0x182bab0 0x10215b74200
+pool2-->relu2: 0.000000
+mutable_data() 0x1830150 0x1021909d400
+FreeBlock: 0x1830150 0x1021909d400
+free done
+malloc done
+NewBlock: 0x182a5e0 0x10215854200
+malloc done
+NewBlock: 0x7f82be827b90 0x1021618c200
+malloc done
+NewBlock: 0x182f050 0x1021903c400
+mutable_data() 0x182f050 0x1021903c400
+data() 0x182bab0 0x10215b74200
+mutable_data() 0x7f82be827b90 0x1021618c200
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x182bab0 0x10215b74200
+data() 0x182af70 0x102187fd400
+mutable_data() 0x182a5e0 0x10215854200
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x182bab0 0x10215b74200
+data() 0x17fccd0 0x1020e002800
+malloc done
+NewBlock: 0x182ea60 0x1021909d400
+mutable_data() 0x182ea60 0x1021909d400
+FreeBlock: 0x182ea60 0x1021909d400
+free done
+malloc done
+NewBlock: 0x182ab60 0x10215e94200
+mutable_data() 0x182ab60 0x10215e94200
+FreeBlock: 0x182ab60 0x10215e94200
+free done
+malloc done
+NewBlock: 0x7f82be828890 0x1021903c600
+mutable_data() 0x7f82be828890 0x1021903c600
+FreeBlock: 0x7f82be828890 0x1021903c600
+free done
+data() 0x182a5e0 0x10215854200
+relu2-->conv2: 0.000000
+malloc done
+NewBlock: 0x7f82be828c30 0x10215e94200
+mutable_data() 0x7f82be828c30 0x10215e94200
+FreeBlock: 0x7f82be828c30 0x10215e94200
+free done
+malloc done
+NewBlock: 0x7f82be828c60 0x1021903c600
+mutable_data() 0x7f82be828c60 0x1021903c600
+FreeBlock: 0x7f82be828c60 0x1021903c600
+free done
+mutable_data() 0x182bab0 0x10215b74200
+FreeBlock: 0x182bab0 0x10215b74200
+free done
+malloc done
+NewBlock: 0x182aa40 0x10215b74200
+mutable_data() 0x182aa40 0x10215b74200
+data() 0x182a580 0x102184dd400
+data() 0x182a5e0 0x10215854200
+data() 0x182af70 0x102187fd400
+mutable_data() 0x182a580 0x102184dd400
+FreeBlock: 0x182a580 0x102184dd400
+free done
+mutable_data() 0x182af70 0x102187fd400
+FreeBlock: 0x182af70 0x102187fd400
+free done
+malloc done
+NewBlock: 0x182af70 0x102184dd400
+mutable_data() 0x182af70 0x102184dd400
+FreeBlock: 0x182af70 0x102184dd400
+free done
+data() 0x182aa40 0x10215b74200
+conv2-->lrn1: 0.000000
+mutable_data() 0x182a5e0 0x10215854200
+FreeBlock: 0x182a5e0 0x10215854200
+free done
+malloc done
+NewBlock: 0x182ad40 0x10215854200
+mutable_data() 0x182ad40 0x10215854200
+data() 0x182a550 0x10218cf9200
+data() 0x182aa40 0x10215b74200
+data() 0x182a550 0x10218cf9200
+malloc done
+NewBlock: 0x182f0b0 0x102184dd400
+mutable_data() 0x182f0b0 0x102184dd400
+FreeBlock: 0x182f0b0 0x102184dd400
+free done
+data() 0x182ad40 0x10215854200
+lrn1-->relu1: 0.000000
+mutable_data() 0x182aa40 0x10215b74200
+FreeBlock: 0x182aa40 0x10215b74200
+free done
+malloc done
+NewBlock: 0x182b000 0x1021909d400
+mutable_data() 0x182b000 0x1021909d400
+data() 0x181b360 0x10214bd4200
+data() 0x182ad40 0x10215854200
+data() 0x182a550 0x10218cf9200
+mutable_data() 0x181b360 0x10214bd4200
+FreeBlock: 0x181b360 0x10214bd4200
+free done
+mutable_data() 0x182a550 0x10218cf9200
+FreeBlock: 0x182a550 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x182a550 0x10214bd4200
+mutable_data() 0x182a550 0x10214bd4200
+FreeBlock: 0x182a550 0x10214bd4200
+free done
+data() 0x182b000 0x1021909d400
+relu1-->pool1: 0.000000
+mutable_data() 0x182ad40 0x10215854200
+FreeBlock: 0x182ad40 0x10215854200
+free done
+malloc done
+NewBlock: 0x182a2d0 0x10215f8e200
+malloc done
+NewBlock: 0x7f82be8295f0 0x10219030000
+malloc done
+NewBlock: 0x7f82be829a90 0x1021903c600
+mutable_data() 0x7f82be829a90 0x1021903c600
+data() 0x182b000 0x1021909d400
+mutable_data() 0x7f82be8295f0 0x10219030000
+mutable_data() 0x1768160 0x1020e184000
+data() 0x182b000 0x1021909d400
+data() 0x1767670 0x1020e057e00
+mutable_data() 0x182a2d0 0x10215f8e200
+mutable_data() 0x1768160 0x1020e184000
+data() 0x182b000 0x1021909d400
+data() 0xb850160 0x1020e000000
+malloc done
+NewBlock: 0x7f82be8291d0 0x10218cf9200
+mutable_data() 0x7f82be8291d0 0x10218cf9200
+FreeBlock: 0x7f82be8291d0 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x7f82be82a000 0x10219032600
+mutable_data() 0x7f82be82a000 0x10219032600
+FreeBlock: 0x7f82be82a000 0x10219032600
+free done
+malloc done
+NewBlock: 0x7f82be829eb0 0x10219032600
+mutable_data() 0x7f82be829eb0 0x10219032600
+FreeBlock: 0x7f82be829eb0 0x10219032600
+free done
+data() 0x182a2d0 0x10215f8e200
+pool1-->conv1: 0.000000
+malloc done
+NewBlock: 0x7f82be82a0b0 0x10219032600
+mutable_data() 0x7f82be82a0b0 0x10219032600
+FreeBlock: 0x7f82be82a0b0 0x10219032600
+free done
+malloc done
+NewBlock: 0x7f82be82a1a0 0x10219032600
+mutable_data() 0x7f82be82a1a0 0x10219032600
+FreeBlock: 0x7f82be82a1a0 0x10219032600
+free done
+mutable_data() 0x182b000 0x1021909d400
+FreeBlock: 0x182b000 0x1021909d400
+free done
+mutable_data() 0x182a2d0 0x10215f8e200
+FreeBlock: 0x182a2d0 0x10215f8e200
+free done
+data() 0x182c450 0x1021903be00
+mutable_data() 0x182c760 0x10219039e00
+FreeBlock: 0x182c760 0x10219039e00
+free done
+mutable_data() 0x182c450 0x1021903be00
+FreeBlock: 0x182c450 0x1021903be00
+free done
+mutable_data() 0x182cbe0 0x1021903ae00
+FreeBlock: 0x182cbe0 0x1021903ae00
+free done
+mutable_data() 0x1822300 0x10216182200
+FreeBlock: 0x1822300 0x10216182200
+free done
+mutable_data() 0x18228e0 0x1021902d400
+FreeBlock: 0x18228e0 0x1021902d400
+free done
+mutable_data() 0x181ed20 0x1021903c800
+FreeBlock: 0x181ed20 0x1021903c800
+free done
+mutable_data() 0x1821520 0x1021902d600
+FreeBlock: 0x1821520 0x1021902d600
+free done
+mutable_data() 0x181e530 0x1021906e800
+FreeBlock: 0x181e530 0x1021906e800
+free done
+mutable_data() 0x1828e90 0x1021902fe00
+FreeBlock: 0x1828e90 0x1021902fe00
+free done
+mutable_data() 0x1828110 0x1021902d800
+FreeBlock: 0x1828110 0x1021902d800
+free done
+malloc done
+NewBlock: 0x1828e90 0x1021902d400
+mutable_data() 0x1828e90 0x1021902d400
+FreeBlock: 0x1828e90 0x1021902d400
+free done
+malloc done
+NewBlock: 0x7f82be829c30 0x10219039e00
+mutable_data() 0x7f82be829c30 0x10219039e00
+FreeBlock: 0x7f82be829c30 0x10219039e00
+free done
+malloc done
+NewBlock: 0x7f82be827ff0 0x1021903c800
+mutable_data() 0x7f82be827ff0 0x1021903c800
+FreeBlock: 0x7f82be827ff0 0x1021903c800
+free done
+malloc done
+NewBlock: 0x7f82be828050 0x10219039e00
+mutable_data() 0x7f82be828050 0x10219039e00
+FreeBlock: 0x7f82be828050 0x10219039e00
+free done
+malloc done
+NewBlock: 0x7f82be828020 0x1021903c800
+mutable_data() 0x7f82be828020 0x1021903c800
+FreeBlock: 0x7f82be828020 0x1021903c800
+free done
+malloc done
+NewBlock: 0x7f82be829da0 0x10219039e00
+mutable_data() 0x7f82be829da0 0x10219039e00
+FreeBlock: 0x7f82be829da0 0x10219039e00
+free done
+malloc done
+NewBlock: 0x7f82be827ff0 0x10219023200
+mutable_data() 0x7f82be827ff0 0x10219023200
+FreeBlock: 0x7f82be827ff0 0x10219023200
+gc, GC and vec_len before test: 2399 -1 2399
+size of vec_pieceMsg and vec_block are: 2399 2399
+rep size: 2399
+maxLen and location are: 9 36
+test rep
+shift_counter is 0
+location changed to 36
+free done
+malloc done
+NewBlock: 0x1818420 0x10219039e00
+mutable_data() 0x1818420 0x10219039e00
+FreeBlock: 0x1818420 0x10219039e00
+free done
+mutable_data() 0x1822330 0x1021902d200
+FreeBlock: 0x1822330 0x1021902d200
+free done
+data() 0xb850160 0x1020e000000
+mutable_data() 0x7f82be8295f0 0x10219030000
+data() 0x18fb4c0 0x10219037000
+mutable_data() 0x18fb4c0 0x10219037000
+data() 0x7f82be8295f0 0x10219030000
+mutable_data() 0x18fb4c0 0x10219037000
+data() 0xb850160 0x1020e000000
+data() 0x18fb4c0 0x10219037000
+mutable_data() 0xb850160 0x1020e000000
+data() 0x18fade0 0x10219039600
+mutable_data() 0x18fade0 0x10219039600
+data() 0x7f82be829a90 0x1021903c600
+mutable_data() 0x18fade0 0x10219039600
+data() 0x17fee90 0x1020e002600
+data() 0x18fade0 0x10219039600
+mutable_data() 0x17fee90 0x1020e002600
+data() 0x17fccd0 0x1020e002800
+mutable_data() 0x7f82be827b90 0x1021618c200
+data() 0x18fc090 0x10218cae200
+mutable_data() 0x18fc090 0x10218cae200
+data() 0x7f82be827b90 0x1021618c200
+mutable_data() 0x18fc090 0x10218cae200
+data() 0x17fccd0 0x1020e002800
+data() 0x18fc090 0x10218cae200
+mutable_data() 0x17fccd0 0x1020e002800
+data() 0x18179c0 0x10219039800
+mutable_data() 0x18179c0 0x10219039800
+data() 0x182f050 0x1021903c400
+mutable_data() 0x18179c0 0x10219039800
+data() 0x17fc7b0 0x1020e01b800
+data() 0x18179c0 0x10219039800
+mutable_data() 0x17fc7b0 0x1020e01b800
+data() 0xba3c010 0x1020e01ba00
+mutable_data() 0x182e2d0 0x10215f5c200
+data() 0x1817e00 0x10218cc7200
+mutable_data() 0x1817e00 0x10218cc7200
+data() 0x182e2d0 0x10215f5c200
+mutable_data() 0x1817e00 0x10218cc7200
+data() 0xba3c010 0x1020e01ba00
+data() 0x1817e00 0x10218cc7200
+mutable_data() 0xba3c010 0x1020e01ba00
+data() 0x18fc1b0 0x10219039a00
+mutable_data() 0x18fc1b0 0x10219039a00
+data() 0x182feb0 0x1021903c200
+mutable_data() 0x18fc1b0 0x10219039a00
+data() 0x17cf450 0x1020e04da00
+data() 0x18fc1b0 0x10219039a00
+mutable_data() 0x17cf450 0x1020e04da00
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x182d350 0x10219019200
+data() 0x1817770 0x10219093400
+mutable_data() 0x1817770 0x10219093400
+data() 0x182d350 0x10219019200
+mutable_data() 0x1817770 0x10219093400
+data() 0x7f82bf309840 0x1020e04dc00
+data() 0x1817770 0x10219093400
+mutable_data() 0x7f82bf309840 0x1020e04dc00
+data() 0x1818010 0x10219039c00
+mutable_data() 0x1818010 0x10219039c00
+data() 0x182dfe0 0x1021903c000
+mutable_data() 0x1818010 0x10219039c00
+data() 0xb9217c0 0x1020e057c00
+data() 0x1818010 0x10219039c00
+mutable_data() 0xb9217c0 0x1020e057c00
+start of iteration 4:  0.6% training loss = 2.302495, accuracy = 0.120000
+mutable_data() 0x1767670 0x1020e057e00
+mutable_data() 0x1766fb0 0x1020e183e00
+malloc done
+NewBlock: 0x7f82be829be0 0x10214bd4200
+mutable_data() 0x7f82be829be0 0x10214bd4200
+mutable_data() 0x1768160 0x1020e184000
+data() 0xb850160 0x1020e000000
+data() 0x1767670 0x1020e057e00
+mutable_data() 0x7f82be829be0 0x10214bd4200
+data() 0x17fee90 0x1020e002600
+malloc done
+NewBlock: 0x7f82be82ada0 0x1021909d400
+mutable_data() 0x7f82be82ada0 0x1021909d400
+FreeBlock: 0x7f82be82ada0 0x1021909d400
+free done
+data() 0x7f82be829be0 0x10214bd4200
+-->conv1: 0.095578
+malloc done
+NewBlock: 0x7f82be82b6d0 0x10218cf9200
+mutable_data() 0x7f82be82b6d0 0x10218cf9200
+data() 0x7f82be829be0 0x10214bd4200
+malloc done
+NewBlock: 0x7f82be82b390 0x10215854200
+mutable_data() 0x7f82be82b390 0x10215854200
+FreeBlock: 0x7f82be82b390 0x10215854200
+free done
+data() 0x7f82be82b6d0 0x10218cf9200
+conv1-->pool1: 0.099400
+malloc done
+NewBlock: 0x7f82be82b280 0x10215854200
+mutable_data() 0x7f82be82b280 0x10215854200
+data() 0x7f82be82b6d0 0x10218cf9200
+malloc done
+NewBlock: 0x7f82be82b980 0x10215b74200
+mutable_data() 0x7f82be82b980 0x10215b74200
+FreeBlock: 0x7f82be82b980 0x10215b74200
+free done
+data() 0x7f82be82b280 0x10215854200
+pool1-->relu1: 0.068771
+malloc done
+NewBlock: 0x7f82be82b980 0x10215b74200
+mutable_data() 0x7f82be82b980 0x10215b74200
+data() 0x7f82be82b280 0x10215854200
+malloc done
+NewBlock: 0x7f82be82bd80 0x102184dd400
+mutable_data() 0x7f82be82bd80 0x102184dd400
+FreeBlock: 0x7f82be82bd80 0x102184dd400
+free done
+data() 0x7f82be82b980 0x10215b74200
+relu1-->lrn1: 0.068771
+malloc done
+NewBlock: 0x7f82be82b740 0x102184dd400
+mutable_data() 0x7f82be82b740 0x102184dd400
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x17fccd0 0x1020e002800
+data() 0x7f82be82b980 0x10215b74200
+mutable_data() 0x7f82be82b740 0x102184dd400
+data() 0x17fc7b0 0x1020e01b800
+malloc done
+NewBlock: 0x7f82be82b5c0 0x102187fd400
+mutable_data() 0x7f82be82b5c0 0x102187fd400
+FreeBlock: 0x7f82be82b5c0 0x102187fd400
+free done
+data() 0x7f82be82b740 0x102184dd400
+lrn1-->conv2: 0.022606
+malloc done
+NewBlock: 0x7f82be82c3d0 0x102187fd400
+mutable_data() 0x7f82be82c3d0 0x102187fd400
+data() 0x7f82be82b740 0x102184dd400
+malloc done
+NewBlock: 0x7f82be82c230 0x1021909d400
+mutable_data() 0x7f82be82c230 0x1021909d400
+FreeBlock: 0x7f82be82c230 0x1021909d400
+free done
+data() 0x7f82be82c3d0 0x102187fd400
+conv2-->relu2: 0.010743
+malloc done
+NewBlock: 0x7f82be82c230 0x10215e94200
+mutable_data() 0x7f82be82c230 0x10215e94200
+data() 0x7f82be82c3d0 0x102187fd400
+malloc done
+NewBlock: 0x7f82be82c750 0x10218b1d400
+mutable_data() 0x7f82be82c750 0x10218b1d400
+FreeBlock: 0x7f82be82c750 0x10218b1d400
+free done
+data() 0x7f82be82c230 0x10215e94200
+relu2-->pool2: 0.010869
+malloc done
+NewBlock: 0x7f82be82c750 0x10218b1d400
+mutable_data() 0x7f82be82c750 0x10218b1d400
+data() 0x7f82be82c230 0x10215e94200
+malloc done
+NewBlock: 0x7f82be82c0b0 0x10218be5400
+mutable_data() 0x7f82be82c0b0 0x10218be5400
+FreeBlock: 0x7f82be82c0b0 0x10218be5400
+free done
+data() 0x7f82be82c750 0x10218b1d400
+pool2-->lrn2: 0.010869
+malloc done
+NewBlock: 0x7f82be82c4b0 0x10215f8e200
+mutable_data() 0x7f82be82c4b0 0x10215f8e200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0xba3c010 0x1020e01ba00
+data() 0x7f82be82c750 0x10218b1d400
+mutable_data() 0x7f82be82c4b0 0x10215f8e200
+data() 0x17cf450 0x1020e04da00
+malloc done
+NewBlock: 0x7f82be82cae0 0x1021909d400
+mutable_data() 0x7f82be82cae0 0x1021909d400
+FreeBlock: 0x7f82be82cae0 0x1021909d400
+free done
+data() 0x7f82be82c4b0 0x10215f8e200
+lrn2-->conv3: 0.003648
+malloc done
+NewBlock: 0x7f82be82d0e0 0x1021909d400
+mutable_data() 0x7f82be82d0e0 0x1021909d400
+data() 0x7f82be82c4b0 0x10215f8e200
+malloc done
+NewBlock: 0x7f82be82d1e0 0x1021922d400
+mutable_data() 0x7f82be82d1e0 0x1021922d400
+FreeBlock: 0x7f82be82d1e0 0x1021922d400
+free done
+data() 0x7f82be82d0e0 0x1021909d400
+conv3-->relu3: 0.001919
+malloc done
+NewBlock: 0x7f82be82d5e0 0x1021611e200
+mutable_data() 0x7f82be82d5e0 0x1021611e200
+data() 0x7f82be82d0e0 0x1021909d400
+malloc done
+NewBlock: 0x7f82be82cd90 0x10218be5400
+mutable_data() 0x7f82be82cd90 0x10218be5400
+FreeBlock: 0x7f82be82cd90 0x10218be5400
+free done
+data() 0x7f82be82d5e0 0x1021611e200
+relu3-->pool3: 0.001919
+malloc done
+NewBlock: 0x7f82be82cd90 0x10218be5400
+mutable_data() 0x7f82be82cd90 0x10218be5400
+FreeBlock: 0x7f82be82cd90 0x10218be5400
+free done
+data() 0x7f82be82d5e0 0x1021611e200
+pool3-->flat: 0.001919
+malloc done
+NewBlock: 0x7f82be82cd90 0x10219039e00
+data() 0x7f82be82d5e0 0x1021611e200
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x7f82be82cd90 0x10219039e00
+malloc done
+NewBlock: 0x7f82be82dda0 0x1021903ae00
+mutable_data() 0x7f82be82dda0 0x1021903ae00
+data() 0x7f82be82dda0 0x1021903ae00
+data() 0xb9217c0 0x1020e057c00
+mutable_data() 0x7f82be82cd90 0x10219039e00
+mutable_data() 0x7f82be82dda0 0x1021903ae00
+FreeBlock: 0x7f82be82dda0 0x1021903ae00
+free done
+malloc done
+NewBlock: 0x7f82be82dc80 0x1021903ae00
+mutable_data() 0x7f82be82dc80 0x1021903ae00
+FreeBlock: 0x7f82be82dc80 0x1021903ae00
+free done
+data() 0x7f82be82cd90 0x10219039e00
+flat-->dense: 0.000728
+malloc done
+NewBlock: 0x7f82be82ccc0 0x1021903ae00
+data() 0x7f82be82cd90 0x10219039e00
+mutable_data() 0x7f82be82ccc0 0x1021903ae00
+malloc done
+NewBlock: 0x7f82be82e310 0x1021903be00
+data() 0x7f82be82ccc0 0x1021903ae00
+mutable_data() 0x7f82be82e310 0x1021903be00
+malloc done
+NewBlock: 0x7f82be82d450 0x10219032600
+mutable_data() 0x7f82be82d450 0x10219032600
+data() 0x7f82be82e310 0x1021903be00
+data() 0x7f82be82d450 0x10219032600
+mutable_data() 0x7f82be82ccc0 0x1021903ae00
+mutable_data() 0x7f82be82d450 0x10219032600
+FreeBlock: 0x7f82be82d450 0x10219032600
+free done
+data() 0x7f82be82ccc0 0x1021903ae00
+mutable_data() 0x7f82be82ccc0 0x1021903ae00
+malloc done
+NewBlock: 0x7f82be82d990 0x10219032600
+mutable_data() 0x7f82be82d990 0x10219032600
+data() 0x7f82be82ccc0 0x1021903ae00
+data() 0x7f82be82d990 0x10219032600
+mutable_data() 0x7f82be82e310 0x1021903be00
+mutable_data() 0x7f82be82d990 0x10219032600
+FreeBlock: 0x7f82be82d990 0x10219032600
+free done
+malloc done
+NewBlock: 0x7f82be82d450 0x10219032600
+data() 0x7f82be82e310 0x1021903be00
+mutable_data() 0x7f82be82d450 0x10219032600
+data() 0x7f82be82ccc0 0x1021903ae00
+data() 0x7f82be82d450 0x10219032600
+mutable_data() 0x7f82be82ccc0 0x1021903ae00
+mutable_data() 0x7f82be82d450 0x10219032600
+FreeBlock: 0x7f82be82d450 0x10219032600
+free done
+mutable_data() 0x7f82be82e310 0x1021903be00
+FreeBlock: 0x7f82be82e310 0x1021903be00
+free done
+malloc done
+NewBlock: 0x7f82be82e310 0x1021903be00
+data() 0x7f82be82ccc0 0x1021903ae00
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x7f82be82e310 0x1021903be00
+malloc done
+NewBlock: 0x7f82be82dfc0 0x10219032600
+mutable_data() 0x7f82be82dfc0 0x10219032600
+FreeBlock: 0x7f82be82dfc0 0x10219032600
+free done
+data() 0x7f82be82ccc0 0x1021903ae00
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x7f82be82ccc0 0x1021903ae00
+malloc done
+NewBlock: 0x7f82be82e830 0x10219032600
+mutable_data() 0x7f82be82e830 0x10219032600
+FreeBlock: 0x7f82be82e830 0x10219032600
+free done
+data() 0x7f82be82ccc0 0x1021903ae00
+mutable_data() 0x7f82be82ccc0 0x1021903ae00
+NewBlock: 0x7f82be82e830 0x7f82be82ebe0
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x7f82be82e830 0x7f82be82ebe0
+data() 0x7f82be82e830 0x7f82be82ebe0
+NewBlock: 0x7f82be82d430 0x7f82be82f140
+data() 0x7f82be82cd90 0x10219039e00
+mutable_data() 0x7f82be82d430 0x7f82be82f140
+data() 0x7f82be82d430 0x7f82be82f140
+NewBlock: 0x7f82be830300 0x7f82be82eea0
+mutable_data() 0x7f82be830300 0x7f82be82eea0
+mutable_data() 0x7f82be82d430 0x7f82be82f140
+FreeBlock: 0x7f82be82d430 0x7f82be82f140
+mutable_data() 0x7f82be82e830 0x7f82be82ebe0
+FreeBlock: 0x7f82be82e830 0x7f82be82ebe0
+NewBlock: 0x7f82be82e830 0x7f82be82ebe0
+mutable_data() 0x7f82be82e830 0x7f82be82ebe0
+data() 0x7f82be830300 0x7f82be82eea0
+data() 0x7f82be82e830 0x7f82be82ebe0
+mutable_data() 0x7f82be82e830 0x7f82be82ebe0
+FreeBlock: 0x7f82be82e830 0x7f82be82ebe0
+mutable_data() 0x7f82be830300 0x7f82be82eea0
+FreeBlock: 0x7f82be830300 0x7f82be82eea0
+malloc done
+NewBlock: 0x7f82be830300 0x10216182200
+malloc done
+NewBlock: 0x7f82be82d430 0x10218be5400
+malloc done
+NewBlock: 0x7f82be82e860 0x10219032600
+malloc done
+NewBlock: 0x7f82be82e8c0 0x10219032800
+mutable_data() 0x7f82be82e8c0 0x10219032800
+data() 0x7f82be82ccc0 0x1021903ae00
+data() 0x7f82be82e8c0 0x10219032800
+mutable_data() 0x7f82be82e860 0x10219032600
+mutable_data() 0x7f82be82e8c0 0x10219032800
+FreeBlock: 0x7f82be82e8c0 0x10219032800
+free done
+malloc done
+NewBlock: 0x7f82be82e8c0 0x10218c49400
+data() 0x7f82be82ccc0 0x1021903ae00
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x7f82be82e8c0 0x10218c49400
+mutable_data() 0x7f82be82d430 0x10218be5400
+FreeBlock: 0x7f82be82d430 0x10218be5400
+free done
+malloc done
+NewBlock: 0x7f82be82e890 0x10219023200
+data() 0x7f82be82d5e0 0x1021611e200
+data() 0x7f82be82ccc0 0x1021903ae00
+mutable_data() 0x7f82be82e890 0x10219023200
+mutable_data() 0x7f82be830300 0x10216182200
+FreeBlock: 0x7f82be830300 0x10216182200
+free done
+malloc done
+NewBlock: 0x7f82be82f0e0 0x10218be5400
+mutable_data() 0x7f82be82f0e0 0x10218be5400
+FreeBlock: 0x7f82be82f0e0 0x10218be5400
+free done
+gc, GC and vec_len before test: 2699 -1 2699
+size of vec_pieceMsg and vec_block are: 2699 2699
+rep size: 2699
+maxLen and location are: 612 1232
+test rep
+shift_counter is 15
+location changed to 1247
+time for one itr: 1.01468e+09
+ to write vec_run for comparison, nothing wrong till here 5/13.
+ to write vec_run2 for comparison, nothing wrong till here 5/13.
+===============================print sorted run 247
+SwapItem: 8 468
+SwapItem: 91 591
+SwapItem: 49 575
+SwapItem: 52 383
+SwapItem: 7 559
+SwapItem: 18 443
+SwapItem: 27 429
+SwapItem: 36 410
+SwapItem: 50 379
+SwapItem: 60 357
+SwapItem: 78 321
+SwapItem: 69 338
+SwapItem: 92 290
+SwapItem: 102 268
+SwapItem: 111 249
+SwapItem: 181 499
+SwapItem: 224 251
+SwapItem: 223 504
+SwapItem: 220 595
+SwapItem: 219 605
+SwapItem: 222 594
+SwapItem: 10 472
+SwapItem: 134 607
+SwapItem: 94 294
+swapable items: 24
+============== select top a few to swap
+maxIdx and maxLoad are: 247 36913400
+sumSizeSwapAble: 36448512
+number of swap_selct: 6
+swap size: 17612800
+swap scheduling.====================
+old_idx and i1p: 11 15 8 1 overhead 356352
+--------------size: 1228800
+old_idx and i1p: 11 42 27 1 overhead 2.7159e+06
+--------------size: 3276800
+old_idx and i1p: 11 55 36 1 overhead 5.76128e+06
+--------------size: 3276800
+old_idx and i1p: 53 104 50 1 overhead 6.71155e+06
+--------------size: 3276800
+old_idx and i1p: 62 127 60 1 overhead 7.66182e+06
+--------------size: 3276800
+old_idx and i1p: 95 142 69 1 overhead 8.32358e+06
+--------------size: 3276800
+verify if self overlapping
+8.12774e+06
+5.30022e+06
+3.77446e+06
+2.464e+06
+1.45357e+06
+872960
+total overhead: 1.19718e+07
+done
+BlockMeta(r_idx,size,o,i) 69 3276800 71 281
+BlockMeta(r_idx,size,o,i) 60 3276800 62 348
+BlockMeta(r_idx,size,o,i) 50 3276800 53 370
+BlockMeta(r_idx,size,o,i) 36 3276800 38 420
+BlockMeta(r_idx,size,o,i) 27 3276800 29 426
+BlockMeta(r_idx,size,o,i) 8 1228800 11 456
+compele test-swap:::::::::::::::::::::::::::::::::::::::::::::::::
+size of Table_sched: 12
+size of Table_meta: 6
+impt numbers: 612 1247 3083
+malloc done
+NewBlock: 0x7f82be8304a0 0x10216182200
+mutable_data() 0x7f82be8304a0 0x10216182200
+FreeBlock: 0x7f82be8304a0 0x10216182200
+free done
+malloc done
+NewBlock: 0x7f82be82ece0 0x1021902d200
+mutable_data() 0x7f82be82ece0 0x1021902d200
+FreeBlock: 0x7f82be82ece0 0x1021902d200
+free done
+data() 0x7f82be82e8c0 0x10218c49400
+-->dense: 0.000075
+malloc done
+NewBlock: 0x7f82be82ed90 0x10216182200
+mutable_data() 0x7f82be82ed90 0x10216182200
+FreeBlock: 0x7f82be82ed90 0x10216182200
+free done
+malloc done
+NewBlock: 0x7f82be76d060 0x1021902d200
+mutable_data() 0x7f82be76d060 0x1021902d200
+FreeBlock: 0x7f82be76d060 0x1021902d200
+free done
+malloc done
+NewBlock: 0x7f82be76d030 0x10218be5400
+mutable_data() 0x7f82be76d030 0x10218be5400
+FreeBlock: 0x7f82be76d030 0x10218be5400
+free done
+data() 0x7f82be82e8c0 0x10218c49400
+dense-->flat: 0.000075
+malloc done
+NewBlock: 0x7f82be82ece0 0x1021922d400
+mutable_data() 0x7f82be82ece0 0x1021922d400
+data() 0x7f82be82d0e0 0x1021909d400
+data() 0x7f82be82e8c0 0x10218c49400
+data() 0x7f82be82d5e0 0x1021611e200
+mutable_data() 0x7f82be82d0e0 0x1021909d400
+FreeBlock: 0x7f82be82d0e0 0x1021909d400
+free done
+mutable_data() 0x7f82be82d5e0 0x1021611e200
+FreeBlock: 0x7f82be82d5e0 0x1021611e200
+free done
+malloc done
+NewBlock: 0x7f82be82d1e0 0x1021909d400
+mutable_data() 0x7f82be82d1e0 0x1021909d400
+FreeBlock: 0x7f82be82d1e0 0x1021909d400
+free done
+data() 0x7f82be82ece0 0x1021922d400
+flat-->pool3: 0.000013
+mutable_data() 0x7f82be82e8c0 0x10218c49400
+FreeBlock: 0x7f82be82e8c0 0x10218c49400
+free done
+malloc done
+NewBlock: 0x7f82be82d320 0x1021909d400
+mutable_data() 0x7f82be82d320 0x1021909d400
+data() 0x7f82be82c4b0 0x10215f8e200
+data() 0x7f82be82ece0 0x1021922d400
+data() 0x7f82be82c4b0 0x10215f8e200
+mutable_data() 0x7f82be82c4b0 0x10215f8e200
+FreeBlock: 0x7f82be82c4b0 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x7f82be82c480 0x10215f8e200
+mutable_data() 0x7f82be82c480 0x10215f8e200
+FreeBlock: 0x7f82be82c480 0x10215f8e200
+free done
+data() 0x7f82be82d320 0x1021909d400
+pool3-->relu3: 0.000007
+mutable_data() 0x7f82be82ece0 0x1021922d400
+FreeBlock: 0x7f82be82ece0 0x1021922d400
+free done
+malloc done
+NewBlock: 0x7f82be82b670 0x10218be5400
+malloc done
+NewBlock: 0x7f82be82c480 0x1021903c800
+malloc done
+NewBlock: 0x7f82be76d030 0x1021902d200
+mutable_data() 0x7f82be76d030 0x1021902d200
+data() 0x7f82be82d320 0x1021909d400
+mutable_data() 0x7f82be82c480 0x1021903c800
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x7f82be82d320 0x1021909d400
+data() 0x7f82be82c750 0x10218b1d400
+mutable_data() 0x7f82be82b670 0x10218be5400
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x7f82be82d320 0x1021909d400
+data() 0xba3c010 0x1020e01ba00
+malloc done
+NewBlock: 0x7f82be681fa0 0x10215f8e200
+mutable_data() 0x7f82be681fa0 0x10215f8e200
+FreeBlock: 0x7f82be681fa0 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x7f82be82faa0 0x10215f8e200
+mutable_data() 0x7f82be82faa0 0x10215f8e200
+FreeBlock: 0x7f82be82faa0 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x7f82be82fc80 0x1021902d400
+mutable_data() 0x7f82be82fc80 0x1021902d400
+FreeBlock: 0x7f82be82fc80 0x1021902d400
+free done
+data() 0x7f82be82b670 0x10218be5400
+relu3-->conv3: 0.000003
+malloc done
+NewBlock: 0x7f82be830040 0x10215f8e200
+mutable_data() 0x7f82be830040 0x10215f8e200
+FreeBlock: 0x7f82be830040 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x7f82be830130 0x1021902d400
+mutable_data() 0x7f82be830130 0x1021902d400
+FreeBlock: 0x7f82be830130 0x1021902d400
+free done
+mutable_data() 0x7f82be82d320 0x1021909d400
+FreeBlock: 0x7f82be82d320 0x1021909d400
+free done
+malloc done
+NewBlock: 0x7f82be82d320 0x10215f8e200
+mutable_data() 0x7f82be82d320 0x10215f8e200
+data() 0x7f82be82c230 0x10215e94200
+data() 0x7f82be82b670 0x10218be5400
+data() 0x7f82be82c750 0x10218b1d400
+mutable_data() 0x7f82be82c750 0x10218b1d400
+FreeBlock: 0x7f82be82c750 0x10218b1d400
+free done
+malloc done
+NewBlock: 0x7f82be82c750 0x10218b1d400
+mutable_data() 0x7f82be82c750 0x10218b1d400
+FreeBlock: 0x7f82be82c750 0x10218b1d400
+free done
+data() 0x7f82be82d320 0x10215f8e200
+conv3-->lrn2: 0.000003
+mutable_data() 0x7f82be82b670 0x10218be5400
+FreeBlock: 0x7f82be82b670 0x10218be5400
+free done
+malloc done
+NewBlock: 0x7f82be82b670 0x1021909d400
+mutable_data() 0x7f82be82b670 0x1021909d400
+data() 0x7f82be82c3d0 0x102187fd400
+data() 0x7f82be82d320 0x10215f8e200
+data() 0x7f82be82c230 0x10215e94200
+mutable_data() 0x7f82be82c3d0 0x102187fd400
+FreeBlock: 0x7f82be82c3d0 0x102187fd400
+free done
+mutable_data() 0x7f82be82c230 0x10215e94200
+FreeBlock: 0x7f82be82c230 0x10215e94200
+free done
+malloc done
+NewBlock: 0x7f82be82be50 0x102187fd400
+mutable_data() 0x7f82be82be50 0x102187fd400
+FreeBlock: 0x7f82be82be50 0x102187fd400
+free done
+data() 0x7f82be82b670 0x1021909d400
+lrn2-->pool2: 0.000001
+mutable_data() 0x7f82be82d320 0x10215f8e200
+FreeBlock: 0x7f82be82d320 0x10215f8e200
+free done
+malloc done
+NewBlock: 0x7f82be82d320 0x102187fd400
+mutable_data() 0x7f82be82d320 0x102187fd400
+data() 0x7f82be82b740 0x102184dd400
+data() 0x7f82be82b670 0x1021909d400
+data() 0x7f82be82b740 0x102184dd400
+mutable_data() 0x7f82be82b740 0x102184dd400
+FreeBlock: 0x7f82be82b740 0x102184dd400
+free done
+malloc done
+NewBlock: 0x7f82be82b740 0x102184dd400
+mutable_data() 0x7f82be82b740 0x102184dd400
+FreeBlock: 0x7f82be82b740 0x102184dd400
+free done
+data() 0x7f82be82d320 0x102187fd400
+pool2-->relu2: 0.000000
+mutable_data() 0x7f82be82b670 0x1021909d400
+FreeBlock: 0x7f82be82b670 0x1021909d400
+free done
+malloc done
+NewBlock: 0x7f82be82b390 0x102184dd400
+malloc done
+NewBlock: 0x7f82be82b740 0x1021906e800
+malloc done
+NewBlock: 0x7f82be830130 0x1021902d400
+mutable_data() 0x7f82be830130 0x1021902d400
+data() 0x7f82be82d320 0x102187fd400
+mutable_data() 0x7f82be82b740 0x1021906e800
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x7f82be82d320 0x102187fd400
+data() 0x7f82be82b980 0x10215b74200
+mutable_data() 0x7f82be82b390 0x102184dd400
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x7f82be82d320 0x102187fd400
+data() 0x17fccd0 0x1020e002800
+malloc done
+NewBlock: 0x7f82be82fe60 0x1021909d400
+mutable_data() 0x7f82be82fe60 0x1021909d400
+FreeBlock: 0x7f82be82fe60 0x1021909d400
+free done
+malloc done
+NewBlock: 0x7f82be77fa10 0x10215e94200
+mutable_data() 0x7f82be77fa10 0x10215e94200
+FreeBlock: 0x7f82be77fa10 0x10215e94200
+free done
+malloc done
+NewBlock: 0x7f82be77eec0 0x1021902d600
+mutable_data() 0x7f82be77eec0 0x1021902d600
+FreeBlock: 0x7f82be77eec0 0x1021902d600
+free done
+data() 0x7f82be82b390 0x102184dd400
+relu2-->conv2: 0.000000
+malloc done
+NewBlock: 0x7f82be77ffb0 0x10215e94200
+mutable_data() 0x7f82be77ffb0 0x10215e94200
+FreeBlock: 0x7f82be77ffb0 0x10215e94200
+free done
+malloc done
+NewBlock: 0x7f82be77fd30 0x1021902d600
+mutable_data() 0x7f82be77fd30 0x1021902d600
+FreeBlock: 0x7f82be77fd30 0x1021902d600
+free done
+mutable_data() 0x7f82be82d320 0x102187fd400
+FreeBlock: 0x7f82be82d320 0x102187fd400
+free done
+malloc done
+NewBlock: 0x7f82be82d320 0x102187fd400
+mutable_data() 0x7f82be82d320 0x102187fd400
+data() 0x7f82be82b280 0x10215854200
+data() 0x7f82be82b390 0x102184dd400
+data() 0x7f82be82b980 0x10215b74200
+mutable_data() 0x7f82be82b280 0x10215854200
+FreeBlock: 0x7f82be82b280 0x10215854200
+free done
+mutable_data() 0x7f82be82b980 0x10215b74200
+FreeBlock: 0x7f82be82b980 0x10215b74200
+free done
+malloc done
+NewBlock: 0x7f82be82b0a0 0x10215854200
+mutable_data() 0x7f82be82b0a0 0x10215854200
+FreeBlock: 0x7f82be82b0a0 0x10215854200
+free done
+data() 0x7f82be82d320 0x102187fd400
+conv2-->lrn1: 0.000000
+mutable_data() 0x7f82be82b390 0x102184dd400
+FreeBlock: 0x7f82be82b390 0x102184dd400
+free done
+malloc done
+NewBlock: 0x7f82be82bb90 0x102184dd400
+mutable_data() 0x7f82be82bb90 0x102184dd400
+data() 0x7f82be82b6d0 0x10218cf9200
+data() 0x7f82be82d320 0x102187fd400
+data() 0x7f82be82b6d0 0x10218cf9200
+malloc done
+NewBlock: 0x7f82be82b280 0x10215854200
+mutable_data() 0x7f82be82b280 0x10215854200
+FreeBlock: 0x7f82be82b280 0x10215854200
+free done
+data() 0x7f82be82bb90 0x102184dd400
+lrn1-->relu1: 0.000000
+mutable_data() 0x7f82be82d320 0x102187fd400
+FreeBlock: 0x7f82be82d320 0x102187fd400
+free done
+malloc done
+NewBlock: 0x7f82be82d320 0x1021909d400
+mutable_data() 0x7f82be82d320 0x1021909d400
+data() 0x7f82be829be0 0x10214bd4200
+data() 0x7f82be82bb90 0x102184dd400
+data() 0x7f82be82b6d0 0x10218cf9200
+mutable_data() 0x7f82be829be0 0x10214bd4200
+FreeBlock: 0x7f82be829be0 0x10214bd4200
+free done
+mutable_data() 0x7f82be82b6d0 0x10218cf9200
+FreeBlock: 0x7f82be82b6d0 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x7f82be82bb20 0x10214bd4200
+mutable_data() 0x7f82be82bb20 0x10214bd4200
+FreeBlock: 0x7f82be82bb20 0x10214bd4200
+free done
+data() 0x7f82be82d320 0x1021909d400
+relu1-->pool1: 0.000000
+mutable_data() 0x7f82be82bb90 0x102184dd400
+FreeBlock: 0x7f82be82bb90 0x102184dd400
+free done
+malloc done
+NewBlock: 0x7f82be82bb90 0x10215f8e200
+malloc done
+NewBlock: 0x7f82be7801d0 0x1021902d600
+malloc done
+NewBlock: 0x7f82be77eec0 0x1021902fc00
+mutable_data() 0x7f82be77eec0 0x1021902fc00
+data() 0x7f82be82d320 0x1021909d400
+mutable_data() 0x7f82be7801d0 0x1021902d600
+mutable_data() 0x1768160 0x1020e184000
+data() 0x7f82be82d320 0x1021909d400
+data() 0x1767670 0x1020e057e00
+mutable_data() 0x7f82be82bb90 0x10215f8e200
+mutable_data() 0x1768160 0x1020e184000
+data() 0x7f82be82d320 0x1021909d400
+data() 0xb850160 0x1020e000000
+malloc done
+NewBlock: 0x7f82be780770 0x10218cf9200
+mutable_data() 0x7f82be780770 0x10218cf9200
+FreeBlock: 0x7f82be780770 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x7f82be82f640 0x10219032800
+mutable_data() 0x7f82be82f640 0x10219032800
+FreeBlock: 0x7f82be82f640 0x10219032800
+free done
+malloc done
+NewBlock: 0x7f82be82f6e0 0x1021902fe00
+mutable_data() 0x7f82be82f6e0 0x1021902fe00
+FreeBlock: 0x7f82be82f6e0 0x1021902fe00
+free done
+data() 0x7f82be82bb90 0x10215f8e200
+pool1-->conv1: 0.000000
+malloc done
+NewBlock: 0x7f82be76de60 0x10219032800
+mutable_data() 0x7f82be76de60 0x10219032800
+FreeBlock: 0x7f82be76de60 0x10219032800
+free done
+malloc done
+NewBlock: 0x7f82be76db70 0x1021902fe00
+mutable_data() 0x7f82be76db70 0x1021902fe00
+FreeBlock: 0x7f82be76db70 0x1021902fe00
+free done
+mutable_data() 0x7f82be82d320 0x1021909d400
+FreeBlock: 0x7f82be82d320 0x1021909d400
+free done
+mutable_data() 0x7f82be82bb90 0x10215f8e200
+FreeBlock: 0x7f82be82bb90 0x10215f8e200
+free done
+data() 0x7f82be82e310 0x1021903be00
+mutable_data() 0x7f82be82cd90 0x10219039e00
+FreeBlock: 0x7f82be82cd90 0x10219039e00
+free done
+mutable_data() 0x7f82be82e310 0x1021903be00
+FreeBlock: 0x7f82be82e310 0x1021903be00
+free done
+mutable_data() 0x7f82be82ccc0 0x1021903ae00
+FreeBlock: 0x7f82be82ccc0 0x1021903ae00
+free done
+mutable_data() 0x182d350 0x10219019200
+FreeBlock: 0x182d350 0x10219019200
+free done
+mutable_data() 0x182feb0 0x1021903c200
+FreeBlock: 0x182feb0 0x1021903c200
+free done
+mutable_data() 0x182e2d0 0x10215f5c200
+FreeBlock: 0x182e2d0 0x10215f5c200
+free done
+mutable_data() 0x182f050 0x1021903c400
+FreeBlock: 0x182f050 0x1021903c400
+free done
+mutable_data() 0x7f82be827b90 0x1021618c200
+FreeBlock: 0x7f82be827b90 0x1021618c200
+free done
+mutable_data() 0x7f82be829a90 0x1021903c600
+FreeBlock: 0x7f82be829a90 0x1021903c600
+free done
+mutable_data() 0x7f82be8295f0 0x10219030000
+FreeBlock: 0x7f82be8295f0 0x10219030000
+free done
+malloc done
+NewBlock: 0x1830150 0x1021902fe00
+mutable_data() 0x1830150 0x1021902fe00
+FreeBlock: 0x1830150 0x1021902fe00
+free done
+malloc done
+NewBlock: 0x182f310 0x1021903c200
+mutable_data() 0x182f310 0x1021903c200
+FreeBlock: 0x182f310 0x1021903c200
+free done
+malloc done
+NewBlock: 0x1830150 0x10218cf9200
+mutable_data() 0x1830150 0x10218cf9200
+FreeBlock: 0x1830150 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x7f82be77f8c0 0x1021903c200
+mutable_data() 0x7f82be77f8c0 0x1021903c200
+FreeBlock: 0x7f82be77f8c0 0x1021903c200
+free done
+malloc done
+NewBlock: 0x1828140 0x10218cf9200
+mutable_data() 0x1828140 0x10218cf9200
+FreeBlock: 0x1828140 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x7f82be76de30 0x1021903c200
+mutable_data() 0x7f82be76de30 0x1021903c200
+FreeBlock: 0x7f82be76de30 0x1021903c200
+free done
+malloc done
+NewBlock: 0x7f82be76de30 0x10219087800
+mutable_data() 0x7f82be76de30 0x10219087800
+FreeBlock: 0x7f82be76de30 0x10219087800
+free done
+malloc done
+NewBlock: 0x7f82be76e2e0 0x1021903c200
+mutable_data() 0x7f82be76e2e0 0x1021903c200
+FreeBlock: 0x7f82be76e2e0 0x1021903c200
+free done
+mutable_data() 0x182dfe0 0x1021903c000
+FreeBlock: 0x182dfe0 0x1021903c000
+free done
+data() 0xb850160 0x1020e000000
+mutable_data() 0x7f82be7801d0 0x1021902d600
+data() 0x18fb4c0 0x10219037000
+mutable_data() 0x18fb4c0 0x10219037000
+data() 0x7f82be7801d0 0x1021902d600
+mutable_data() 0x18fb4c0 0x10219037000
+data() 0xb850160 0x1020e000000
+data() 0x18fb4c0 0x10219037000
+mutable_data() 0xb850160 0x1020e000000
+data() 0x18fade0 0x10219039600
+mutable_data() 0x18fade0 0x10219039600
+data() 0x7f82be77eec0 0x1021902fc00
+mutable_data() 0x18fade0 0x10219039600
+data() 0x17fee90 0x1020e002600
+data() 0x18fade0 0x10219039600
+mutable_data() 0x17fee90 0x1020e002600
+data() 0x17fccd0 0x1020e002800
+mutable_data() 0x7f82be82b740 0x1021906e800
+data() 0x18fc090 0x10218cae200
+mutable_data() 0x18fc090 0x10218cae200
+data() 0x7f82be82b740 0x1021906e800
+mutable_data() 0x18fc090 0x10218cae200
+data() 0x17fccd0 0x1020e002800
+data() 0x18fc090 0x10218cae200
+mutable_data() 0x17fccd0 0x1020e002800
+data() 0x18179c0 0x10219039800
+mutable_data() 0x18179c0 0x10219039800
+data() 0x7f82be830130 0x1021902d400
+mutable_data() 0x18179c0 0x10219039800
+data() 0x17fc7b0 0x1020e01b800
+data() 0x18179c0 0x10219039800
+mutable_data() 0x17fc7b0 0x1020e01b800
+data() 0xba3c010 0x1020e01ba00
+mutable_data() 0x7f82be82c480 0x1021903c800
+data() 0x1817e00 0x10218cc7200
+mutable_data() 0x1817e00 0x10218cc7200
+data() 0x7f82be82c480 0x1021903c800
+mutable_data() 0x1817e00 0x10218cc7200
+data() 0xba3c010 0x1020e01ba00
+data() 0x1817e00 0x10218cc7200
+mutable_data() 0xba3c010 0x1020e01ba00
+data() 0x18fc1b0 0x10219039a00
+mutable_data() 0x18fc1b0 0x10219039a00
+data() 0x7f82be76d030 0x1021902d200
+mutable_data() 0x18fc1b0 0x10219039a00
+data() 0x17cf450 0x1020e04da00
+data() 0x18fc1b0 0x10219039a00
+mutable_data() 0x17cf450 0x1020e04da00
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x7f82be82e890 0x10219023200
+data() 0x1817770 0x10219093400
+mutable_data() 0x1817770 0x10219093400
+data() 0x7f82be82e890 0x10219023200
+mutable_data() 0x1817770 0x10219093400
+data() 0x7f82bf309840 0x1020e04dc00
+data() 0x1817770 0x10219093400
+mutable_data() 0x7f82bf309840 0x1020e04dc00
+data() 0x1818010 0x10219039c00
+mutable_data() 0x1818010 0x10219039c00
+data() 0x7f82be82e860 0x10219032600
+mutable_data() 0x1818010 0x10219039c00
+data() 0xb9217c0 0x1020e057c00
+data() 0x1818010 0x10219039c00
+mutable_data() 0xb9217c0 0x1020e057c00
+start of iteration 5:  0.8% training loss = 2.302464, accuracy = 0.150000
+mutable_data() 0x1767670 0x1020e057e00
+mutable_data() 0x1766fb0 0x1020e183e00
+switched flag for at 3083
+malloc done
+NewBlock: 0x7f82be76e6a0 0x10214bd4200
+mutable_data() 0x7f82be76e6a0 0x10214bd4200
+mutable_data() 0x1768160 0x1020e184000
+data() 0xb850160 0x1020e000000
+data() 0x1767670 0x1020e057e00
+mutable_data() 0x7f82be76e6a0 0x10214bd4200
+data() 0x17fee90 0x1020e002600
+To update Block_ at 8 3091 0x17676700
+right before cudaMemcpyAsync Out
+right after cudaMemcpyAsync
+To update_data swap for (Out) 8 0x1767670 0
+results update_data:: 0x1767670 0
+swapOut - print from Malloc
+malloc done
+NewBlock: 0x7f82be76ef20 0x1021909d400
+mutable_data() 0x7f82be76ef20 0x1021909d400
+FreeBlock: 0x7f82be76ef20 0x1021909d400
+free done
+data() 0x7f82be76e6a0 0x10214bd4200
+-->conv1: 0.118785
+malloc done
+NewBlock: 0x7f82be76f170 0x10218cf9200
+mutable_data() 0x7f82be76f170 0x10218cf9200
+data() 0x7f82be76e6a0 0x10214bd4200
+malloc done
+NewBlock: 0x7f82be76f5f0 0x102184dd400
+mutable_data() 0x7f82be76f5f0 0x102184dd400
+FreeBlock: 0x7f82be76f5f0 0x102184dd400
+free done
+data() 0x7f82be76f170 0x10218cf9200
+conv1-->pool1: 0.123410
+malloc done
+NewBlock: 0x7f82be76f1a0 0x102184dd400
+mutable_data() 0x7f82be76f1a0 0x102184dd400
+data() 0x7f82be76f170 0x10218cf9200
+To update Block_ at 27 3110 0x7f82be76f1700
+right before cudaMemcpyAsync Out
+right after cudaMemcpyAsync
+To update_data swap for (Out) 27 0x7f82be76f170 0
+results update_data:: 0x7f82be76f170 0
+swapOut - print from Malloc
+malloc done
+NewBlock: 0x7f82be76f860 0x10218cf9200
+mutable_data() 0x7f82be76f860 0x10218cf9200
+FreeBlock: 0x7f82be76f860 0x10218cf9200
+free done
+data() 0x7f82be76f1a0 0x102184dd400
+pool1-->relu1: 0.085313
+malloc done
+NewBlock: 0x7f82be76f860 0x10218cf9200
+mutable_data() 0x7f82be76f860 0x10218cf9200
+data() 0x7f82be76f1a0 0x102184dd400
+To update Block_ at 36 3119 0x7f82be76f1a00
+right before cudaMemcpyAsync Out
+right after cudaMemcpyAsync
+To update_data swap for (Out) 36 0x7f82be76f1a0 0
+results update_data:: 0x7f82be76f1a0 0
+swapOut - print from Malloc
+malloc done
+NewBlock: 0x7f82be76faa0 0x102184dd400
+mutable_data() 0x7f82be76faa0 0x102184dd400
+FreeBlock: 0x7f82be76faa0 0x102184dd400
+free done
+data() 0x7f82be76f860 0x10218cf9200
+relu1-->lrn1: 0.085312
+malloc done
+NewBlock: 0x7f82be770370 0x102184dd400
+mutable_data() 0x7f82be770370 0x102184dd400
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x17fccd0 0x1020e002800
+data() 0x7f82be76f860 0x10218cf9200
+mutable_data() 0x7f82be770370 0x102184dd400
+data() 0x17fc7b0 0x1020e01b800
+To update Block_ at 50 3133 0x7f82be76f8600
+right before cudaMemcpyAsync Out
+right after cudaMemcpyAsync
+To update_data swap for (Out) 50 0x7f82be76f860 0
+results update_data:: 0x7f82be76f860 0
+swapOut - print from Malloc
+malloc done
+NewBlock: 0x7f82be7703d0 0x10218cf9200
+mutable_data() 0x7f82be7703d0 0x10218cf9200
+FreeBlock: 0x7f82be7703d0 0x10218cf9200
+free done
+data() 0x7f82be770370 0x102184dd400
+lrn1-->conv2: 0.028910
+malloc done
+NewBlock: 0x7f82be770790 0x10218cf9200
+mutable_data() 0x7f82be770790 0x10218cf9200
+data() 0x7f82be770370 0x102184dd400
+To update Block_ at 60 3143 0x7f82be7703700
+right before cudaMemcpyAsync Out
+right after cudaMemcpyAsync
+To update_data swap for (Out) 60 0x7f82be770370 0
+results update_data:: 0x7f82be770370 0
+swapOut - print from Malloc
+malloc done
+NewBlock: 0x7f82be76f490 0x102184dd400
+mutable_data() 0x7f82be76f490 0x102184dd400
+FreeBlock: 0x7f82be76f490 0x102184dd400
+free done
+data() 0x7f82be770790 0x10218cf9200
+conv2-->relu2: 0.013879
+malloc done
+NewBlock: 0x7f82be76fc80 0x102184dd400
+mutable_data() 0x7f82be76fc80 0x102184dd400
+data() 0x7f82be770790 0x10218cf9200
+To update Block_ at 69 3152 0x7f82be7707900
+right before cudaMemcpyAsync Out
+right after cudaMemcpyAsync
+To update_data swap for (Out) 69 0x7f82be770790 0
+results update_data:: 0x7f82be770790 0
+swapOut - print from Malloc
+malloc done
+NewBlock: 0x7f82be770910 0x10218cf9200
+mutable_data() 0x7f82be770910 0x10218cf9200
+FreeBlock: 0x7f82be770910 0x10218cf9200
+free done
+data() 0x7f82be76fc80 0x102184dd400
+relu2-->pool2: 0.014052
+malloc done
+NewBlock: 0x7f82be770910 0x10218cf9200
+mutable_data() 0x7f82be770910 0x10218cf9200
+data() 0x7f82be76fc80 0x102184dd400
+malloc done
+NewBlock: 0x7f82be770110 0x10218dc1200
+mutable_data() 0x7f82be770110 0x10218dc1200
+FreeBlock: 0x7f82be770110 0x10218dc1200
+free done
+data() 0x7f82be770910 0x10218cf9200
+pool2-->lrn2: 0.014052
+malloc done
+NewBlock: 0x7f82be7702b0 0x10218dc1200
+mutable_data() 0x7f82be7702b0 0x10218dc1200
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0xba3c010 0x1020e01ba00
+data() 0x7f82be770910 0x10218cf9200
+mutable_data() 0x7f82be7702b0 0x10218dc1200
+data() 0x17cf450 0x1020e04da00
+malloc done
+NewBlock: 0x7f82be770ac0 0x102185a5400
+mutable_data() 0x7f82be770ac0 0x102185a5400
+FreeBlock: 0x7f82be770ac0 0x102185a5400
+free done
+data() 0x7f82be7702b0 0x10218dc1200
+lrn2-->conv3: 0.004710
+malloc done
+NewBlock: 0x7f82be7716b0 0x102185a5400
+mutable_data() 0x7f82be7716b0 0x102185a5400
+data() 0x7f82be7702b0 0x10218dc1200
+malloc done
+NewBlock: 0x7f82be771a80 0x10218735400
+mutable_data() 0x7f82be771a80 0x10218735400
+FreeBlock: 0x7f82be771a80 0x10218735400
+free done
+data() 0x7f82be7716b0 0x102185a5400
+conv3-->relu3: 0.002473
+malloc done
+NewBlock: 0x7f82be771e00 0x10218f51200
+mutable_data() 0x7f82be771e00 0x10218f51200
+data() 0x7f82be7716b0 0x102185a5400
+malloc done
+NewBlock: 0x7f82be7712b0 0x10218fb5200
+mutable_data() 0x7f82be7712b0 0x10218fb5200
+FreeBlock: 0x7f82be7712b0 0x10218fb5200
+free done
+data() 0x7f82be771e00 0x10218f51200
+relu3-->pool3: 0.002479
+malloc done
+NewBlock: 0x7f82be7712b0 0x10218fb5200
+mutable_data() 0x7f82be7712b0 0x10218fb5200
+FreeBlock: 0x7f82be7712b0 0x10218fb5200
+free done
+data() 0x7f82be771e00 0x10218f51200
+pool3-->flat: 0.002479
+malloc done
+NewBlock: 0x7f82be7712b0 0x1021902fe00
+data() 0x7f82be771e00 0x10218f51200
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x7f82be7712b0 0x1021902fe00
+malloc done
+NewBlock: 0x7f82be772400 0x10219030e00
+mutable_data() 0x7f82be772400 0x10219030e00
+data() 0x7f82be772400 0x10219030e00
+data() 0xb9217c0 0x1020e057c00
+mutable_data() 0x7f82be7712b0 0x1021902fe00
+mutable_data() 0x7f82be772400 0x10219030e00
+FreeBlock: 0x7f82be772400 0x10219030e00
+free done
+malloc done
+NewBlock: 0x7f82be7721f0 0x10219030e00
+mutable_data() 0x7f82be7721f0 0x10219030e00
+FreeBlock: 0x7f82be7721f0 0x10219030e00
+free done
+data() 0x7f82be7712b0 0x1021902fe00
+flat-->dense: 0.000905
+malloc done
+NewBlock: 0x7f82be771160 0x10219030e00
+data() 0x7f82be7712b0 0x1021902fe00
+mutable_data() 0x7f82be771160 0x10219030e00
+malloc done
+NewBlock: 0x7f82be771c70 0x10219031e00
+data() 0x7f82be771160 0x10219030e00
+mutable_data() 0x7f82be771c70 0x10219031e00
+malloc done
+NewBlock: 0x7f82be771d50 0x10219032000
+mutable_data() 0x7f82be771d50 0x10219032000
+data() 0x7f82be771c70 0x10219031e00
+data() 0x7f82be771d50 0x10219032000
+mutable_data() 0x7f82be771160 0x10219030e00
+mutable_data() 0x7f82be771d50 0x10219032000
+FreeBlock: 0x7f82be771d50 0x10219032000
+free done
+data() 0x7f82be771160 0x10219030e00
+mutable_data() 0x7f82be771160 0x10219030e00
+malloc done
+NewBlock: 0x7f82be772b70 0x10219032000
+mutable_data() 0x7f82be772b70 0x10219032000
+data() 0x7f82be771160 0x10219030e00
+data() 0x7f82be772b70 0x10219032000
+mutable_data() 0x7f82be771c70 0x10219031e00
+mutable_data() 0x7f82be772b70 0x10219032000
+FreeBlock: 0x7f82be772b70 0x10219032000
+free done
+malloc done
+NewBlock: 0x7f82be771d50 0x10219032000
+data() 0x7f82be771c70 0x10219031e00
+mutable_data() 0x7f82be771d50 0x10219032000
+data() 0x7f82be771160 0x10219030e00
+data() 0x7f82be771d50 0x10219032000
+mutable_data() 0x7f82be771160 0x10219030e00
+mutable_data() 0x7f82be771d50 0x10219032000
+FreeBlock: 0x7f82be771d50 0x10219032000
+free done
+mutable_data() 0x7f82be771c70 0x10219031e00
+FreeBlock: 0x7f82be771c70 0x10219031e00
+free done
+malloc done
+NewBlock: 0x7f82be7723d0 0x10219031e00
+data() 0x7f82be771160 0x10219030e00
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x7f82be7723d0 0x10219031e00
+malloc done
+NewBlock: 0x7f82be772ed0 0x10219032000
+mutable_data() 0x7f82be772ed0 0x10219032000
+FreeBlock: 0x7f82be772ed0 0x10219032000
+free done
+data() 0x7f82be771160 0x10219030e00
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x7f82be771160 0x10219030e00
+malloc done
+NewBlock: 0x7f82be7734e0 0x10219039e00
+mutable_data() 0x7f82be7734e0 0x10219039e00
+FreeBlock: 0x7f82be7734e0 0x10219039e00
+free done
+data() 0x7f82be771160 0x10219030e00
+mutable_data() 0x7f82be771160 0x10219030e00
+NewBlock: 0x7f82be7734e0 0x7f82be7735e0
+data() 0x1766fb0 0x1020e183e00
+mutable_data() 0x7f82be7734e0 0x7f82be7735e0
+data() 0x7f82be7734e0 0x7f82be7735e0
+NewBlock: 0x7f82be772f00 0x7f82be7738a0
+data() 0x7f82be7712b0 0x1021902fe00
+mutable_data() 0x7f82be772f00 0x7f82be7738a0
+data() 0x7f82be772f00 0x7f82be7738a0
+NewBlock: 0x7f82be774a60 0x7f82be773110
+mutable_data() 0x7f82be774a60 0x7f82be773110
+mutable_data() 0x7f82be772f00 0x7f82be7738a0
+FreeBlock: 0x7f82be772f00 0x7f82be7738a0
+mutable_data() 0x7f82be7734e0 0x7f82be7735e0
+FreeBlock: 0x7f82be7734e0 0x7f82be7735e0
+NewBlock: 0x7f82be7734e0 0x7f82be7735e0
+mutable_data() 0x7f82be7734e0 0x7f82be7735e0
+data() 0x7f82be774a60 0x7f82be773110
+data() 0x7f82be7734e0 0x7f82be7735e0
+mutable_data() 0x7f82be7734e0 0x7f82be7735e0
+FreeBlock: 0x7f82be7734e0 0x7f82be7735e0
+mutable_data() 0x7f82be774a60 0x7f82be773110
+FreeBlock: 0x7f82be774a60 0x7f82be773110
+malloc done
+NewBlock: 0x7f82be7734e0 0x10219087800
+malloc done
+NewBlock: 0x7f82be774d00 0x10218fb5200
+malloc done
+NewBlock: 0x7f82be76f0b0 0x10219032000
+malloc done
+NewBlock: 0x7f82be773410 0x10219032200
+mutable_data() 0x7f82be773410 0x10219032200
+data() 0x7f82be771160 0x10219030e00
+data() 0x7f82be773410 0x10219032200
+mutable_data() 0x7f82be76f0b0 0x10219032000
+mutable_data() 0x7f82be773410 0x10219032200
+FreeBlock: 0x7f82be773410 0x10219032200
+free done
+malloc done
+NewBlock: 0x7f82be7733e0 0x10218735400
+data() 0x7f82be771160 0x10219030e00
+data() 0x7f82bf309840 0x1020e04dc00
+mutable_data() 0x7f82be7733e0 0x10218735400
+mutable_data() 0x7f82be774d00 0x10218fb5200
+FreeBlock: 0x7f82be774d00 0x10218fb5200
+free done
+malloc done
+NewBlock: 0x7f82be774a90 0x10218fb5200
+data() 0x7f82be771e00 0x10218f51200
+data() 0x7f82be771160 0x10219030e00
+mutable_data() 0x7f82be774a90 0x10218fb5200
+mutable_data() 0x7f82be7734e0 0x10219087800
+FreeBlock: 0x7f82be7734e0 0x10219087800
+free done
+malloc done
+NewBlock: 0x7f82be774a60 0x10218fbf200
+mutable_data() 0x7f82be774a60 0x10218fbf200
+FreeBlock: 0x7f82be774a60 0x10218fbf200
+free done
+malloc done
+NewBlock: 0x7f82be774c20 0x10219087800
+mutable_data() 0x7f82be774c20 0x10219087800
+FreeBlock: 0x7f82be774c20 0x10219087800
+free done
+malloc done
+NewBlock: 0x7f82be774cd0 0x10219032200
+mutable_data() 0x7f82be774cd0 0x10219032200
+FreeBlock: 0x7f82be774cd0 0x10219032200
+free done
+data() 0x7f82be7733e0 0x10218735400
+-->dense: 0.000075
+malloc done
+NewBlock: 0x7f82be773eb0 0x10219087800
+mutable_data() 0x7f82be773eb0 0x10219087800
+FreeBlock: 0x7f82be773eb0 0x10219087800
+free done
+malloc done
+NewBlock: 0x7f82be773fa0 0x10219032200
+mutable_data() 0x7f82be773fa0 0x10219032200
+FreeBlock: 0x7f82be773fa0 0x10219032200
+free done
+malloc done
+NewBlock: 0x7f82be7742d0 0x10218fbf200
+mutable_data() 0x7f82be7742d0 0x10218fbf200
+FreeBlock: 0x7f82be7742d0 0x10218fbf200
+free done
+data() 0x7f82be7733e0 0x10218735400
+dense-->flat: 0.000075
+malloc done
+NewBlock: 0x7f82be774cd0 0x10218799400
+mutable_data() 0x7f82be774cd0 0x10218799400
+data() 0x7f82be7716b0 0x102185a5400
+data() 0x7f82be7733e0 0x10218735400
+data() 0x7f82be771e00 0x10218f51200
+mutable_data() 0x7f82be7716b0 0x102185a5400
+FreeBlock: 0x7f82be7716b0 0x102185a5400
+free done
+mutable_data() 0x7f82be771e00 0x10218f51200
+FreeBlock: 0x7f82be771e00 0x10218f51200
+free done
+malloc done
+NewBlock: 0x7f82be770c20 0x102185a5400
+mutable_data() 0x7f82be770c20 0x102185a5400
+FreeBlock: 0x7f82be770c20 0x102185a5400
+free done
+data() 0x7f82be774cd0 0x10218799400
+flat-->pool3: 0.000013
+mutable_data() 0x7f82be7733e0 0x10218735400
+FreeBlock: 0x7f82be7733e0 0x10218735400
+free done
+malloc done
+NewBlock: 0x7f82be7733e0 0x102185a5400
+mutable_data() 0x7f82be7733e0 0x102185a5400
+data() 0x7f82be7702b0 0x10218dc1200
+data() 0x7f82be774cd0 0x10218799400
+data() 0x7f82be7702b0 0x10218dc1200
+mutable_data() 0x7f82be7702b0 0x10218dc1200
+FreeBlock: 0x7f82be7702b0 0x10218dc1200
+free done
+malloc done
+NewBlock: 0x7f82be774250 0x10218dc1200
+mutable_data() 0x7f82be774250 0x10218dc1200
+FreeBlock: 0x7f82be774250 0x10218dc1200
+free done
+data() 0x7f82be7733e0 0x102185a5400
+pool3-->relu3: 0.000007
+mutable_data() 0x7f82be774cd0 0x10218799400
+FreeBlock: 0x7f82be774cd0 0x10218799400
+right before cudaMemcpyAsync In
+right after cudaMemcpyAsync
+To update_data swap for (In)69 0x7f82be770790 0x10218929400 0x10218929400
+results update_data:: 0x7f82be770790 0x10218929400
+swapIn - print from Malloc
+free done
+malloc done
+NewBlock: 0x7f82be774cd0 0x10218735400
+malloc done
+NewBlock: 0x7f82be7744a0 0x10218c49400
+malloc done
+NewBlock: 0x7f82be774870 0x10219032200
+mutable_data() 0x7f82be774870 0x10219032200
+data() 0x7f82be7733e0 0x102185a5400
+mutable_data() 0x7f82be7744a0 0x10218c49400
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x7f82be7733e0 0x102185a5400
+data() 0x7f82be770910 0x10218cf9200
+mutable_data() 0x7f82be774cd0 0x10218735400
+mutable_data() 0x18f2e80 0x10218cad400
+data() 0x7f82be7733e0 0x102185a5400
+data() 0xba3c010 0x1020e01ba00
+malloc done
+NewBlock: 0x7f82be773aa0 0x102187fd400
+mutable_data() 0x7f82be773aa0 0x102187fd400
+FreeBlock: 0x7f82be773aa0 0x102187fd400
+free done
+malloc done
+NewBlock: 0x7f82be7753f0 0x10218c7b400
+mutable_data() 0x7f82be7753f0 0x10218c7b400
+FreeBlock: 0x7f82be7753f0 0x10218c7b400
+free done
+malloc done
+NewBlock: 0x7f82be775570 0x10219032400
+mutable_data() 0x7f82be775570 0x10219032400
+FreeBlock: 0x7f82be775570 0x10219032400
+free done
+data() 0x7f82be774cd0 0x10218735400
+relu3-->conv3: 0.000003
+malloc done
+NewBlock: 0x7f82be775a50 0x10218c7b400
+mutable_data() 0x7f82be775a50 0x10218c7b400
+FreeBlock: 0x7f82be775a50 0x10218c7b400
+free done
+malloc done
+NewBlock: 0x7f82be7757d0 0x10219032400
+mutable_data() 0x7f82be7757d0 0x10219032400
+FreeBlock: 0x7f82be7757d0 0x10219032400
+free done
+mutable_data() 0x7f82be7733e0 0x102185a5400
+FreeBlock: 0x7f82be7733e0 0x102185a5400
+free done
+malloc done
+NewBlock: 0x7f82be7733e0 0x102187fd400
+mutable_data() 0x7f82be7733e0 0x102187fd400
+data() 0x7f82be76fc80 0x102184dd400
+data() 0x7f82be774cd0 0x10218735400
+data() 0x7f82be770910 0x10218cf9200
+mutable_data() 0x7f82be770910 0x10218cf9200
+FreeBlock: 0x7f82be770910 0x10218cf9200
+free done
+malloc done
+NewBlock: 0x7f82be7708b0 0x102185a5400
+mutable_data() 0x7f82be7708b0 0x102185a5400
+FreeBlock: 0x7f82be7708b0 0x102185a5400
+free done
+data() 0x7f82be7733e0 0x102187fd400
+conv3-->lrn2: 0.000003
+mutable_data() 0x7f82be774cd0 0x10218735400
+FreeBlock: 0x7f82be774cd0 0x10218735400
+free done
+malloc done
+NewBlock: 0x7f82be774cd0 0x10215854200
+mutable_data() 0x7f82be774cd0 0x10215854200
+data() 0x7f82be770790 0x10218929400
+data() 0x7f82be7733e0 0x102187fd400
+data() 0x7f82be76fc80 0x102184dd400
+mutable_data() 0x7f82be770790 0x10218929400
+FreeBlock: 0x7f82be770790 0x10218929400
+free done
+mutable_data() 0x7f82be76fc80 0x102184dd400
+FreeBlock: 0x7f82be76fc80 0x102184dd400
+right before cudaMemcpyAsync In
+right after cudaMemcpyAsync
+To update_data swap for (In)60 0x7f82be770370 0x102188c5400 0x102188c5400
+results update_data:: 0x7f82be770370 0x102188c5400
+swapIn - print from Malloc
+free done
+malloc done
+NewBlock: 0x7f82be76f490 0x102184dd400
+mutable_data() 0x7f82be76f490 0x102184dd400
+FreeBlock: 0x7f82be76f490 0x102184dd400
+free done
+data() 0x7f82be774cd0 0x10215854200
+lrn2-->pool2: 0.000001
+mutable_data() 0x7f82be7733e0 0x102187fd400
+FreeBlock: 0x7f82be7733e0 0x102187fd400
+free done
+malloc done
+NewBlock: 0x7f82be7733e0 0x102184dd400
+mutable_data() 0x7f82be7733e0 0x102184dd400
+data() 0x7f82be770370 0x102188c5400
+data() 0x7f82be774cd0 0x10215854200
+data() 0x7f82be770370 0x102188c5400
+mutable_data() 0x7f82be770370 0x102188c5400
+FreeBlock: 0x7f82be770370 0x102188c5400
+free done
+malloc done
+NewBlock: 0x7f82be7708e0 0x102187fd400
+mutable_data() 0x7f82be7708e0 0x102187fd400
+FreeBlock: 0x7f82be7708e0 0x102187fd400
+free done
+data() 0x7f82be7733e0 0x102184dd400
+pool2-->relu2: 0.000000
+mutable_data() 0x7f82be774cd0 0x10215854200
+FreeBlock: 0x7f82be774cd0 0x10215854200
+right before cudaMemcpyAsync In
+right after cudaMemcpyAsync
+To update_data swap for (In)50 0x7f82be76f860 0x102187fd400 0x102187fd400
+results update_data:: 0x7f82be76f860 0x102187fd400
+swapIn - print from Malloc
+free done
+malloc done
+NewBlock: 0x7f82be774cd0 0x10215854200
+malloc done
+NewBlock: 0x7f82be7758f0 0x10218c7b400
+malloc done
+NewBlock: 0x7f82be7759e0 0x10219032400
+mutable_data() 0x7f82be7759e0 0x10219032400
+data() 0x7f82be7733e0 0x102184dd400
+mutable_data() 0x7f82be7758f0 0x10218c7b400
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x7f82be7733e0 0x102184dd400
+data() 0x7f82be76f860 0x102187fd400
+mutable_data() 0x7f82be774cd0 0x10215854200
+mutable_data() 0x1767a20 0x102161b4200
+data() 0x7f82be7733e0 0x102184dd400
+data() 0x17fccd0 0x1020e002800
+malloc done
+NewBlock: 0x7f82be776df0 0x10215b74200
+mutable_data() 0x7f82be776df0 0x10215b74200
+FreeBlock: 0x7f82be776df0 0x10215b74200
+free done
+malloc done
+NewBlock: 0x7f82be7757d0 0x10218c94400
+mutable_data() 0x7f82be7757d0 0x10218c94400
+FreeBlock: 0x7f82be7757d0 0x10218c94400
+free done
+malloc done
+NewBlock: 0x7f82be776960 0x10219039e00
+mutable_data() 0x7f82be776960 0x10219039e00
+FreeBlock: 0x7f82be776960 0x10219039e00
+free done
+data() 0x7f82be774cd0 0x10215854200
+relu2-->conv2: 0.000000
+malloc done
+NewBlock: 0x7f82be7775b0 0x10218c94400
+mutable_data() 0x7f82be7775b0 0x10218c94400
+FreeBlock: 0x7f82be7775b0 0x10218c94400
+free done
+malloc done
+NewBlock: 0x7f82be777360 0x10219039e00
+mutable_data() 0x7f82be777360 0x10219039e00
+FreeBlock: 0x7f82be777360 0x10219039e00
+free done
+mutable_data() 0x7f82be7733e0 0x102184dd400
+FreeBlock: 0x7f82be7733e0 0x102184dd400
+free done
+malloc done
+NewBlock: 0x7f82be76e0c0 0x102184dd400
+mutable_data() 0x7f82be76e0c0 0x102184dd400
+data() 0x7f82be76f1a0 0
+GetRealGpuPtr, overhead is: 448
+To update_data swap for (In) 36 0x102184dd400 0
+results update_data:: 0x7f82be76f1a0 0x102184dd400
+slept to get data_ updated
+data() 0x7f82be774cd0 0x10215854200
+data() 0x7f82be76f860 0x102187fd400
+mutable_data() 0x7f82be76f1a0 0x102184dd400
+FreeBlock: 0x7f82be76f1a0 0x102184dd400
+free done
+mutable_data() 0x7f82be76f860 0x102187fd400
+FreeBlock: 0x7f82be76f860 0x102187fd400
+right before cudaMemcpyAsync In
+right after cudaMemcpyAsync
+To update_data swap for (In)36 0x7f82be76f1a0 0x102184dd400 0x102184dd400
+results update_data:: 0x7f82be76f1a0 0x102184dd400
+swapIn - print from Malloc
+free done
+malloc done
+NewBlock: 0x7f82be775570 0x102187fd400
+mutable_data() 0x7f82be775570 0x102187fd400
+FreeBlock: 0x7f82be775570 0x102187fd400
+free done
+data() 0x7f82be76e0c0 0x102184dd400
+conv2-->lrn1: 0.085313
+mutable_data() 0x7f82be774cd0 0x10215854200
+FreeBlock: 0x7f82be774cd0 0x10215854200
+right before cudaMemcpyAsync In
+right after cudaMemcpyAsync
+To update_data swap for (In)27 0x7f82be76f170 0x102187fd400 0x102187fd400
+results update_data:: 0x7f82be76f170 0x102187fd400
+swapIn - print from Malloc
+free done
+malloc done
+NewBlock: 0x7f82be774cd0 0x10215854200
+Segmentation fault (core dumped)
