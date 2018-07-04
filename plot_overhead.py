@@ -14,7 +14,7 @@ memLimit_list = [293601280, 304087040, 314572800, 325058560, 335544320, 34603008
 # one iteration is: 81.452288
 # one iteration is: 79.288576
 itr_duration_ms = (83.972352+81.452288+79.288576)/3
-print itr_duration_ms
+print (itr_duration_ms)
 overhead_pri=[13934524.974400029, 12952277.294400021, 11243865.54400003, 9143643.392000034, 8860200.601600021, 9465590.11360003, 9424858.363200024, 8409771.003200024, 6390697.420800015, 4857769.420800015, 5882511.252800018, 5130611.502400011, 4629288.392000005, 3252567.752000004, 2460551.1120000035, 518305.2800000012, 2119559.1120000035, 2119559.1120000035, 2119559.1120000035, 1684359.1120000035, 1684359.1120000035, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 overhead_dto=[12090581.960000038, 12104438.625600025, 9188344.47360003, 11464001.224000037, 10117751.44480002, 9790015.739200026, 7431057.612800017, 7212588.334400013, 7087113.723200023, 5035745.126400009, 4237271.296000004, 4600300.4880000055, 2802877.030400008, 2515361.280000001, 1619361.2800000012, 806049.2800000012, 1283766.4720000029, 0, 0, 0, 0, 1201125.8320000023, 0, 0, 1201125.8320000023, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 overhead_dt=[12090581.960000038, 12104438.625600025, 9188344.47360003, 11464001.224000037, 10117751.44480002, 9790015.739200026, 7431057.612800017, 7212588.334400013, 7087113.723200023, 5035745.126400009, 4237271.296000004, 4600300.4880000055, 2802877.030400008, 2515361.280000001, 1619361.2800000012, 806049.2800000012, 1283766.4720000029, 0, 0, 0, 0, 1201125.8320000023, 0, 0, 1201125.8320000023, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -42,18 +42,26 @@ overhead_bo = overhead_bo[0:-2]
 memLimit_list = [x>>20 for x in memLimit_list]
 memLimit_list = memLimit_list[0:-2]
 
-fig, ax = plt.subplots()
-ax.plot(memLimit_list, overhead_pri_net, 'm--', label='area of absence (AOA)')
-ax.plot(memLimit_list, overhead_dt, 'b:', label='duration of absence (DOA)')
-ax.plot(memLimit_list, overhead_wdto, 'y--', label='weighted DOA')
-ax.plot(memLimit_list, overhead_sub_wdto, 'g--', label='submodular weighted DOA')
-ax.plot(memLimit_list, overhead_bo, 'k--', label='Bayesian Optimization')
+font = {'family' : 'normal',
+        'weight' : 'normal',
+        'size'   : 14}
+plt.rc('font', **font)
 
-plt.xlabel('memory usage in MB',fontsize =16)
-plt.ylabel('% overhead as of one iteration',fontsize =16)
+fig, ax = plt.subplots()
+ax.plot(memLimit_list, overhead_pri_net, 'm--',linewidth=3, label='Area of Absence (AOA)')
+ax.plot(memLimit_list, overhead_dt, 'b--',linewidth=3, label='Duration of Absence (DOA)')
+ax.plot(memLimit_list, overhead_wdto, 'y--',linewidth=3, label='Weighted DOA')
+ax.plot(memLimit_list, overhead_sub_wdto, 'g--',linewidth=3, label='Submodular Weighted DOA')
+ax.plot(memLimit_list, overhead_bo, 'k',linewidth=4, label='Bayesian Optimization')
+
+plt.xlabel('Memory Usage in MB',fontsize =16)
+plt.ylabel('% Overhead as of One Iteration',fontsize =16)
+
+plt.xlim([280,650])
+plt.ylim([0,0.18])
 
 #ax.plot([400<<20], [205000], 'c--', label='overhead_r_idx')
-legend = ax.legend(loc='upper right', shadow=True, fontsize='large')
+legend = ax.legend(loc='upper right', shadow=True)
 # Put a nicer background color on the legend.
 legend.get_frame().set_facecolor('#00FFCC')
 

@@ -14,6 +14,10 @@ smallest_block = 1<<20
 
 fileName1 = truePath+"vec_block_fresh_vgg.csv"
 fileName2 = truePath+"load_origin_vgg.csv"
+
+#fileName1 = "vec_block_fresh_vgg.csv"
+#fileName2 = "load_origin_vgg.csv"
+
 maxLen = 3172
 location = 6675
 maxIdx = 1369
@@ -22,7 +26,7 @@ memLimit = 300
 vec_run = csv_blockInfo_to_list(fileName1,maxLen)
 load_origin = csv_load_to_list(fileName2)
 distinct_blocks = blockInfo_list_to_distinct_blocks(vec_run)
-print len(distinct_blocks)
+print (len(distinct_blocks))
 new_list_distinct_blocks = []
 count=0
 size=0
@@ -37,9 +41,9 @@ for block in distinct_blocks:
     new_list_distinct_blocks.append([block[0][0],block[-1][0],block[0][3]])
     count+=1
     size+=block[0][3]
-print count
-print str(size>>20) + " MB"
-print new_list_distinct_blocks[0]
+print (count)
+print (str(size>>20) + " MB")
+print (new_list_distinct_blocks[0])
 
 
 new_list_distinct_blocks.sort(key=lambda x: x[0], reverse=False)
@@ -57,7 +61,11 @@ for itm in new_list_distinct_blocks:
   count+=1
   if count>15:
     break
-
+  
+font = {'family' : 'normal',
+        'weight' : 'normal',
+        'size'   : 14}
+plt.rc('font', **font)
 
 fig, ax = plt.subplots()
 
@@ -68,7 +76,7 @@ for r in rectangles:
 
 ax.set_xlim((0, x_bound))
 ax.set_ylim((0, y_bound))
-plt.xlabel("variable lifetime - operation index",fontsize =16)
-plt.ylabel("size in MB",fontsize =16)
+plt.xlabel("Variable Lifetime - Operation Index",fontsize =16)
+plt.ylabel("Size in MB",fontsize =16)
 # ax.set_aspect('equal')
 plt.show()

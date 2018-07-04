@@ -6,13 +6,15 @@ from unit_functions import *
 from random import shuffle
 from scipy.stats import gaussian_kde
 
+#fileName1 = 'vec_run_5_alex.csv'
+#fileName2 = 'vec_run_5_resnet.csv'
+#fileName3 = 'vec_run_5_vgg.csv'
 
 truePath ="/Users/junzhezhang/Downloads/offline-singa/"
 
 fileName1 = truePath+'vec_run_5_alex.csv'
 fileName2 = truePath+'vec_run_5_resnet.csv'
 fileName3 = truePath+'vec_run_5_vgg.csv'
-
 
 def csv_to_raw_list(fileName1):
   f2 = open(fileName1)
@@ -48,29 +50,40 @@ for block in distinct_blocks_vgg:
   largest_size_3=max(largest_size_3,block[0][3]>>20)
 
 
+font = {'family' : 'normal',
+        'weight' : 'normal',
+        'size'   : 14}
+plt.rc('font', **font)
+
 fig, ax = plt.subplots()
 
 density_1 = gaussian_kde(size_1)
 xs_1 = np.linspace(0,largest_size_1+5,200)
 density_1.covariance_factor = lambda : .25
 density_1._compute_covariance()
-ax.plot(xs_1,density_1(xs_1),'g--', label='AlexNet')
+ax.plot(xs_1,density_1(xs_1),'g--',linewidth=3,label='AlexNet')
+print(density_1(xs_1))
+plt.xlim([0,100])
+plt.ylim([0,0.6])
 
 density_2 = gaussian_kde(size_2)
 xs_2 = np.linspace(0,largest_size_2+5,200)
 density_2.covariance_factor = lambda : .25
 density_2._compute_covariance()
-ax.plot(xs_2,density_2(xs_2),'b--', label='ResNet')
+ax.plot(xs_2,density_2(xs_2),'b--',linewidth=3, label='ResNet')
+print(density_2(xs_2))
 
 density_3 = gaussian_kde(size_3)
 xs_3 = np.linspace(0,largest_size_3+5,200)
 density_3.covariance_factor = lambda : .25
 density_3._compute_covariance()
-ax.plot(xs_3,density_3(xs_3),'y--', label='VGG')
+ax.plot(xs_3,density_3(xs_3),'y--',linewidth=3, label='VGG')
+print(density_3(xs_3))
 
-plt.xlabel('variable size in MB',fontsize = 16)
-plt.ylabel('frequency',fontsize =16)
+plt.xlabel('Variable Size in MB',fontsize = 16)
+plt.ylabel('Frequency',fontsize =16)
 legend = ax.legend(loc='upper center', shadow=True, fontsize='large')
+
 # Put a nicer background color on the legend.
 legend.get_frame().set_facecolor('#00FFCC')
 plt.show()
